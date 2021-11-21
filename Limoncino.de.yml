@@ -1,0 +1,34 @@
+---
+name: Limoncino
+serves: 2
+servings_unit: Liter
+servings_increment: 0.5
+tags: drink, likör
+descr: Italienischer Zitronenlikör
+
+cooking:
+  - ingredients:
+      - ingredient: Unbehandelte Zitronen
+        amount: 10
+      - ingredient: Alkohol (95%)
+        amount: 1000
+        unit: ml
+    yields: Durchgezogener Alkohol
+    instructions: Die Zitronen mit einem Sparschäler schälen , mit Alkohol übergießen und 2-3 Wochen ziehen lassen.
+
+  - ingredients:
+      - ingredient: Wasser
+        amount: 1000
+        unit: ml
+      - ingredient: Zucker
+        amount: 1000
+        unit: g
+    instructions: Zuckersirup
+    yields: Wasser aufkochen, Zucker darin auflösen.
+
+  - internal_ingredients:
+      - Durchgezogener Alkohol
+      - Zuckersirup
+    instructions: >-
+      Schalen aus dem Alkohol sieben. Alkohol mit Sirup mischen.
+      Noch ein paar Tage ruhen lassen, dann im Tiefkühler lagern.

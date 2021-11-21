@@ -1,0 +1,138 @@
+---
+name: Sachertorte
+serves: 1
+tags: kuchen, schokolade
+descr: Mächtig und schokoladig
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Zartbitterschokolade
+        amount: 250
+        unit: g
+    yields: Geschmolzene Schokolade
+    instructions: Schokolade im Wasserbad schmelzen.
+
+  - ingredients:
+      - ingredient: Eier
+        amount: 9
+    yields:
+      - Eiweiß
+      - Eigelb
+    instructions: Eier trennen.
+
+cooking:
+  - internal_ingredients:
+      - Eiweiß
+    ingredients:
+      - ingredient: Zucker
+        amount: 105
+        unit: g
+      - ingredient: Salz
+    yields: Eischnee
+    instructions: Eiweiß steif schlagen, dabei Zucker und eine Prise Salz einrieseln lassen.
+
+  - ingredients:
+      - ingredient: Butter (Zimmertemperatur)
+        amount: 250
+        unit: g
+      - ingredient: Zucker
+        amount: 105
+        unit: g
+      - ingredient: Mehl
+        amount: 250
+        unit: g
+    internal_ingredients:
+      - Eigelb
+      - Geschmolzene Schokolade
+      - Eischnee
+    yields: Teig
+    instructions: >-
+      Butter und Zucker schaumig rühren. Nach und nach das Eigelb, die Schokolade und das Mehl unterrühren.
+      Danach vorsichtig den Eischnee unterheben.
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    ingredients:
+      - ingredient: Butter
+    yields: Torte (Trocken)
+    instructions: >-
+      Eine Springbackform mit Backpapier auslegen. Den Boden und Rand mit Butter bestreichen. Den Teig einfüllen
+      und den Kuchen im Ofen auf mittlerer Schiene bei 160°C Umluft, 180°C Ober/Unterhitze etwa 45 Minuten backen.
+
+      Abkühlen lassen und aus der Form entferenen. Backpapier abziehen.
+
+cooking2:
+  - ingredients:
+      - ingredient: Vanilleschoten
+        amount: 2
+      - ingredient: Wasser
+        amount: 150
+        unit: ml
+      - ingredient: Zucker
+        amount: 150
+        unit: g
+      - ingredient: Brauner Rum
+        amount: 6
+        unit: EL
+    yields: Vanillesirup
+    instructions: >-
+      Vanilleschoten halbieren, Mark herauskratzen und beides mit Wasser und Zucker aufkochen. Abkühlen lassen,
+      die Schoten entfernen und den Rum untermischen.
+
+  - internal_ingredients:
+      - Torte (Trocken)
+      - Vanillesirup
+    yields: Tortenscheiben
+    instructions: >-
+      Die Torte horizontal in drei Teile schneiden und alle großzügig mit Sirup tränken.
+
+  - ingredients:
+      - ingredient: Aprikosenkonfitüre
+        amount: 400
+        unit: g
+    internal_ingredients:
+      - Tortenscheiben
+    yields: Torte (Ohne Glasur)
+    instructions: >-
+      Konfitüre kurz aufkochen. Die Hälfte auf der untersten Tortenscheibe verteilen, die Mittlere darauf setzen
+      und die restliche Konfitüre verteilen. Den oberen Teil der Torte aufsetzen.
+
+  - ingredients:
+      - ingredient: Sahne
+        amount: 130
+        unit: ml
+      - ingredient: Butter
+        amount: 50
+        unit: g
+      - ingredient: Zartbitterkuvertüre
+        amount: 150
+        unit: g
+    yields: Schokoladensahne
+    instructions: >-
+      Sahne und Butter erwärmen. Die Kuvertüre in kleinen Stücken hinzugeben und unter ständigem Rühren schmelzen.
+      Ständiges Rühren ist wichtig, da sonst die Schokolade klumpen kann.
+
+  - ingredients:
+      - ingredient: Zucker
+        amount: 85
+        unit: g
+      - ingredient: Wasser
+        amount: 70
+        unit: ml
+      - ingredient: Crème Double
+        amount: 75
+        unit: g
+    internal_ingredients:
+      - Schokoladensahne
+    yields: Glasur
+    instructions: >-
+      Zucker mit Wasser und Crème Double aufkochen. Abkühlen lassen und mit der Schokoladensahne verrühren.
+      Etwa eine Stunde abkühlen lassen, bis die Mischung dickflüssig wird.
+
+  - internal_ingredients:
+      - Torte (Ohne Glasur)
+      - Glasur
+    instructions: >-
+      Die Glasur noch einmal verrühren. Dann auf der Torte verteilen. Eventuell nur einen Teil verteilen,
+      aushärten lasssen, dann den Rest verteilen. Torte noch einmal für eine Stunde kaltstellen.

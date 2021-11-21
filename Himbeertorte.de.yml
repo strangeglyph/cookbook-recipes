@@ -1,0 +1,144 @@
+---
+name: Himbeertorte
+serves: 1
+tags: kuchen, fruchtig
+descr: Himbeersahnetorte mit Zartbitterschokolade.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Eier
+        amount: 6
+    yields:
+      - Eiweiß
+      - Eigelb
+    instructions: Eier trennen.
+
+  - ingredients:
+      - ingredient: Himbeeren
+        amount: 400
+        unit: g
+    yields:
+      - Himbeerpüree (Teig)
+      - Himbeerpüree (Füllung)
+    instructions: Himbeeren pürieren und durch ein Sieb geben. Dann in zwei gleich große Portionen teilen.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Zartbitterschokolade
+        amount: 200
+        unit: g
+    yields: Geschmolzene Schokolade (Teig)
+    instructions: Schokolade im Wasserbad schmelzen.
+
+  - ingredients:
+      - ingredient: Zucker
+        amount: 80
+        unit: g
+    internal_ingredients:
+      - Eiweiß
+    yields: Eischnee
+    instructions: Eiweiß steif schlagen. Dabei den Zucker und eine Prise Salz einrieseln lassen.
+
+  - ingredients:
+      - ingredient: Butter
+        amount: 180
+        unit: g
+      - ingredient: Zucker
+        amount: 80
+        unit: g
+      - ingredient: Mehl
+        amount: 180
+        unit: g
+    internal_ingredients:
+      - Eigelb
+      - Geschmolzene Schokolade (Teig)
+      - Himbeerpüree (Teig)
+      - Eischnee
+    yields: Teig
+    instructions: >-
+      Butter und Zucker schaumig schlagen. Nach und nach Eigelb, Schokolade und Himbeeren hinzugeben. Zum Schluss Mehl
+      einrühren. Den Eischnee vorsichtig unterheben.
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    yields: Kuchen
+    instructions: >-
+      Eine Springform mit Backpapier auslegen. Den Boden und Rand mit Butter bestreichen. Den Teig einfüllen und den Kuchen
+      bei 180°C Ober/Unterhitze, 160°C Umluft etwa 45 Minuten backen lassen. Abkühlen lassen und aus der Form entfernen.
+      Backpapier abziehen.
+
+cooking2:
+  - ingredients:
+      - ingredient: Zartbitterschokolade
+        amount: 200
+        unit: g
+    yields: Geschmolzene Schokolade (Füllung)
+    instructions: Schokolade im Wasserbad schmelzen.
+
+  - ingredients:
+      - ingredient: Sahne
+        amount: 300
+        unit: g
+      - ingredient: Zucker
+        amount: 50
+        unit: g
+    yields: Geschlagene Sahne
+    instructions: Sahne mit etwas Zucker steif schlagen.
+
+  - ingredients:
+      - ingredient: Rum
+        amount: 4
+        unit: TL
+    internal_ingredients:
+      - Himbeerpüree (Füllung)
+      - Geschmolzene Schokolade (Füllung)
+      - Geschlagene Sahne
+      - Kuchen
+    yields: Kuchen mit Füllung
+    instructions: >-
+      Himbeerpüree mit Rum und Schokolade mischen. Die geschlagene Sahne vorsichtig unterheben. Den Kuchen waagrecht
+      halbieren. Die Füllung auf dem Boden verteilen und den Deckel aufsetzen. Den Kuchen eine Stunde im kaltstellen.
+
+  - ingredients:
+      - ingredient: Zucker
+        amount: 85
+        unit: g
+      - ingredient: Wasser
+        amount: 70
+        unit: ml
+      - ingredient: Crème Double
+        amount: 75
+        unit: g
+    yields: Sirup
+    instructions: Zucker und Crème Double mit Wasser aufkochen. Leicht abkühlen lassen.
+
+  - ingredients:
+      - ingredient: Sahne
+        amount: 130
+        unit: ml
+      - ingredient: Butter
+        amount: 20
+        unit: g
+      - ingredient: Zartbitterkuvertüre
+        amount: 150
+        unit: g
+    yields: Schokoladensahne
+    instructions: >-
+      Die Sahne und die Butter kurz aufkochen. Die Kuvertüre hinzugehen und schmelzen lassen. Dabei die ganze Zeit
+      rühren, sonst klumpt die Schokolade
+
+  - internal_ingredients:
+      - Schokoladensahne
+      - Sirup
+    yields: Glasur
+    instructions: Sirup und Sahne miteinander verrühren. Eine Stunde abkühlen lassen, bis die Mischung dickflüssig wird.
+
+  - internal_ingredients:
+      - Kuchen mit Füllung
+      - Glasur
+    instructions: >-
+      Die Glasur noch einmal verrühren und dann über dem Kuchen und an den Seiten verteilen. Eventuell nur einen Teil
+      auftragen und die Glasur etwas aushärten lassen bevor der Rest verteilt wird. Die Torte noch einmal für eine Stunde
+      kaltstellen.

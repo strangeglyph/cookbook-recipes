@@ -1,0 +1,24 @@
+---
+name: Coconut Deluxe
+serves: 1
+tags: drink, cocktail, süß
+descr: In etwa ein Pina Colada, mit Kokosnusswasser.
+
+cooking:
+  - ingredients:
+      - ingredient: Rum
+        amount: 4
+        unit: cl
+      - ingredient: Kokusnusswasser
+        amount: 4
+        unit: cl
+      - ingredient: Ananassaft
+        amount: 8
+        unit: cl
+      - ingredient: Kokossirup
+        amount: 2
+        unit: cl
+      - ingredient: Zitronensaft
+        amount: 1
+        unit: Schuss
+    instructions: Alle Zutaten in ein Glas mit Eiswürfeln geben. Umrühren.

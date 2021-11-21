@@ -1,0 +1,91 @@
+---
+name: Kürbiskuchen
+serves: 1
+tags: kuchen, kürbis
+descr: >-
+  Kürbiskuchen. Nein, nicht die amerikanische Variante. Diese Kuchen hier ist nicht so süß, dafür aber saftig dank
+  großer Mengen geriebenen Kürbis.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Zitrone (Schale essbar)
+        amount: 1
+    yields:
+      - Zitronensaft (Hälfte)
+      - Zitronensaft (Andere Hälfte)
+      - Zitronenschale
+    instructions: Zitronenschale abreiben und die Zitrone dann ausdrücken.
+
+  - ingredients:
+      - ingredient: Kürbis
+        amount: 600
+        unit: g
+    yields: Geraspelter Kürbis
+    instructions: >-
+      Kürbis schälen und die Kerne entfernen. Dann den Kürbis in Scheiben schneiden und mit einer Reibe
+      mit mittelgroßen Löchern kleinraspeln.
+
+cooking:
+  - ingredients:
+      - ingredient: Zucker
+        amount: 200
+        unit: g
+      - ingredient: Eier
+        amount: 4
+    yields: Zucker-Eier-Mischung
+    instructions: Zucker und Eier verrühren bis eine helle Masse entsteht.
+
+  - ingredients:
+      - ingredient: Zimt
+        amount: 1
+        unit: TL
+      - ingredient: Gemahlene Mandeln
+        amount: 120
+        unit: g
+      - ingredient: Mehl
+        amount: 100
+        unit: g
+      - ingredient: Backpulver
+        amount: 1
+        unit: TL
+    internal_ingredients:
+      - Zitronenschale
+      - Zitronensaft (Hälfte)
+      - Geraspelter Kürbis
+      - Zucker-Eier-Mischung
+    yields: Teig
+    instructions: Alles verrühren.
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    yields: Kuchen
+    instructions: >-
+      Eine Springform mit Backpapier auskleiden. Den Rand einfetten und mit Mehl bestäuben. Den Teig hineingießen und
+      für 55 Minuten auf der untersten Schiene eines auf 180°C Ober/Unterhitze vorgeheizten Backofens backen. Abkühlen
+      lassen.
+
+cooking2:
+  - ingredients:
+      - ingredient: Puderzucker
+        amount: 150
+        unit: g
+      - ingredient: Kirsch
+        amount: 3
+        unit: TL
+      - ingredient: Water
+        amount: 1
+        unit: EL
+    internal_ingredients:
+      - Zitronensaft (Andere Hälfte)
+    yields: Glasur
+    instructions: >-
+      Puderzucker mit Kirsch, Wasser und 2 TL Zitronensaft vermischen. Die Glasur sollte sehr dickflüssig sein. Eventuell
+      Zucker oder Flüssigkeit nachschütten.
+
+  - internal_ingredients:
+      - Kuchen
+      - Glasur
+    instructions: >-
+      Eine dünne Schicht Glasur auf dem Kuchen verstreichen. Der Kuchen darf dabei nicht zu warm sein, sonst verläuft
+      die Glasur.

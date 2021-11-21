@@ -1,0 +1,52 @@
+---
+name: Grünes Chili-Chutney
+serves: 80
+servings_unit: ml
+servings_increment: 20
+tags: vegetarisch, vegan, chutney, sauce
+descr: >-
+  Ein ziemlich scharfes und sehr knoblauchiges Chutney.
+  Shyamol, ein Freund auf Bangladesh, hat mir dieses Rezept gegeben und meinte, er ist süchtig nach Fladenbrod mit diesem
+  Chutney.
+  Hält eine Woche im Kühlschrank.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Grüne Chillies
+        amount: 250
+        unit: g
+    yields: Geschnittene Chillies
+    instructions: Chillies in dünne Streifen schneiden.
+
+  - ingredients:
+      - ingredient: Knoblauch
+        amount: 10
+        unit: Zehen
+    yields: Gehackter Knoblauch
+    instructions: Knoblauch schälen. Kleine Zehen halbieren, große vierteln.
+
+  - ingredients:
+      - ingredient: Eingelegte Grüne Mangos
+    yields: Zerdrückte Mangos
+    instructions: Mangos mit einer Gabel zerdrücken.
+
+  - ingredients:
+      - ingredient: Rote Zwiebeln
+        amount: 2
+    yields: Gewürfelte Zwiebeln
+    instructions: Zwiebeln in kleine Würfel schneiden.
+
+cooking:
+  - ingredients:
+      - ingredient: Öl
+    internal_ingredients:
+      - Geschnittene Chillies
+      - Gehackter Knoblauch
+      - Gewürfelte Zwiebeln
+      - Zerdrückte Mangos
+    yields: Chutney
+    instructions: >-
+      Die Chillies und den Knoblauch mit etwas Öl in einem Mixer pürieren bis eine einheitliche Masse entsteht.
+      Mit den Zwiebeln und der Mango mischen. Falls nötig mit Öl verdünnen - das Chutney sollte dünn, fast saucenartig
+      sein.
+      Vor Benutzung oder Abfüllen eine Stunde ruhen lassen.

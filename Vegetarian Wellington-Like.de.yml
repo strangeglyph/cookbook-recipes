@@ -1,0 +1,175 @@
+--- 
+name: Vegetarisches Wellington
+serves: 6
+tags: vegetarisch, fancy, hauptspeise
+descr: >-
+    Blätterteigrolle mit Pilzfarce, Mozzarella und Spinat
+
+prep: 
+  - ingredients:
+      - ingredient: Spinat
+        amount: 750
+        unit: g
+    yields: Gekochter Spinat
+    instructions: >-
+      Spinat putze, bei niedriger Hitze zusammen fallen lassen und gut ausdrücken.
+
+mis_en_place: 
+  - ingredients:
+      - ingredient: Zitronen (Schale essbar)
+        amount: 2
+    yields:
+      - Zitronensaft
+      - Zitronenschale
+    instructions: >-
+      Schale abreiben, dann Saft aus der Hälfte auspressen.
+
+  - ingredients:
+      - ingredient: Cherrytomaten
+        amount: 250
+        unit: g
+    yields: Tomatenviertel
+    instructions: >-
+      Cherrytomaten in Viertel schneiden.
+  
+  - ingredients:
+      - ingredient: Kastanien (gekocht)
+        amount: 250
+        unit: g
+    yields: Gehackte Kastanien
+    instructions: >-
+      Kastanien grob hacken.
+
+  - ingredients:
+      - ingredient: Frühlingszwiebeln
+        amount: 1
+        unit: Bund
+    yields: Frühlingszwiebelringe
+    instructions: >-
+      Frühlingszwiebeln in Ringe schneiden.
+  
+  - internal_ingredients:
+      - Tomatenviertel
+      - Gehackte Kastanien
+      - Frühlingszwiebelringe
+    ingredients:
+      - ingredient: Salz
+    yields: Tomaten-Kastanien-Mischung
+    instructions: >-
+      Cherrytomaten, Frühlingszwiebeln und Kastanien in einer Schüssel mixen. Mit Salz würzen.
+
+  - ingredients:
+      - ingredient: Eier
+        amount: 4
+    yields:
+      - Eiweiß
+      - Eigelb
+    instructions: >-
+      Eier trennen.
+
+  - ingredients:
+      - ingredient: Schalotten
+        amount: 8
+    yields: Schalottenwürfel
+    instructions: >-
+      Schalotten grob würfeln.
+  
+  - ingredients:
+      - ingredient: Champignons
+        amount: 500
+        unit: g
+    yields: Pilzwürfel
+    instructions: >-
+      Champignons grob würfeln
+
+  - ingredients:
+      - ingredient: Mozzarella (Abtropfgewicht)
+        amount: 500
+        unit: g
+    yields: Mozarellascheiben
+    instructions: >-
+      Mozarella in dünne Scheiben schneiden. Scheiben mit einem Blatt Küchenpapier trocken tupfen.
+
+cooking: 
+  - ingredients:
+      - ingredient: Olivenöl
+    internal_ingredients:
+      - Schalottenwürfel
+      - Pilzwürfel
+    yields: Gedünstete Pilze
+    instructions: >-
+      Olivenöl auf mittlerer Flamme in einer Pfanne erhitzen. Schalotten und Pilze dünsten, bis die Champignons den großteil ihres Wassers verloren haben.
+  
+  - ingredients:
+      - ingredient: Portwein
+        amount: 250
+        unit: ml
+      - ingredient: Rotwein
+        amount: 250
+        unit: ml
+      - ingredient: Lorbeerblätter
+        amount: 6
+      - ingredient: Thymian
+        amount: 2
+        unit: Tl
+      - ingredient: Estragon
+        amount: 4
+        unit: Tl
+      - ingredient: Piment
+        amount: 20
+      - ingredient: Salz
+      - ingredient: Pfeffer
+    internal_ingredients:
+      - Gedünstete Pilze
+      - Zitronenschale
+      - Zitronensaft
+    yields: Port-Reduktion
+    instructions: >-
+      Mit Port und Rotwein ablöschen. Hitze erhöhen. Gewürze, Zitronenschale und -saft hinzufügen und mit Salz und Pfeffer abschmecken.
+      Reduzieren bis die Flüssigkeit fast komplett verdampft ist.
+  
+  - internal_ingredients:
+      - Port-Reduktion
+      - Eiweiß
+    yields: Pilz-Farce
+    instructions: >-
+      Lorbeerblätter und Piment entfernen. In einem Mixer die Farce mit dem Eiweiß zu einer dickflüssigen Masse verarbeiten.
+  
+  - ingredients:
+      - ingredient: Salz
+      - ingredient: Pfeffer
+      - ingredient: Muskatnuss
+    internal_ingredients:
+      - Gekochter Spinat
+    yields: Gewürzter Spinat
+    instructions: >-
+      Spinat mit Salz, Pfeffer und Muskatnuss würzen.
+
+  - ingredients:
+      - ingredient: Blätterteig
+        amount: 2
+        unit: Rollen
+    internal_ingredients:
+      - Mozarellascheiben
+      - Pilz-Farce
+      - Gewürzter Spinat
+      - Tomaten-Kastanien-Mischung
+    yields: Vorbereitete Rolle
+    instructions: >-
+      Blätterteig ausrollen. Zuerst mit Mozarella belegen, dabei an einer Seite einen Rand freilassen. Über der Mozarella die Farce
+      verteilen, darüber den Spinat, darüber die Tomatenmischung.
+  
+  - internal_ingredients:
+      - Eigelb
+      - Vorbereitete Rolle
+    yields: Rolle
+    instructions: >-
+      Eigelb aufschlagen. Freien Rand mit Eigelb bestreichen. Ausgehend vom gegenüberliegenden Rand den Blätterteig aufrollen.
+      Oben die Rolle verkleben, indem man den freien Streifen leicht in die Rolle drückt. Die Rolle mit dem übrigen Eigelb
+      bestreichen.
+      
+passive_cooking:
+  - internal_ingredients:
+      - Rolle
+    instructions: >-
+      Ofen auf 160°C Umluft vorheizen. Blätterteigrolle für 30-40 Minuten backen bis die Kruste dunkelbraun wird.

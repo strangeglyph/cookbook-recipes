@@ -1,0 +1,54 @@
+---
+name: Mate Liqueur
+serves: 1
+servings_unit: liter
+tags: drink, liqueur
+descr: Sweet and herbal erva-mate liqueur
+
+prep:
+  - ingredients:
+      - ingredient: Ginger
+        amount: 10
+        unit: g
+    yields: Sliced Ginger
+    instructions: Peel ginger and cut into rough slices.
+
+  - ingredients:
+      - ingredient: Cardamom Pods
+        amount: 8
+    yields: Cardamom Pods
+    instructions: Press cardamom pods open with the flat side of a blade.
+
+cooking:
+  - ingredients:
+      - ingredient: Coriander Seed
+        amount: 15
+        unit: g
+      - ingredient: Erva Mate
+        amount: 15
+        unit: g
+      - ingredient: Cinnamon
+        amount: 1
+        unit: tsp
+      - ingredient: Vodka
+        amount: 200
+        unit: ml
+    internal_ingredients:
+      - Sliced Ginger
+      - Cardamom Pods
+    yields: Infused Vodka
+    instructions: Mix all ingredients and pour over with vodka. Let sit for 10-14 days.
+
+  - ingredients:
+      - ingredient: Vodka
+        amount: 500
+        unit: ml
+      - ingredient: Water
+        amount: 200
+        unit: ml
+      - ingredient: Sugar
+        amount: 180
+        unit: g
+    internal_ingredients:
+      - Infused Vodka
+    instructions: Filter infused vodka through a tea filter. Mix with remaining vodka, water and sugar.

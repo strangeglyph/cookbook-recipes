@@ -1,0 +1,72 @@
+---
+name: Rocket Salad with Mango
+serves: 3
+tags: salad, main, vegetarian, summer
+descr: Light summer salad with mango, mozzarella and pine nuts
+
+prep:
+  - ingredients:
+      - ingredient: Pine Nuts
+        amount: 60
+        unit: g
+    yields: Roasted Pine Nuts
+    instructions: Roast pine nuts.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Mango
+        amount: 1
+    yields: Diced Mango
+    instructions: Peel and dice mango.
+
+  - ingredients:
+      - ingredient: Mozzarella
+        amount: 250
+        unit: g
+    yields: Diced Mozzarella
+    instructions: Dice mozzarella.
+
+  - ingredients:
+      - ingredient: Avocado
+        amount: 1
+      - ingredient: Lemon Juice
+    yields: Diced Avocado
+    instructions: Dice avocado and sprinkle with a bit of lemon juice.
+
+  - ingredients:
+      - ingredient: Rocket
+        amount: 250
+        unit: g
+    yields: Rocket Leaves
+    instructions: Clean rocket and cut into smaller pieces.
+
+  - ingredients:
+      - ingredient: Orange Juice
+        amount: 100
+        unit: ml
+      - ingredient: Honey
+        amount: 1
+        unit: tbsp
+      - ingredient: Olive Oil
+        amount: 3
+        unit: tbsp
+      - ingredient: Salt
+      - ingredient: Pepper
+      - ingredient: Chili Flakes
+    yields: Dressing
+    instructions: >-
+      Reduce orange juice to half. Season with honey, salt, pepper and chili and mix with olive oil.
+
+cooking:
+  - internal_ingredients:
+      - Diced Mango
+      - Diced Avocado
+      - Diced Mozzarella
+      - Rocket Leaves
+      - Dressing
+      - Pine Nuts
+    ingredients:
+      - ingredient: Baguette
+    instructions: >-
+      Carefully mix all ingredients except pine nuts, then sprinkle pine nuts on top. Serve with baguette.
+

@@ -1,0 +1,34 @@
+---
+name: Karamellisierte Rüebli
+serves: 4
+tags: beilage, gemüse
+descr: Leicht karamellisierte, gedünstete Rüebli als Beilage.
+
+prep:
+  - ingredients:
+      - ingredient: Karotten (groß)
+        amount: 8
+    yields: Karottenstifte
+    instructions: >-
+      Karotten schälen, in 5-6 cm lange Stücke schneiden und jedes Stück je nach Größe längs sechsteln oder achteln.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 50
+        unit: g
+      - ingredient: Zucker
+        amount: 2
+        unit: TL
+      - ingredient: Hühnerbrühenpulver
+        amount: 1
+        unit: TL
+      - ingredient: Petersilie
+    internal_ingredients:
+      - Karottenstifte
+    instructions: >-
+      Butter im Topf schmelzen lassen. Zucker dazu geben und kurz karamellisieren lassen. Dann die Karotten
+      dazugeben und viel rühren. Bei hoher Hitze etwas anschwitzen, dabei Hühnerbrühenpulver dazugeben und
+      ständig weiterrühren. Wenn sich etwas Wasser unten im Topf bildet, Herd auf mittelhohe Hitze zurückdrehen.
+      Abdecken und köcheln lassen, bis die Karotten weich sind, aber noch etwas bis haben, dann den Deckel abnehmen
+      und das restliche Wasser bei hoher Hitze verkochen. Mit Salz und Petersilie abschmecken.

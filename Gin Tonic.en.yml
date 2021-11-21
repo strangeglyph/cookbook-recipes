@@ -1,0 +1,17 @@
+---
+name: Gin Tonic
+serves: 1
+tags: drink, longdrink, dry
+
+cooking:
+  - ingredients:
+      - ingredient: Vodka
+        amount: 6
+        unit: cl
+      - ingredient: Tonic Water
+        amount: 10
+        unit: cl
+      - ingredient: Lemon Juice
+        amount: 1
+        unit: generous dash
+    instructions: Add all ingredients to a glass with ice. Stir.

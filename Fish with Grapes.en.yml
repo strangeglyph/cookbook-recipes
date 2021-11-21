@@ -1,0 +1,52 @@
+---
+name: Fish Filets with Grape Sauce
+serves: 4
+tags: fish, main, german, fruit
+descr: A childhood classic. Pasta as a side is traditional, but rice or couscous work just as well.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Fish (e.g. Trout or Cod)
+        amount: 600
+        unit: g
+    yields: Deboned fish
+    instructions: Debone fish if necessary. Season with salt and pepper.
+
+  - ingredients:
+      - ingredient: Grapes
+        amount: 300
+        unit: g
+    yields: Halved grapes
+    instructions: Wash and halve grapes.
+
+cooking:
+  - ingredients:
+      - ingredient: Fish stock oder vegetable broth
+        amount: 150
+        unit: ml
+      - ingredient: Cider
+        amount: 250
+        unit: ml
+    internal_ingredients:
+      - Deboned Fish
+    yields:
+      - Poached fish
+      - Poaching liquid
+    instructions: >-
+      In a pan, Bring fish stock and cider to a boil. Take pan of the stove and let the fish simmer in the liquid for
+      3 minutes. Take out fish and keep warm.
+
+  - internal_ingredients:
+      - Poaching liquid
+      - Halved grapes
+      - Poached fish
+    ingredients:
+      - ingredient: Cream
+        amount: 200
+        unit: ml
+      - ingredient: Butter
+        amount: 25
+        unit: g
+    instructions: >-
+      Reduce poaching liquid by half. Add cream and bring to a boil again. Season with salt and pepper. Stir in butter
+      and let simmer for 5 minutes. Add grapes and heat through, then add fish and serve immediately.

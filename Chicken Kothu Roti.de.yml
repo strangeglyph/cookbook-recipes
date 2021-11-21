@@ -1,0 +1,125 @@
+---
+name: Hühnchen-Kothu-Roti
+serves: 3
+tags: hühnchen, hauptspeise, sri lanka
+descr: Sri Lankisches 'comfort food' mit Roti
+
+prep:
+  - ingredients:
+      - ingredient: Knoblauch
+        amount: 2
+        unit: Zehen
+    yields: Knoblauch für Marinade
+    instructions: Knoblauch schälen und pressen.
+  
+  - ingredients:
+      - ingredient: Ingwer
+        amount: 50
+        unit: g
+    yields: Ingwer für Marinade
+    instructions: Ingwer schälen und fein würfeln.
+
+  - ingredients:
+      - ingredient: Hühnchenbrust
+        amount: 500
+        unit: g
+    yields: Hühnchenwürfel
+    instructions: Hühnchen in 2cm große Würfel schneiden.
+    
+  - internal_ingredients:
+      - Knoblauch für Marinade
+      - Ingwer für Marinade
+      - Hühnchenwürfel
+    ingredients:
+      - ingredient: Sesamöl
+      - ingredient: Currypulver
+    yields: Mariniertes Hühnchen
+    instructions: >-
+      Knoblauch, Ingwer und Currypulver mit Sesamöl zu einer dicken Paste verrühren.
+      Hühnchenwürfel im Kühlschrank für mindestens eine Stunde marinieren.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Zwiebel
+        amount: 1
+    yields: Zwiebelstreifen
+    instructions: Zwiebel in Streifen schneiden.
+  
+  - ingredients:
+      - ingredient: Thai-Chilis
+        amount: 2
+    yields: Geschnittene Chilis
+    instructions: Chilis halbieren. Abhängig vom gewünschten Schärfegrad Samen entfernen. Chilis in dünne Streifen schneiden.
+
+  - ingredients:
+      - ingredient: Knoblauch
+        amount: 2
+        unit: Zehen
+    yields: Geschälter Knoblauch
+    instructions: Knoblauch schälen und pressen.
+    
+  - ingredients:
+      - ingredient: Eier
+        amount: 3
+    yields: Geschlagene Eier
+    instructions: Eier aufschlagen. Dies könnte etwas dauern, etwa eine Minute. Das Ei sollte leicht schaumig und ziemlich dünnflüssig sein.
+
+  - ingredients:
+      - ingredient: Roti
+        amount: 5
+    yields: Rotistreifen
+    instructions: Roti in drei etwa gleichgroße Teile schneiden. Dann um 90 Grad dregen und in 1cm breite Streifen schneiden.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Öl
+      - ingredient: Eine Handvoll Curryblätter
+    internal_ingredients:
+      - Geschnittene Chilis
+      - Geschälter Knoblauch
+      - Zwiebelstreifen
+    yields: Gedünstete Zwiebeln
+    instructions: Öl in der Pfanne erhitzen. Chilis, Curryblätter, Knoblauch und Zwiebeln hinzufügen. Zwiebel andünsten bis sie glasig werden.
+  
+  - ingredients:
+      - ingredient: Salz
+      - ingredient: Kreuzkümmelpulver (Cumin)
+        amount: 1
+        unit: Tl
+      - ingredient: Korianderpulver
+        amount: 1
+        unit: Tl
+    internal_ingredients:
+      - Gedünstete Zwiebeln
+      - Mariniertes Hühnchen
+    yields: Gewürztes Hühnchen
+    instructions: Hühnchen hinzugeben. Mit Salz, Kreuzkümmel und Koriander würzen. Anbraten bis das Hühnchen durch ist.
+
+  - internal_ingredients:
+      - Gewürztes Hühnchen
+      - Geschlagene Eier
+    yields: Hühnchen-Ei-Mischung
+    instructions: >-
+      Pfanneninhalt zu einer Seite der Pfanne schieben. Das geschlagene Ei in die andere Hälfte gießen.
+      Das Ei leicht rühren, bis es zu stocken anfänge. Dann mit dem restlichen Pfanneninhalt mischen.
+  
+  - internal_ingredients:
+      - Hühnchen-Ei-Mischung
+      - Rotistreifen
+    ingredients:
+      - ingredient: Chilipulver
+        amount: 0.25
+        unit: Tl
+      - ingredient: Salz
+    yields: Trockenes Kothu Roti
+    instructions: Roti dazugeben. Mit Chilipulver und Salz würzen.
+
+  - internal_ingredients:
+      - Trockenes Kothu Roti
+    ingredients:
+      - ingredient: Wasser
+      - ingredient: Limette
+        amount: 0.5
+    instructions: Limettensaft dazugießen und umrühren. Falls das Kothu Roti noch trocken ist, mit etwas Wasser bestäuben.
+

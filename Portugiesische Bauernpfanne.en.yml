@@ -1,0 +1,85 @@
+---
+name: Portuguese Farmer's Pot
+serves: 4
+tags: chicken, main
+descr: Carrots, potatoes and olives cooked with chicken in a dutch oven.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Potatoes
+        amount: 1
+        unit: kg
+    yields: Diced Potatoes
+    instructions: >-
+      Peel potatoes and, depending on size, cut into quarters or eighths. Let rest in water to prevent them from turning
+      black.
+
+  - ingredients:
+      - ingredient: Carrots
+        amount: 1
+        unit: kg
+    yields: Sliced Carrots
+    instructions: >-
+      Peel carrots and cut into 0.5-1cm wide slices.
+
+  - ingredients:
+      - ingredient: Onions
+        amount: 4
+    yields: Onion Quarters
+    instructions: >-
+      Peel and quarter onions.
+
+  - ingredients:
+      - ingredient: Piri Piri
+        amount: 4
+    yields: Chili Strips
+    instructions: >-
+      Cut Piri Piri in half lengthwise and deseed. Then cut into thin strips.
+
+  - ingredients:
+      - ingredient: Garlic
+        amount: 8
+        unit: Cloves
+    yields: Pressed Garlic
+    instructions: >-
+      Peel and press garlic.
+
+  - ingredients:
+      - ingredient: Chicken Breast
+        amount: 600
+        unit: g
+      - ingredient: Paprika Powder
+    yields: Prepared Chicken
+    instructions: >-
+      Clean Chicken, then season with salt, pepper and paprika.
+
+cooking:
+  - ingredients:
+      - ingredient: Olive Oil
+        amount: 100
+        unit: ml
+      - ingredient: Black Olives
+        amount: 1
+        unit: jar
+      - ingredient: Green Olives
+        amount: 1
+        unit: jar
+    internal_ingredients:
+      - Diced Potatoes
+      - Sliced Carrots
+      - Quartered Onions
+      - Chili Strips
+      - Pressed Garlic
+      - Prepared Chicken
+    yields: Farmer's Pot
+    instructions: >-
+      Exluding the chicken, mix everything in a dutch oven and season with salt. Put the chicken on top and cover.
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Baguette
+        amount: 1
+    internal_ingredients:
+      - Farmer's Pot
+    instructions: >-
+      Cook the farmer's pot at 200°C top/down heat for 1:30h. Serve with baguette.

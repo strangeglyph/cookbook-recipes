@@ -1,0 +1,51 @@
+---
+name: Fondue
+serves: 4
+tags: käse, so viel käse, vegetarisch, hauptspeise
+descr: Geschmolzene Käsesuppe. Was kann man daran nicht mögen?
+
+
+prep:
+  - ingredients:
+      - ingredient: Gruyère
+        amount: 400
+        unit: g
+      - ingredient: Emmentaler
+        amount: 400
+        unit: g
+    yields: Geriebener Käse
+    instructions: Käse reiben.
+
+  - ingredients:
+      - ingredient: Baguettes
+        amount: 2
+    instructions: Baguette in 2 cm größe Würfel schneiden.
+
+cooking:
+  - ingredients:
+      - ingredient: Weißwein
+        amount: 200
+        unit: ml
+      - ingredient: Wasser
+        amount: 200
+        unit: ml
+    internal_ingredients:
+      - Geriebener Käse
+    yields: Geschmolzener Käse
+    instructions: >-
+      Weißwein und Wasser in einem Caquelon erhitzen. Den Käse langsam und unter ständigem Rühren dazugeben.
+
+  - ingredients:
+      - ingredient: Kirsch
+        amount: 2
+        unit: cl
+      - ingredient: Stärke
+        amount: 1
+        unit: EL
+      - ingredient: Muskatnuss
+      - ingredient: Pfeffer
+    internal_ingredients:
+      - Geschmolzener Käse
+    instructions: >-
+      Den Käse zum Kochen bringen. Kirsch und Stärke verrühren und untermischen. 3 Minuten kochen lassen, mit
+      Muskatnuss und Pfeffer würzen und servieren.

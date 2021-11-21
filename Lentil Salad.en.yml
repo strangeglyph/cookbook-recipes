@@ -1,0 +1,86 @@
+---
+name: Lentil Salad
+serves: 3
+tags: salad, vegetarian
+descr: Summery, fresh lentil salad.
+
+prep:
+  - ingredients:
+      - ingredient: Red Beet (boiled)
+        amount: 400
+        unit: g
+    yields: Red Beet Cubes
+    instructions: Cut red beet into small pieces.
+
+  - ingredients:
+      - ingredient: Parsley
+        amount: 0.5
+        unit: bunch
+    yields: Chopped Parsley
+    instructions: Chop parsley.
+
+  - ingredients:
+      - ingredient: Spring Onions
+        amount: 1
+        unit: bunch
+    yields: Spring Onion Rings
+    instructions: Clean spring onions and cut into thin rings.
+
+cooking:
+  - ingredients:
+      - ingredient: Olive Oil
+      - ingredient: Lentils
+        amount: 200
+        unit: g
+      - ingredient: Curry Powder
+        amount: 1
+        unit: tsp
+      - ingredient: Ground Cumin
+        amount: 1
+        unit: tsp
+    yields: Sweated Lentils
+    instructions: Heat olive oil in a pan. Sweat lentils, curry and cumin.
+
+  - ingredients:
+      - ingredient: Vegetable Broth
+        amount: 350
+        unit: ml
+    internal_ingredients:
+      - Sweated lentils
+    yields: Cooked Lentils
+    instructions: Add broth to the lentils. Simmer for 8-9 minutes, then set aside to cool.
+
+  - ingredients:
+      - ingredient: Honey
+        amount: 1
+        unit: tbsp
+      - ingredient: Mustard (medium hot)
+        amount: 1
+        unit: tsp
+      - ingredient: Apple Vinegar
+        amount: 2
+        unit: tbsp
+      - ingredient: Aceto Balsamico
+        amount: 1
+        unit: tbsp
+      - ingredient: Curry Powder
+        amount: 1
+        unit: tsp
+      - ingredient: Ground Cumin
+        amount: 1
+        unit: tsp
+      - ingredient: Olive Oil
+        amount: 3
+        unit: tbsp
+      - ingredient: Salt
+      - ingredient: Pepper
+    yields: Dressing
+    instructions: Alle Zutaten für das Dressing mischen, abschmecken.
+
+  - internal_ingredients:
+      - Red Beet Cubes
+      - Chopped Parsley
+      - Spring Onion Rings
+      - Cooked Lentions
+      - Dressing
+    instructions: Combine all ingredients and let rest for at least half an hour.

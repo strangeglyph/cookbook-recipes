@@ -1,0 +1,85 @@
+---
+name: Portugiesische Bauernpfanne
+serves: 4
+tags: hühnchen, hauptspeise
+descr: Möhren, Kartoffeln und Oliven mit Hühnchen im Bräter gegart.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Kartoffeln
+        amount: 1
+        unit: kg
+    yields: Kartoffelwürfel
+    instructions: >-
+      Kartoffeln schälen und je nach Größe entweder vierteln oder in Achtel schneiden. In Wasser stehen lassen, damit
+      sie nicht schwarz werden.
+
+  - ingredients:
+      - ingredient: Karotten
+        amount: 1
+        unit: kg
+    yields: Karottenscheiben
+    instructions: >-
+      Karotten schälen, in 0.5cm-1cm breite Scheiben schneiden.
+
+  - ingredients:
+      - ingredient: Zwiebeln
+        amount: 4
+    yields: Zwiebelviertel
+    instructions: >-
+      Zwiebeln schälen und vierteln.
+
+  - ingredients:
+      - ingredient: Piri Piri
+        amount: 4
+    yields: Chilistreifen
+    instructions: >-
+      Piri Piri längs halbieren und entkernen, dann in dünne Streifen schneiden.
+
+  - ingredients:
+      - ingredient: Knoblauch
+        amount: 8
+        unit: Zehen
+    yields: Gepresster Knoblauch
+    instructions: >-
+      Knoblauch schälen und kleinpressen.
+
+  - ingredients:
+      - ingredient: Pouletbrust
+        amount: 600
+        unit: g
+      - ingredient: Paprikapulver
+    yields: Geputztes Poulet
+    instructions: >-
+      Poulet putzen, mit Salz, Pfeffer und Paprikapulver würzen.
+
+cooking:
+  - ingredients:
+      - ingredient: Olivenöl
+        amount: 100
+        unit: ml
+      - ingredient: Schwarze Oliven
+        amount: 1
+        unit: Glas
+      - ingredient: Grüne Oliven
+        amount: 1
+        unit: Glas
+    internal_ingredients:
+      - Kartoffelwürfel
+      - Karottenscheiben
+      - Zwiebelwürfel
+      - Chilistreifen
+      - Gepresster Knoblauch
+      - Geputztes Poulet
+    yields: Bauernpfanne
+    instructions: >-
+      Bis auf das Poulet alles in einem Bräter mischen und mit Salz würfeln. Das Poulet oben auf legen. Abdecken.
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Baguette
+        amount: 1
+    internal_ingredients:
+      - Bauernpfanne
+    instructions: >-
+      Die Bauernpfanne bei 200°C Ober-Unterhitze 1:30h garen. Mit Baguette servieren.

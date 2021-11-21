@@ -1,0 +1,62 @@
+---
+name: Rhubarb Tiramisu
+serves: 6
+tags: rhubarb, dessert
+descr: Tiramisu, with rhubarb instead of coffee. Without eggs, can be prepared in advance.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Rhubarb
+        amount: 500
+        unit: g
+    yields: Rhubarb Pieces
+    instructions: >-
+      Wash rhubarb, remove leaves and bottom part of the stalk. Pull off strings on the outside with a knife.
+      Cut stalks into rough pieces.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 75
+        unit: g
+      - ingredient: Sugar
+        amount: 185
+        unit: g
+      - ingredient: Amaretto
+        amount: 3
+        unit: Tbsp
+    internal_ingredients:
+      - Rhubarb Pieces
+    yields: Rhubarb Mousse
+    instructions: >-
+      Mix rhubarb with butter and sugar in a pan. Cover and simmer at low heat until soft. Let cool, then
+      add amaretto and enough water to make 700 ml.
+
+  - ingredients:
+      - ingredient: Ricotta
+        amount: 250
+        unit: g
+      - ingredient: Mascarpone
+        amount: 250
+        unit: g
+      - ingredient: Orange Juice
+        amount: 100
+        unit: ml
+      - ingredient: Sugar
+        amount: 4
+        unit: EL
+    yields:
+      - Ricotta Cream
+    instructions: Mix together.
+
+  - ingredients:
+      - ingredient: Ladyfingers
+        amount: 200
+        unit: g
+    internal_ingredients:
+      - Rhubarb Mousse
+      - Ricotta Cream
+    instructions: >-
+      Cover the bottom of a 1 1/2 liter form with ladyfingers. Spread half of the rhubarb mousse, then
+      half of the ricotta cream on top and smoothen. Repeat with the other half of the ingredients.
+      Refridgerate for at least three hours, then dust with cocoa powder.

@@ -1,0 +1,51 @@
+---
+name: Fondue
+serves: 4
+tags: cheese, so much cheese, vegetarian, main
+descr: Molten cheese soup, what's not to love.
+
+
+prep:
+  - ingredients:
+      - ingredient: Gruyère
+        amount: 400
+        unit: g
+      - ingredient: Emmentaler
+        amount: 400
+        unit: g
+    yields: Grated Cheese
+    instructions: Grate cheese.
+
+  - ingredients:
+      - ingredient: Baguettes
+        amount: 2
+    instructions: Cut baguette into 2 cm large cubes.
+
+cooking:
+  - ingredients:
+      - ingredient: White Wine
+        amount: 200
+        unit: ml
+      - ingredient: Water
+        amount: 200
+        unit: ml
+    internal_ingredients:
+      - Grated Cheese
+    yields: Molten Cheese
+    instructions: >-
+      Heat white wine and water in a caquelon. Slowly add the cheese while stirring constantly.
+
+  - ingredients:
+      - ingredient: Kirsch
+        amount: 2
+        unit: cl
+      - ingredient: Starch
+        amount: 1
+        unit: Tbsp
+      - ingredient: Nutmeh
+      - ingredient: Pepper
+    internal_ingredients:
+      - Molten Cheese
+    instructions: >-
+      Bring cheese to a boil. Mix kirsch and starch and stir into the cheese. Let boil for 3 minutes, season with
+      nutmeg and pepper and serve.

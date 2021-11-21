@@ -1,0 +1,52 @@
+---
+name: Fisch-Filets in Traubensauce
+serves: 4
+tags: fisch, hauptspeise, deutsch, früchte
+descr: Klassiker aus Kindheitstagen. Als Beilage traditionell Nudeln, aber Reis oder Couscous passen auch.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Fisch (z.B. Forelle oder Kabeljau)
+        amount: 600
+        unit: g
+    yields: Entgräteter Fisch
+    instructions: Fisch, falls nötig, entgräten. Mit Salz und Pfeffer würzen.
+
+  - ingredients:
+      - ingredient: Trauben
+        amount: 300
+        unit: g
+    yields: Halbierte Trauben
+    instructions: Trauben waschen und halbieren.
+
+cooking:
+  - ingredients:
+      - ingredient: Fischfond oder Gemüsebrühe
+        amount: 150
+        unit: ml
+      - ingredient: Cidre
+        amount: 250
+        unit: ml
+    internal_ingredients:
+      - Entgräteter Fisch
+    yields:
+      - Pochierter Fisch
+      - Pochierflüssigkeit
+    instructions: >-
+      Fischfond und Cidre in einer Pfanne aufkochen. Pfanne vom Herd nehmen und den Fisch darin 3 Minuten ziehen lassen.
+      Fisch herausnehmen und warm halten.
+
+  - internal_ingredients:
+      - Pochierflüssigkeit
+      - Halbierte Trauben
+      - Pochierter Fisch
+    ingredients:
+      - ingredient: Sahne
+        amount: 200
+        unit: ml
+      - ingredient: Butter
+        amount: 25
+        unit: g
+    instructions: >-
+      Pochierflüssigkeit auf die Hälfte einkochen. Sahen dazugießen, noch einmal aufkochen. Mit Salz und Pfeffer würzen.
+      Butter einrühren und 5 Minuten köcheln lassen. Trauben hinzufügen und erhitzen. Fisch hinzufügen und servieren.

@@ -1,0 +1,86 @@
+---
+name: Linsensalat
+serves: 3
+tags: salat, vegetarisch
+descr: Sommerlicher frischer Linsensalat
+
+prep:
+  - ingredients:
+      - ingredient: Rote Beete (gekocht)
+        amount: 400
+        unit: g
+    yields: Rote-Beete-Würfel
+    instructions: Rote Beete in kleine Stücke schneiden.
+
+  - ingredients:
+      - ingredient: Petersilie
+        amount: 0.5
+        unit: Bund
+    yields: Gehackte Petersilie
+    instructions: Petersilie hacken.
+
+  - ingredients:
+      - ingredient: Frühlingszwiebeln
+        amount: 1
+        unit: Bund
+    yields: Frühlingszwiebelringe
+    instructions: Frühlingszwiebeln putzen, in dünne Ringe schneiden.
+
+cooking:
+  - ingredients:
+      - ingredient: Olivenöl
+      - ingredient: Linsen
+        amount: 200
+        unit: g
+      - ingredient: Currypulver
+        amount: 1
+        unit: TL
+      - ingredient: gem. Kreuzkümmel
+        amount: 1
+        unit: TL
+    yields: Angeschwitzte Linsen
+    instructions: Olivenöl in einer Pfanne erhitzen. Linsen, Curry und Kreuzkümmel darin etwas anschwitzen.
+
+  - ingredients:
+      - ingredient: Gemüsebrühe
+        amount: 350
+        unit: ml
+    internal_ingredients:
+      - Angeschwitzte Linsen
+    yields: Gekochte Linsen
+    instructions: Brühe zu den Linsen geben. 8-9 Minuten köcheln lassen, dann abkühlen lassen.
+
+  - ingredients:
+      - ingredient: Honig
+        amount: 1
+        unit: EL
+      - ingredient: Senf (mittelscharf)
+        amount: 1
+        unit: TL
+      - ingredient: Apfelessig
+        amount: 2
+        unit: EL
+      - ingredient: Aceto Balsamico
+        amount: 1
+        unit: EL
+      - ingredient: Currypulver
+        amount: 1
+        unit: TL
+      - ingredient: gem. Kreuzkümmel
+        amount: 1
+        unit: TL
+      - ingredient: Olivenöl
+        amount: 3
+        unit: EL
+      - ingredient: Salz
+      - ingredient: Pfeffer
+    yields: Dressing
+    instructions: Alle Zutaten für das Dressing mischen, abschmecken.
+
+  - internal_ingredients:
+      - Rote-Beete-Würfel
+      - Gehackte Petersilie
+      - Frühlingszwiebeln
+      - Gekochte Linsen
+      - Dressing
+    instructions: Alles verrühren. Mindestens eine halbe Stunde durchziehen lassen.

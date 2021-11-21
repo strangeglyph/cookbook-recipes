@@ -1,0 +1,34 @@
+---
+name: Limoncino
+serves: 2
+servings_unit: liters
+servings_increment: 0.5
+tags: drink, liqueur
+descr: Italian lemon liqueur
+
+cooking:
+  - ingredients:
+      - ingredient: Untreated Lemons
+        amount: 10
+      - ingredient: Alcohol (95%)
+        amount: 1000
+        unit: ml
+    yields: Infused Alcohol
+    instructions: Peel lemons with a peeler (avoid taking too much of the white parts). Mix with alcohol.
+
+  - ingredients:
+      - ingredient: Water
+        amount: 1000
+        unit: ml
+      - ingredient: Sugar
+        amount: 1000
+        unit: g
+    instructions: Syrup
+    yields: Bring water to a boil and dissolve the sugar.
+
+  - internal_ingredients:
+      - Infused Alcohol
+      - Syrup
+    instructions: >-
+      Sift lemon peel from the alcohol. Mix alcohol with syrup.
+      Let rest for another couple of days, then store in a freezer.

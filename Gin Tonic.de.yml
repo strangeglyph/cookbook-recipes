@@ -1,0 +1,17 @@
+---
+name: Gin Tonic
+serves: 1
+tags: drink, longdrink, trocken
+
+cooking:
+  - ingredients:
+      - ingredient: Vodka
+        amount: 6
+        unit: cl
+      - ingredient: Tonic Water
+        amount: 10
+        unit: cl
+      - ingredient: Zitronensaft
+        amount: 1
+        unit: großzügiger Schuss
+    instructions: Alle Zutaten in ein Glas mit Eiswürfeln geben. Umrühren.

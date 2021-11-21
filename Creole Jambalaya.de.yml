@@ -1,0 +1,121 @@
+---
+name: Kreole-Jambalaya
+serves: 8
+tags: shrimp, hühnchen, wurst, hauptspeise, kreole
+descr: Rotes Jambalaya mit Shrimp, Hühnchen und scharfer Wurst
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Scharfe Wurst (z.B. Chorizo)
+        amount: 350
+        unit: g
+    yields: Wurstscheiben
+    instructions: Wurst in dünne Scheiben schneiden. Sehr große Scheiben eventuell noch einmal halbieren.
+
+  - ingredients:
+      - ingredient: Zwiebel
+        amount: 1
+    yields: Zwiebelwürfel
+    instructions: Zwiebel grob würfeln.
+
+  - ingredients:
+      - ingredient: Paprika
+        amount: 2
+    yields: Paprikawürfel
+    instructions: Paprika grob würfeln.
+
+  - ingredients:
+      - ingredient: Staudensellerie
+        amount: 6
+        unit: Stangen
+    yields: Selleriewürfel
+    instructions: Sellerie entfädeln, dann grob würfeln.
+
+  - ingredients:
+      - ingredient: Knoblauch
+        amount: 6
+        unit: Zehen
+    yields: Gepresster Knoblauch
+    instructions: Knoblauch pressen.
+
+  - ingredients:
+      - ingredient: Frühlingszwiebeln
+        amount: 1
+        unit: Bund
+    yields: Frühlingszwiebelringe
+    instructions: Frühlingszwiebeln in Ringe schneiden.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Hühnchenbrust
+        amount: 500
+        unit: g
+    yields:
+      - Angebratenes Hühnchen
+      - Bratöl
+    instructions: >-
+      Hühnchen putzen und mit Salz und Pfeffer würzen. Öl in einem Bräter erhitzen und das Hühnchen rundum bei hoher
+      Hitze braun anbraten (Hühnchen muss nicht durch sein). Aus dem Bräter nehmen, abkühlen lassen.
+
+  - internal_ingredients:
+      - Wurstscheiben
+      - Zwiebelwürfel
+      - Paprikawürfel
+      - Selleriewürfel
+      - Gepresster Knoblauch
+      - Bratöl
+    yields: Angebratenes Gemüse
+    instructions: >-
+      Im selben Öl die Wurst für einige Minuten kräftig anbraten. Dann das Gemüse dazugeben und weitere 5-10 Minuten
+      anbraten, bis es ordentlich Farbe annimmt.
+
+  - internal_ingredients:
+      - Angebratenes Hühnchen
+    yields: Gewürfeltes Hühnchen
+    instructions: Hühnchen in 1 bis 2 cm große Stücke schneiden.
+
+  - ingredients:
+      - ingredient: Tomatenmark
+      - ingredient: Hot Sauce
+      - ingredient: Thymian
+      - ingredient: Oregano
+      - ingredient: Cayennepfeffer
+      - ingredient: Knoblauchpulver
+      - ingredient: Pfeffer
+      - ingredient: Lorbeerblätter
+      - ingredient: Stückige Tomaten
+        amount: 800
+        unit: g
+      - ingredient: Hühnerbrühe
+        amount: 500
+        unit: ml
+    internal_ingredients:
+      - Angebratenes Gemüse
+      - Gewürfeltes Hühnchen
+    yields: Jambalaya-Sauce
+    instructions: >-
+      Nach Geschmack mit Tomatenmark, Hot Sauce und Gewürzen würzen. Dann die Tomaten, Hühnerbrühe und das Poulet
+      dazugeben. Mit Salz und Gewürzen abschmecken. Zum köcheln bringen.
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Reis
+        amount: 370
+        unit: g
+    internal_ingredients:
+      - Jambalaya-Sauce
+    yields: Jambalaya
+    instructions: >-
+      Ofen auf 180°C Ober/Unterhitze, 160°C Umluft vorheizen. Den Reis under die Sauce mischen und das ganze noch
+      einmal zum Kochen bringen. Dann mit Deckel im Backofen 40 Minuten backen.
+
+  - ingredients:
+      - ingredient: Shrimp
+        amount: 350
+        unit: g
+    internal_ingredients:
+      - Frühlingszwiebelringe
+      - Jambalaya
+    instructions: >-
+      Frühlingszwiebeln und Shrimp unter das Jambalaya heben, noch einmal 5 Minuten im Ofen weitergaren.

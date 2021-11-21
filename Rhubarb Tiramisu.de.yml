@@ -1,0 +1,63 @@
+---
+name: Rhabarber-Tiramisu
+serves: 6
+tags: rhabarber, dessert
+descr: Tiramisu, mit Rhabarber statt Kaffee. Ohne Ei, lässt sich vorbereiten.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Rhabarber
+        amount: 500
+        unit: g
+    yields: Rhabarberstücke
+    instructions: >-
+      Rhabarber putzen, Blätter und unteres Ende der Stange abschneiden. Grobe Fasern mit einem Messer abziehen
+      und die Stangen in grobe Stücke schneiden.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 75
+        unit: g
+      - ingredient: Zucker
+        amount: 185
+        unit: g
+      - ingredient: Amaretto
+        amount: 3
+        unit: EL
+    internal_ingredients:
+      - Rhabarberstücke
+    yields: Rhababermousse
+    instructions: >-
+      Rhabarberstücke mit Butter und Zucker in eine Pfanne geben und zugedeckt bei niedriger Hitze weich köcheln.
+      Abkühlen lassen, Amaretto zugeben und mit Wasser auf 700 ml auffüllen.
+
+  - ingredients:
+      - ingredient: Ricotta
+        amount: 250
+        unit: g
+      - ingredient: Mascarpone
+        amount: 250
+        unit: g
+      - ingredient: Orangensaft
+        amount: 100
+        unit: ml
+      - ingredient: Zucker
+        amount: 4
+        unit: EL
+    yields:
+      - Ricottacrème
+    instructions: Alles mischen.
+
+  - ingredients:
+      - ingredient: Löffelbiscuits
+        amount: 200
+        unit: g
+    internal_ingredients:
+      - Rhabarbermousse
+      - Ricottacrème
+    instructions: >-
+      Die Hälfte der Löffelbiscuits auf dem Boden einer 1 1/2-Liter-Form verteilen. Die Hälfte des
+      Rhabarbermousses und dann die Hälfte der Ricottacrème darauf verteilen und glatt streichen. Mit
+      der anderen Hälfte der Zutaten ebenso verfahren. Für mindestens drei Stunden kalt stellen, dann
+      mit Kakaopulver bestäuben.

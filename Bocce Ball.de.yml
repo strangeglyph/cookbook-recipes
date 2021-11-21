@@ -1,0 +1,21 @@
+---
+name: Bocce Ball
+serves: 1
+tags: drink, cocktail, süß
+descr: Orangensaftcocktail mit einem Schuss Amaretto.
+
+cooking:
+  - ingredients:
+      - ingredient: Vodka
+        amount: 4
+        unit: cl
+      - ingredient: Amaretto
+        amount: 1
+        unit: cl
+      - ingredient: Tonic
+        amount: 2
+        unit: cl
+      - ingredient: Orangensaft
+        amount: 16
+        unit: cl
+    instructions: Alle Zutaten in ein Glas mit Eiswürfeln geben. Umrühren.

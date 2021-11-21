@@ -1,0 +1,51 @@
+---
+name: Elder Flower Syrup
+serves: 1.5
+servings_unit: liters
+servings_increment: 0.5
+tags: syrup, drink, sweet
+
+prep:
+  - ingredients:
+      - ingredient: Lemon (Untreated)
+        amount: 1
+    yields: Lemon Slices
+    instructions: Cut lemon into slices.
+
+  - ingredients:
+      - ingredient: Lime (Untreated)
+        amount: 1
+    yields: Lime Slices
+    instructions: Cut lime into slices.
+
+  - ingredients:
+      - ingredient: Elder Flowers
+        amount: 12
+        unit: umbels
+    yields: Cleaned Elder Flowers
+    instructions: Clean elder flower umbels and cut of thick stems.
+
+cooking:
+  - ingredients:
+      - ingredient: Water
+        amount: 1.5
+        unit: l
+      - ingredient: Sugar
+        amount: 1.5
+        unit: kg
+      - ingredient: Citric Acid
+        amount: 10
+        unit: g
+    yields: Sugar Syrup
+    instructions: Bring water and sugar to a boil, then dissolve citric acid.
+
+passive_cooking:
+  - internal_ingredients:
+      - Sugar Syrup
+      - Lemon Slices
+      - Lime Slices
+      - Cleaned Elder Flowers
+    yields: Elder Flower Syrup
+    instructions: >-
+      Add everything into a large bowl and cover with something heavy (e.g a plate) so everything is submerged.
+      Let infuse for five days in the fridge, stir daily.

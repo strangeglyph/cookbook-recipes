@@ -1,0 +1,85 @@
+---
+name: Crunchy Olive Snacks
+serves: 100
+servings_unit: cookies
+servings_increment: 20
+tags: snacks, hors d'oeuvre, olives, savory
+descr: Savory, crunchy olive snacks. Ideal as party food or to go with an aperitif.
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+        amount: 250
+        unit: g
+    yields: Frozen Butter
+    instructions: Freeze butter.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Black Olives
+        amount: 1
+        unit: jar
+      - ingredient: Green Olives
+        amount: 1
+        unit: jar
+    yields: Chopped Olives
+    instructions: Chop olives finely.
+
+cooking:
+  - ingredients:
+      - ingredient: Flour
+        amount: 250
+        unit: g
+      - ingredient: Ground Almonds
+        amount: 50
+        unit: g
+      - ingredient: Parmesan
+        amount: 300
+        unit: g
+      - ingredient: Paprika
+        amount: 1
+        unit: tbsp
+      - ingredient: Ras el Hanout
+        amount: 1
+        unit: tbsp
+      - ingredient: Salt
+        amount: 0.5
+        unit: tsp
+    yields: Dry Dough Ingredients
+    instructions: Mix everything together in a bowl.
+
+  - internal_ingredients:
+      - Frozen Butter
+      - Chopped Olives
+      - Dry Dough Ingredients
+    yields: Olive Mixture
+    instructions: >-
+      Grate the frozen butter into the bowl and mix until everything is combined into a crumbly mixture. Add olives.
+
+  - ingredients:
+      - ingredient: Egg
+        amount: 1
+      - ingredient: White Wine
+        amount: 1
+        unit: tbsp
+    internal_ingredients:
+      - Olive Mixture
+    yields: Dough
+    instructions: Whisk egg and white wine until liquid. Combine with dry ingredients and work into a smooth dough
+
+passive_cooking:
+  - internal_ingredients:
+      - Dough
+    yields: Refrigerated Dough
+    instructions: Refrigerate for 30 minutes.
+
+cooking2:
+  - internal_ingredients:
+      - Refrigerated Dough
+    yields: Olive Balls
+    instructions: Form dough into balls about one cm in diameter and set onto a parchment paper lined baking tray.
+
+passive_cooking2:
+  - internal_ingredients:
+      - Olive Balls
+    instructions: Bake for 20 minutes at 200°C top/down heat, 180°C convection.

@@ -1,0 +1,121 @@
+---
+name: Creole Jambalaya
+serves: 8
+tags: shrimp, chicken, sausage, main, creole
+descr: Red jambalaya with shrimp, chicken and spicy sausage
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Spicy Sausage (e.g. Chorizo)
+        amount: 350
+        unit: g
+    yields: Sausage Slices
+    instructions: Slice sausage thinly. Halve particularly large slice.
+
+  - ingredients:
+      - ingredient: Onion
+        amount: 1
+    yields: Diced Onion
+    instructions: Roughly dice onion.
+
+  - ingredients:
+      - ingredient: Bell Peppers
+        amount: 2
+    yields: Diced Bell Pepper
+    instructions: Roughly dice bell pepper.
+
+  - ingredients:
+      - ingredient: Celery
+        amount: 6
+        unit: stalks
+    yields: Diced Celery
+    instructions: Destring celery, then dice roughly.
+
+  - ingredients:
+      - ingredient: Garlic
+        amount: 6
+        unit: cloves
+    yields: Pressed garlic
+    instructions: Press garlic.
+
+  - ingredients:
+      - ingredient: Spring Onions
+        amount: 1
+        unit: bunch
+    yields: Spring Onion Rings
+    instructions: Cut spring onions into rings.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Chicken Breast
+        amount: 500
+        unit: g
+    yields:
+      - Fried Chicken
+      - Cooking Oil
+    instructions: >-
+      Clean chicken and season with salt and pepper. Heat oil in a dutch oven and brown the chicken on all sides at high
+      heat (chicken does not need to be cooked through). Take out of dutch oven and set to cool.
+
+  - internal_ingredients:
+      - Sausage Slices
+      - Diced Onion
+      - Diced Bell Pepper
+      - Diced Celery
+      - Pressed Garlic
+      - Cooking Oil
+    yields: Fried Vegetables
+    instructions: >-
+      In the same oil, fry the sausage for a couple of minutes. Then add the vegetables and fry for another 5 to 10
+      minutes until the vegetables start to take color.
+
+  - internal_ingredients:
+      - Fried Chicken
+    yields: Diced Chicken
+    instructions: Cut chicken into 1-2 cm sized pieces.
+
+  - ingredients:
+      - ingredient: Tomato Paste
+      - ingredient: Hot Sauce
+      - ingredient: Thyme
+      - ingredient: Oregano
+      - ingredient: Cayenne Pepper
+      - ingredient: Garlic Powder
+      - ingredient: Pepper
+      - ingredient: Bay Leaf
+      - ingredient: Diced Tomatoes
+        amount: 800
+        unit: g
+      - ingredient: Chicken Broth
+        amount: 500
+        unit: ml
+    internal_ingredients:
+      - Fried Vegetables
+      - Diced Chicken
+    yields: Jambalaya Sauce
+    instructions: >-
+      Season with tomato paste, hot sauce and spices to taste. Then add tomatoes, chicken broth and the chicken. Season
+      again with salt and spices. Bring to a simmer.
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Rice
+        amount: 370
+        unit: g
+    internal_ingredients:
+      - Jambalaya Sauce
+    yields: Jambalaya
+    instructions: >-
+      Preheat oven to 180°C top/down heat, 160°C convection. Mix rice with the sauce and briefly bring to a boil. Cover
+      with a lid and bake for 40 minutes.
+
+  - ingredients:
+      - ingredient: Shrimp
+        amount: 350
+        unit: g
+    internal_ingredients:
+      - Spring Onion Rings
+      - Jambalaya
+    instructions: >-
+      Mix spring onions and shrimp with the jambalaya and cook for another 5 minutes in the oven.

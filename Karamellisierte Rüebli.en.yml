@@ -1,0 +1,33 @@
+---
+name: Caramelized Carrots
+serves: 4
+tags: side, vegetables
+descr: Gently caramelized, sweated carrots as a side dish.
+
+prep:
+  - ingredients:
+      - ingredient: Carrots (large)
+        amount: 8
+    yields: Carrot Sticks
+    instructions: >-
+      Peel carrots and cut them into 5-6 cm long pieces. Cut each of those pieces lengthwise into sixths or eigths.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 50
+        unit: g
+      - ingredient: Sugar
+        amount: 2
+        unit: TL
+      - ingredient: Chicken Broth Powder
+        amount: 1
+        unit: TL
+      - ingredient: Parsley
+    internal_ingredients:
+      - Carrot Sticks
+    instructions: >-
+      Melt butter in a pot. Add sugar and briefly caramellize. Then add the carrots and stir a lot. Sweat them at
+      high heat and add the chicken broth powder while stirring constantly. When water forms at the bottom of the pot,
+      reduce heat to medium high. Cover and let simmer until carrots are al dente. Uncover and boil away remaining
+      liquid add high heat. Season with salt and parsley.

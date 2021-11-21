@@ -1,0 +1,88 @@
+---
+name: Knusperoliven
+serves: 100
+servings_unit: Kekse
+servings_increment: 20
+tags: snacks, hors d'oeuvre, oliven, herzhaft
+descr: Herzhafte, knusprige Olivenbällchen. Ideal für Parties oder Aperitif.
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+        amount: 250
+        unit: g
+    yields: Gefrorene Butter
+    instructions: Butter einfrieren.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Schwarze Oliven
+        amount: 1
+        unit: Glas
+      - ingredient: Grüne Oliven
+        amount: 1
+        unit: Glas
+    yields: Gehackte Oliven
+    instructions: Oliven fein hacken.
+
+cooking:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 250
+        unit: g
+      - ingredient: Gemahlene Mandeln
+        amount: 50
+        unit: g
+      - ingredient: Parmesan
+        amount: 300
+        unit: g
+      - ingredient: Paprika
+        amount: 1
+        unit: EL
+      - ingredient: Ras el Hanout
+        amount: 1
+        unit: EL
+      - ingredient: Salz
+        amount: 0.5
+        unit: TL
+    yields: Trockene Zutaten
+    instructions: Alles in einer Schüssel verrühren.
+
+  - internal_ingredients:
+      - Gefrorene Butter
+      - Gehackte Oliven
+      - Trockene Zutaten
+    yields: Olivenmischung
+    instructions: >-
+      Die tiefgefrorene Butter in die Schüssel reiben und mit dem Handmixer verrühren bis ein krümeliger Teig entsteht.
+      Oliven unterrühren.
+
+  - ingredients:
+      - ingredient: Ei
+        amount: 1
+      - ingredient: Weißwein
+        amount: 1
+        unit: EL
+    internal_ingredients:
+      - Olivenmischung
+    yields: Teig
+    instructions: >-
+      Ei und Weißwein mit einander verrühren. Zu der Olivenmischung geben und alles zu einem glatten Teig
+      verarbeiten
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    yields: Kalter Teig
+    instructions: Den Teig für 30 Miuten im Kühlschrank kühlen.
+
+cooking2:
+  - internal_ingredients:
+      - Kalter Teig
+    yields: Olivenbällchen
+    instructions: Teig in etwa 1 cm große Bällchen formen. Auf ein mit Backpapier ausgelegtes Bleck legen.
+
+passive_cooking2:
+  - internal_ingredients:
+      - Olivenbällchen
+    instructions: Für 20 Minuten bei 200°C Ober/Unterhitze, 180°C Umluft backen.

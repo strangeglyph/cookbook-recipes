@@ -1,0 +1,88 @@
+---
+name: Fruchtknusperli
+serves: 60
+servings_unit: cookies
+servings_increment: 20
+tags: cookies, fruit
+descr: Chewy and crunchy cookies with dried fruits.
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+        amount: 200
+        unit: g
+    yields: Softened Butter
+    instructions: Set butter out to soften.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Walnuts
+        amount: 80
+        unit: g
+    yields: Chopped Walnuts
+    instructions: Chop walnuts.
+
+  - ingredients:
+      - ingredient: Dried Apricots
+        amount: 100
+        unit: g
+    yields: Chopped Apricots
+    instructions: Chop apricots.
+
+cooking:
+  - ingredients:
+      - ingredient: Sugar
+        amount: 240
+        unit: g
+      - ingredient: Eggs
+        amount: 2
+      - ingredient: Vanilla sugar
+        amount: 1
+        unit: package
+      - ingredient: Salt
+    internal_ingredients:
+      - Softened Butter
+    yields: Batter
+    instructions: Whisk everything together in a bowl until it becomes foamy.
+
+  - ingredients:
+      - ingredient: Coconut Flakes
+        amount: 80
+        unit: g
+      - ingredient: Raisins
+        amount: 100
+        unit: g
+      - ingredient: Flour
+        amount: 200
+        unit: g
+      - ingredient: Baking powder
+        amount: 1
+        unit: tsp
+    internal_ingredients:
+      - Chopped walnuts
+      - Chopped apricots
+      - Batter
+    yields: Batter with fruit
+    instructions: Mix in the fruits and nuts as well as the flour and baking powder.
+
+  - ingredients:
+      - ingredient: Cornflakes
+        amount: 150
+        unit: g
+    internal_ingredients:
+      - Batter with fruit
+    yields: Batter with cornflakes
+    instructions: Stir in cornflakes (with a spoon to prevent them from breaking up too much).
+
+  - internal_ingredients:
+      - Batter with cornflakes
+    yields: Formed cookies
+    instructions: >-
+      With two spoons, put small mounds of batter on a parchment-lined baking tray. The batches should be roughly
+      2 cm in diameter, maybe a bit smaller. The cookies spread as they are baked, make sure to leave a decent gap
+      between the mounds.
+
+passive_cooking:
+  - internal_ingredients:
+      - Formed cookies
+    instructions: Bake for 9-12 minutes at 200°C top/down heat, 180°C convection until they turn golden-brown.

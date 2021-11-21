@@ -1,0 +1,84 @@
+---
+name: Pumpkin Cake
+serves: 1
+tags: cake, pumpkin
+descr: Pumpkin cake. No, not the american variant. This one is not overly sweet and contains large amounts of grated pumpkin.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Lemon (edible zest)
+        amount: 1
+    yields:
+      - Lemon Juice (Half)
+      - Lemon Juice (Other Half)
+      - Lemon Zest
+    instructions: Zest and juice the lemon.
+
+  - ingredients:
+      - ingredient: Pumpkin
+        amount: 600
+        unit: g
+    yields: Grated Pumpkin
+    instructions: Peel pumpkin. Remove seeds. Then cut the pumpkin into slices and grate on a medium-sized grater.
+
+cooking:
+  - ingredients:
+      - ingredient: Sugar
+        amount: 200
+        unit: g
+      - ingredient: Eggs
+        amount: 4
+    yields: Sugar Egg Mix
+    instructions: Whisk sugar and eggs until well combined and light in colour.
+
+  - ingredients:
+      - ingredient: Cinnamon
+        amount: 1
+        unit: tsp
+      - ingredient: Ground Almonds
+        amount: 120
+        unit: g
+      - ingredient: Flour
+        amount: 100
+        unit: g
+      - ingredient: Baking Powder
+        amount: 1
+        unit: tsp
+    internal_ingredients:
+      - Lemon Zest
+      - Lemon Juice (Half)
+      - Grated Pumpkin
+      - Sugar Egg Mix
+    yields: Batter
+    instructions: Combine everything.
+
+passive_cooking:
+  - internal_ingredients:
+      - Batter
+    yields: Cake
+    instructions: >-
+      Line a spring form with parchment paper. Brush the sides with butter and dust with flour. Fill in the batter and
+      bake for 55 minutes at the lowest level of the oven at 180°C top/bottom heat. Let cool.
+
+cooking2:
+  - ingredients:
+      - ingredient: Powdered Sugar
+        amount: 150
+        unit: g
+      - ingredient: Kirsch
+        amount: 3
+        unit: tsp
+      - ingredient: Water
+        amount: 1
+        unit: tbsp
+    internal_ingredients:
+      - Lemon Juice (Other Half)
+    yields: Glazing
+    instructions: >-
+      Mix powdered sugar with Kirsch, water, and 2 tsp of the lemon juice. The result should be a very
+      thick glazing. Adjust sugar or liquid as necessary.
+
+  - internal_ingredients:
+      - Cake
+      - Glazing
+    instructions: Spread a thin layer of glazing on the cake. The cake must not be too hot or the glazing will run off.

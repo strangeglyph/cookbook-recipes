@@ -1,0 +1,88 @@
+---
+name: Fruchtknusperli
+serves: 60
+servings_unit: Kekse
+servings_increment: 20
+tags: kekse, fruchtig
+descr: Knusprig-weiche Kekse mit Dörrobst.
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+        amount: 200
+        unit: g
+    yields: Weiche Butter
+    instructions: Butter zum weich werden aus dem Kühlschrank holen.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Walnüsse
+        amount: 80
+        unit: g
+    yields: Gehackte Walnüsse
+    instructions: Walnüsse hacken.
+
+  - ingredients:
+      - ingredient: Dörraprikosen
+        amount: 100
+        unit: g
+    yields: Gehackte Aprikosen
+    instructions: Aprikosen hacken.
+
+cooking:
+  - ingredients:
+      - ingredient: Zucker
+        amount: 240
+        unit: g
+      - ingredient: Eier
+        amount: 2
+      - ingredient: Vanillezucker
+        amount: 1
+        unit: Päckchen
+      - ingredient: Salz
+    internal_ingredients:
+      - Weiche Butter
+    yields: Teig
+    instructions: Alles in einer Schüssel verrühren bis es schaumig wird.
+
+  - ingredients:
+      - ingredient: Kokosflocken
+        amount: 80
+        unit: g
+      - ingredient: Rosinen
+        amount: 100
+        unit: g
+      - ingredient: Mehl
+        amount: 200
+        unit: g
+      - ingredient: Backpulver
+        amount: 1
+        unit: tsp
+    internal_ingredients:
+      - Gehackte Walnüsse
+      - Gehackte Aprikosen
+      - Teig
+    yields: Teig mit Früchten
+    instructions: Die Früchte, Nüsse und das Mehl und Backpulver in den Teig mischen.
+
+  - ingredients:
+      - ingredient: Cornflakes
+        amount: 150
+        unit: g
+    internal_ingredients:
+      - Teig mit Früchten
+    yields: Teig mit Cornflakes
+    instructions: Cornflakes unterrühren (am besten mit einem Löffel, damit die Cornflakes nicht zu sehr zerbrechen).
+
+  - internal_ingredients:
+      - Teig mit Früchten
+    yields: Kekse
+    instructions: >-
+      Mit zwei Löffeln kleine Häufchen Teig auf ein mit Backpapier ausgelegtes Backblech legen. Die Häufchen sollten
+      einen Durchmesser von etwa zwei Zentimeter haben, eventuell etwas kleiner. Die Kekse verlaufen während des
+      Backens, also genug Platz zwischen den Häufchen lassen.
+
+passive_cooking:
+  - internal_ingredients:
+      - Kekse
+    instructions: Die Kekse für 9-12 Minuten bei 200°C Ober/Unterhitze, 180°C Umluft backen bis sie goldenbraun werden.

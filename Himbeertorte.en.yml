@@ -1,0 +1,143 @@
+---
+name: Raspberry Cake
+serves: 1
+tags: cake, fruit
+descr: Rasperry cream cake with dark chocolate.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Eggs
+        amount: 6
+    yields:
+      - Egg whites
+      - Egg yolks
+    instructions: Separate eggs.
+
+  - ingredients:
+      - ingredient: Raspberries
+        amount: 400
+        unit: g
+    yields:
+      - Raspberry purée (dough)
+      - Raspberry purée (filling)
+    instructions: Purée the raspberries and press them through a fine mesh sieve. Separate into two equal-sized portions.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Dark Chocolate
+        amount: 200
+        unit: g
+    yields: Molten chocolate (dough)
+    instructions: Melt chocolate in a water bath.
+
+  - ingredients:
+      - ingredient: Sugar
+        amount: 80
+        unit: g
+    internal_ingredients:
+      - Egg whites
+    yields: Beaten egg whites
+    instructions: Beat egg whites until stiff while adding the sugar and a dash of salt.
+
+  - ingredients:
+      - ingredient: Butter
+        amount: 180
+        unit: g
+      - ingredient: Sugar
+        amount: 80
+        unit: g
+      - ingredient: Flour
+        amount: 180
+        unit: g
+    internal_ingredients:
+      - Egg yolks
+      - Molten chocolate (dough)
+      - Raspberry purée (dough)
+      - Beaten egg whites
+    yields: Batter
+    instructions: >-
+      Whisk butter and sugar until foamy. Slowly add egg yolks, chocolate and raspberries. At the end, stir in the flour.
+      Gently fold in the beaten egg whites.
+
+passive_cooking:
+  - internal_ingredients:
+      - Batter
+    yields: Cake
+    instructions: >-
+      Line a spring form with parchment paper. Brush the bottom and the sides with butter. Fill in the batter and bake
+      the cake at 180°C top/bottom heat, 160°C convection for about 45 minutes. Let cool and remove from the form. Remove
+      parchment paper.
+
+cooking2:
+  - ingredients:
+      - ingredient: Dark chocolate
+        amount: 200
+        unit: g
+    yields: Molten Chocolate (Filling)
+    instructions: Melt chocolate in a water bath.
+
+  - ingredients:
+      - ingredient: Whipping Cream
+        amount: 300
+        unit: g
+      - ingredient: Sugar
+        amount: 50
+        unit: g
+    yields: Whipped Cream
+    instructions: Whip cream with sugar until stiff.
+
+  - ingredients:
+      - ingredient: Rum
+        amount: 4
+        unit: tbsp
+    internal_ingredients:
+      - Raspberry Purée (Filling)
+      - Molten Chocolate (Filling)
+      - Whipped Cream
+      - Cake
+    yields: Cake with filling
+    instructions: >-
+      Mix raspberry purée with rum and chocolate. Gently fold in the whipped cream. Cut cake in half horizontally.
+      Spread filling on the bottom half, then set the other half on top. Refrigerate for one hour.
+
+  - ingredients:
+      - ingredient: Sugar
+        amount: 85
+        unit: g
+      - ingredient: Water
+        amount: 70
+        unit: ml
+      - ingredient: Crème Double
+        amount: 75
+        unit: g
+    yields: Syrup
+    instructions: Boil sugar and crème double with water. Let cool.
+
+  - ingredients:
+      - ingredient: Cream
+        amount: 130
+        unit: ml
+      - ingredient: Butter
+        amount: 20
+        unit: g
+      - ingredient: Dark couverture chocolate
+        amount: 150
+        unit: g
+    yields: Chocolate cream
+    instructions: >-
+      Briefly boil the cream and butter. Mix in the couverture chocolate and let melt. Stir the entire time, otherwise
+      the chocolate clots.
+
+  - internal_ingredients:
+      - Chocolate cream
+      - Syrup
+    yields: Glazing
+    instructions: Mix syrup and cream. Let cool for one hour, until the mixture becomes a thick liquid.
+
+  - internal_ingredients:
+      - Cake with filling
+      - Glazing
+    instructions: >-
+      Stir glazing once more and then spread it over the cake and along the sides. Potentially just spread a part of
+      the glazing at first and let it cool and harden before spreading the rest. Refrigerate for another hour.

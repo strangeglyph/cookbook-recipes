@@ -1,0 +1,115 @@
+--- 
+name: Filled Foccacia with Cheese
+serves: 5
+tags: vegetarian, main
+descr: >-
+    Foccacia (or is it a calzone?) filled with spinach, feta and mushrooms
+
+prep: 
+  - ingredients:
+      - ingredient: Frozen Spinach
+        amount: 900
+        unit: g
+    yields: Thawed Spinach
+    instructions: >-
+      Thaw spinach. E.g. in a pot, cover spinach with water and bring it to a boil until the spinach is thawed.
+
+  - ingredients:
+      - ingredient: Flour
+        amount: 450
+        unit: g
+      - ingredient: Salt
+        amount: 1
+        unit: tsp
+      - ingredient: Oil
+        amount: 3
+        unit: Tbsp
+      - ingredient: Luke-Warm Water
+        amount: 200
+        unit: ml
+      - ingredient: Fresh Yeast
+        amount: 20
+        unit: g
+    yields: Dough
+    instructions: >-
+      Dissolve yeast in water, then mix all ingredients and work into a smooth dough. Cover and let rise for at least
+      one hour.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Onions
+        amount: 2
+    yields:
+      - Half the Onions
+      - Other Half of the Onions
+    instructions: >-
+      Dice two onions.
+
+  - ingredients:
+      - ingredient: Champignons
+        amount: 400
+        unit: g
+    yields: Diced Mushrooms
+    instructions: >-
+      Clean mushrooms. Cut small mushrooms into quarters, larger mushrooms into sixths.
+
+  - ingredients:
+      - ingredient: Feta
+        amount: 300
+        unit: g
+    yields: Diced Feta
+    instructions: >-
+      Cut feta into 1cm cubes.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+      - ingredient: Garlic
+        amount: 4
+        unit: cloves
+      - ingredient: Salt
+      - ingredient: Pepper
+      - ingredient: Nutmeg
+    internal_ingredients:
+      - Thawed Spinach
+      - Half the Onions
+    yields: Spiced Spinach
+    instructions: >-
+      Melt a bit of butter in a pan. Crush the garlic and add it to the pan with half the onions. Sauté until
+      translucent. Add the thawed spinach. Season with salt, pepper and nutmeg, then remove from heat.
+
+  - ingredients:
+      - ingredient: Butter
+      - ingredient: White Wine
+      - ingredient: Lemon Juice
+    internal_ingredients:
+      - Diced Mushrooms
+      - Other Half of the Onions
+    yields: Cooked Mushrooms
+    instructions: >-
+      Melt a bit of butter in a pan. Add the other half of the onions. Sauté until translucent. Add mushrooms and
+      briefly continue cooking. Add a bit of white wine and a dash of lemon juice. Season with salt and pepper and
+      reduce.
+
+  - internal_ingredients:
+      - Dough
+      - Spiced Spinach
+      - Cooked Mushrooms
+      - Diced Feta
+    ingredients:
+      - ingredient: Basil (chopped)
+        amount: 1
+        unit: bunch
+      - ingredient: Coarse Salt
+      - ingredient: Olive Oil
+    yields: Raw Foccacia
+    instructions: >-
+      Roll out dough to twice the size of a baking tray. Spread spinach on bottom half, then champignons, then feta
+      and finally the basil. Fold empty half of dough over and seal. Punch holes into the top with a fork. Spread olive
+      oil on top and season with coarse salt. Transfer to lined baking tray and let rest for 30 minutes.
+
+passive_cooking:
+  - internal_ingredients:
+      - Raw Focaccia
+    instructions: >-
+      Pre-heat oven to 220°C convection. Bake foccacia for 12-15 minutes.

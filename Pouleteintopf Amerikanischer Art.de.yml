@@ -1,0 +1,87 @@
+---
+name: Pouleteintopf Amerikanischer Art
+serves: 5
+tags: hühnchen, hauptspeise
+descr: Pouletgratin mit Mais und Champignons.
+
+prep:
+  - ingredients:
+      - ingredient: Hühnerbrustfilet
+        amount: 1000
+        unit: g
+      - ingredient: Sojasauce
+      - ingredient: Salz
+      - ingredient: Pfeffer
+    yields: Mariniertes Hühnchen
+    instructions: Hühnchen putzen und mit Sojasauce, Salz und Pfeffer mindestens eine Stunde marinieren.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Champignons
+        amount: 500
+        unit: g
+    yields: Champignonwürfel
+    instructions: Champignons putzen und vierteln.
+
+  - ingredients:
+      - ingredient: Mais
+        amount: 2
+        unit: Dosen
+    yields: Abgetropften Mais
+    instructions: Mais abtropfen lassen.
+
+cooking:
+  - internal_ingredients:
+      - Champignonwürfel
+    ingredients:
+      - ingredient: Butter
+      - ingredient: Weißwein
+      - ingredient: Worcestershiresauce
+      - ingredient: Salz
+      - ingredient: Pfeffer
+    yields: Angebratene Pilze
+    instructions: >-
+      Champignons mit Butter, etwas Weißwein, Salz und Pfeffer anbraten, bis sie ihr Wasser ausgeschwitzt haben.
+
+  - internal_ingredients:
+      - Mariniertes Hühnchen
+    ingredients:
+      - Butter
+    yields: Angebratenes Hühnchen
+    instructions: Hühnchen mit etwas Butter anbraten. Nur von außen bräunen, sollte innen noch rosa sein.
+
+  - ingredients:
+      - ingredient: Wasser
+        amount: 100
+        unit: ml
+      - ingredient: Weißwein
+        amount: 100
+        unit: ml
+      - ingredient: Bratensaftkonzentrat
+        amount: 1.5
+        unit: Würfel
+      - ingredient: Crème fraîche
+        amount: 300
+        unit: g
+      - ingredient: Schlagsahne
+        amount: 100
+        unit: ml
+      - ingredient: Portwein
+      - ingredient: Majoran
+    yields: Sauce
+    instructions: >-
+      Wasser und Weißwein erhitzen. Das Bratensaftkonzentrat darin auflösen. Danach den Crème fraîche und
+      die Sahne dazugeben, ebenfalls auflösen. Zum Schluss einen Schuss Portwein und etwas Majoran dazugeben
+      und alles einkochen lassen.
+
+passive_cooking:
+  - internal_ingedients:
+      - Abgetropfter Mais
+      - Angebratenes Hühnchen
+      - Angebratene Pilze
+      - Sauce
+    ingredients:
+      - Baguette oder Reis
+    instructions: >-
+      Mais in einer Gratinform verteilen. Hühnchen und Pilze auf dem Mais verteilen und mit Sauce übergießen.
+      50 Minuten bei 200° Umluft backen. Mit Baguette oder Reis servieren.

@@ -1,0 +1,72 @@
+---
+name: Rucolasalat mit Mango
+serves: 3
+tags: salat, hauptspeise, vegetarisch, sommerlich
+descr: Sommerlicher Rucolasalat mit Mango, Mozarella und Pinienkernen
+
+prep:
+  - ingredients:
+      - ingredient: Pinienkerne
+        amount: 60
+        unit: g
+    yields: Geröstete Pinienkerne
+    instructions: Pinienkerne rösten.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Mango
+        amount: 1
+    yields: Mangowürfel
+    instructions: Mango schälen und würfeln.
+
+  - ingredients:
+      - ingredient: Mozzarella
+        amount: 250
+        unit: g
+    yields: Mozzarellawürfel
+    instructions: Mozzarella würfeln.
+
+  - ingredients:
+      - ingredient: Avocado
+        amount: 1
+      - ingredient: Zitronensaft
+    yields: Avocadowürfel
+    instructions: Avocado würfeln und mit etwas Zitronensaft beträufeln.
+
+  - ingredients:
+      - ingredient: Rucola
+        amount: 250
+        unit: g
+    yields: Rucolablätter
+    instructions: Rucolablätter waschen und etwas verkleinern.
+
+  - ingredients:
+      - ingredient: Orangensaft
+        amount: 100
+        unit: ml
+      - ingredient: Honig
+        amount: 1
+        unit: EL
+      - ingredient: Olivenöl
+        amount: 3
+        unit: EL
+      - ingredient: Salz
+      - ingredient: Pfeffer
+      - ingredient: Chiliflocken
+    yields: Dressing
+    instructions: >-
+      Orangensaft auf die Hälfte einkochen. Mit Honig, Salz, Pfeffer und Chili abschmecken und mit Olivenöl mischen.
+
+cooking:
+  - internal_ingredients:
+      - Mangowürfel
+      - Avocadowürfel
+      - Mozzarellawürfel
+      - Rucolablätter
+      - Dressing
+      - Pinienkerne
+    ingredients:
+      - ingredient: Baguette
+    instructions: >-
+      Alle Zutaten bis auf die Pinienkerne vorsichtig mischen, dann die Pinienkerne über dem Salat verteilen.
+      Dazu passt Baguette

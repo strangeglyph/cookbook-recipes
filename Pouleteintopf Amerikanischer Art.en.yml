@@ -1,0 +1,86 @@
+---
+name: American-Style Chicken Gratin
+serves: 5
+tags: chicken, main
+descr: Chicken gratin with corn and mushrooms.
+
+prep:
+  - ingredients:
+      - ingredient: Chicken Breast
+        amount: 1000
+        unit: g
+      - ingredient: Soy Sauce
+      - ingredient: Salt
+      - ingredient: Pepper
+    yields: Marinated Chicken
+    instructions: Clean chicken and marinate with soy sauce, salt and pepper for at least one hour.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Mushrooms
+        amount: 500
+        unit: g
+    yields: Diced Mushrooms
+    instructions: Clean and dice mushrooms.
+
+  - ingredients:
+      - ingredient: Corn
+        amount: 2
+        unit: cans
+    yields: Drained Corn
+    instructions: Drain corn.
+
+cooking:
+  - internal_ingredients:
+      - Diced Mushrooms
+    ingredients:
+      - ingredient: Butter
+      - ingredient: White Wine
+      - ingredient: Worcestershiresauce
+      - ingredient: Salt
+      - ingredient: Pepper
+    yields: Fried Mushrooms
+    instructions: >-
+      Fry mushrooms with butter, a dash of white wine, salt, and pepper until they have lost their water.
+
+  - internal_ingredients:
+      - Marinated Chicken
+    ingredients:
+      - Butter
+    yields: Fried Chicken
+    instructions: Fry chicken with a bit of butter. Should be brown on the outside, but still pink in the inside.
+
+  - ingredients:
+      - ingredient: Water
+        amount: 100
+        unit: ml
+      - ingredient: White Wine
+        amount: 100
+        unit: ml
+      - ingredient: Gravy Concentrate
+        amount: 1.5
+        unit: cubes
+      - ingredient: Crème fraîche
+        amount: 300
+        unit: g
+      - ingredient: Cream
+        amount: 100
+        unit: ml
+      - ingredient: Port
+      - ingredient: Marjoram
+    yields: Sauce
+    instructions: >-
+      Heat water and white wine. Dissolve the gravy concentrate. Then add crème fraîche and cream and dissolve too.
+      Add a dash of port and a bit of marjoram and reduce.
+
+passive_cooking:
+  - internal_ingedients:
+      - Drained Corn
+      - Fried Chicken
+      - Fried Mushrooms
+      - Sauce
+    ingredients:
+      - Baguette or Rice
+    instructions: >-
+      Spread corn in a casserole dish. Layer chicken and mushrooms on top. Bake 50 minutes at 200° (convection).
+      Serve with baguette or rice.

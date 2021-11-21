@@ -1,0 +1,50 @@
+---
+name: Green Chili Chutney
+serves: 80
+servings_unit: ml
+servings_increment: 20
+tags: vegetarian, vegan, chutney, condiment
+descr: >-
+  A fairly spicy and very garlicy chutney.
+  Shyamol, a bangladeshi friend of mine, gave me this recipe and says he's addicted to eating it with flatbread.
+  Lasts a week in the fridge.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Green Chilies
+        amount: 250
+        unit: g
+    yields: Chopped Chilies
+    instructions: Slice chilis into thin strips
+
+  - ingredients:
+      - ingredient: Garlic
+        amount: 10
+        unit: cloves
+    yields: Chopped Garlic
+    instructions: Peel and coarsely chop garlic.
+
+  - ingredients:
+      - ingredient: Pickled Green Mangoes
+    yields: Mashed Mangoes
+    instructions: Mash mango pickles.
+
+  - ingredients:
+      - ingredient: Red Onions
+        amount: 2
+    yields: Diced Onions
+    instructions: Finely dice onions.
+
+cooking:
+  - ingredients:
+      - ingredient: Neutral Oil
+    internal_ingredients:
+      - Sliced Chilies
+      - Chopped Garlic
+      - Diced Onions
+      - Mashed Mangoes
+    yields: Blended Chilis
+    instructions: >-
+      In a blender, blend chopped chilies and garlic with salt and a bit of oil until it becomes a homogeneous paste.
+      Mix with onions and mashed mangoes. Thin with oil if necessary, the result should be a thin paste, almost a sauce.
+      Let rest for one hour before using or refrigerating.

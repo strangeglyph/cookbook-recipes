@@ -1,0 +1,125 @@
+---
+name: Chicken Kothu Roti
+serves: 3
+tags: chicken, main, sri lanka
+descr: Sri Lankan comfort food with roti
+
+prep:
+  - ingredients:
+      - ingredient: Garlic
+        amount: 2
+        unit: cloves
+    yields: Marinade Garlic
+    instructions: Peel and mince garlic.
+  
+  - ingredients:
+      - ingredient: Ginger
+        amount: 50
+        unit: g
+    yields: Marinade Ginger
+    instructions: Peel and finely dice ginger.
+
+  - ingredients:
+      - ingredient: Chicken Breast
+        amount: 500
+        unit: g
+    yields: Diced Chicken
+    instructions: Cut chicken into 2cm cubes.
+    
+  - internal_ingredients:
+      - Marinade Garlic
+      - Marinade Ginger
+      - Diced Chicken
+    ingredients:
+      - ingredient: Sesame Oil
+      - ingredient: Curry Powder
+    yields: Marinated Chicken
+    instructions: >-
+      Mix garlic, ginger and curry powder with sesame oil until it becomes a thick paste. 
+      Marinate chicken cubes in fridge for at least an hour.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Onion
+        amount: 1
+    yields: Onion Strips
+    instructions: Cut onion into strips.
+  
+  - ingredients:
+      - ingredient: Thai Chilis
+        amount: 2
+    yields: Cut Chili
+    instructions: Cut chilis in half. Depending on your desired spicyness, discard seeds. Cut chilis into fine strips.
+
+  - ingredients:
+      - ingredient: Garlic
+        amount: 2
+        unit: cloves
+    yields: Peeled Garlic
+    instructions: Peel and mince garlic.
+    
+  - ingredients:
+      - ingredient: Eggs
+        amount: 3
+    yields: Beaten Egg
+    instructions: Beat eggs. This make take some time, around a minute. The egg should be slightly foamy and fairly liquid.
+
+  - ingredients:
+      - ingredient: Roti
+        amount: 5
+    yields: Roti Strips
+    instructions: Cut roti into three roughly equal sized parts, then turn 90 degrees and cut into 1cm wide strips.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Oil
+      - ingredient: A Handful Curry Leaves
+    internal_ingredients:
+      - Cut Chili
+      - Peeled Garlic
+      - Onion Strips
+    yields: Fried Onion
+    instructions: Heat oil in pan. Add chili, curry leaves, minced garlic and onion. Sauté until onion becomes translucent.
+  
+  - ingredients:
+      - ingredient: Salt
+      - ingredient: Cumin Powder
+        amount: 1
+        unit: tsp
+      - ingredient: Coriander Powder
+        amount: 1
+        unit: tsp
+    internal_ingredients:
+      - Fried Onion
+      - Marinated Chicken
+    yields: Spiced Chicken
+    instructions: Add chicken to pan. Season with salt, cumin and coriander. Fry until cooked.
+
+  - internal_ingredients:
+      - Spiced Chicken
+      - Beaten Egg
+    yields: Egged Chicken
+    instructions: >-
+      Move chicken and vegetables to one side of pan. Pour beaten eggs into other half. 
+      Gently stir egg until it starts to curdle, then mix with the rest of the pan contents.
+  
+  - internal_ingredients:
+      - Egged Chicken
+      - Roti Strips
+    ingredients:
+      - ingredient: Chili Powder
+        amount: 0.25
+        unit: tsp
+      - ingredient: Salt
+    yields: Kothu Roti Dry
+    instructions: Add roti to pan. Season with chili powder and salt.
+
+  - internal_ingredients:
+      - Kothu Roti Dry
+    ingredients:
+      - ingredient: Water
+      - ingredient: Lime
+        amount: 0.5
+    instructions: Add lime juice and stir. If the Kothu Roti is still dry, sprinkle with a bit of water.
+

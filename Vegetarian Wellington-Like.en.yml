@@ -1,0 +1,175 @@
+--- 
+name: Vegetarian Wellington-Like
+serves: 6
+tags: vegetarian, fancy, main
+descr: >-
+    Pastry roll filled with mushroom duxelle, mozzarella and spinach
+
+prep: 
+  - ingredients:
+      - ingredient: Spinach
+        amount: 750
+        unit: g
+    yields: Cooked Spinach
+    instructions: >-
+      Clean spinach and let fall together at low heat. Then drain of liquid well.
+
+mis_en_place: 
+  - ingredients:
+      - ingredient: Lemons (edible zest)
+        amount: 2
+    yields:
+      - Lemon Juice
+      - Lemon Zest
+    instructions: >-
+      Zest the lemons, then juice half of them.
+
+  - ingredients:
+      - ingredient: Cherry Tomatoes
+        amount: 250
+        unit: g
+    yields: Quartered Cherry Tomatoes
+    instructions: >-
+      Quarter cherry tomatoes.
+  
+  - ingredients:
+      - ingredient: Chestnuts (boiled)
+        amount: 250
+        unit: g
+    yields: Chopped Chestnuts
+    instructions: >-
+      Chop chestnuts coarsely.
+
+  - ingredients:
+      - ingredient: Spring Onions
+        amount: 1
+        unit: bunch
+    yields: Spring Onion Rings
+    instructions: >-
+      Peel spring onions and cut into rings.
+  
+  - internal_ingredients:
+      - Quartered Cherry Tomatoes
+      - Chopped Chestnuts
+      - Spring Onion Rings
+    ingredients:
+      - ingredient: Salt
+    yields: Tomato-Chestnut-Mix
+    instructions: >-
+      Mix cherry tomatos, spring onions and chestnuts in a bowl. Season with salt.
+
+  - ingredients:
+      - ingredient: Eggs
+        amount: 4
+    yields:
+      - Egg Whites
+      - Egg Yolks
+    instructions: >-
+      Separate egg whites and egg yolks.
+
+  - ingredients:
+      - ingredient: Shallots
+        amount: 8
+    yields: Diced Shallots
+    instructions: >-
+      Chop shallots coarsely.
+  
+  - ingredients:
+      - ingredient: Mushrooms
+        amount: 500
+        unit: g
+    yields: Diced Mushrooms
+    instructions: >-
+      Chop mushrooms coarsely.
+
+  - ingredients:
+      - ingredient: Mozzarella (drained)
+        amount: 500
+        unit: g
+    yields: Mozarella Slices
+    instructions: >-
+      Cut mozarella into thin slices. With a sheet of paper towel, gently press down on mozzarella to remove excess
+      liquid.
+
+cooking: 
+  - ingredients:
+      - ingredient: Olive Oil
+    internal_ingredients:
+      - Diced Shallots
+      - Diced Mushrooms
+    yields: Sautéed Mushrooms
+    instructions: >-
+      Bring olive oil to medium-high heat in a pan. Sautée shallots and mushrooms until mushrooms have lost most of their water.
+  
+  - ingredients:
+      - ingredient: Port
+        amount: 250
+        unit: ml
+      - ingredient: Red Wine
+        amount: 250
+        unit: ml
+      - ingredient: Bay Leaves
+        amount: 6
+      - ingredient: Thyme
+        amount: 2
+        unit: tsp
+      - ingredient: Tarragon
+        amount: 4
+        unit: tsp
+      - ingredient: Pimento Seeds
+        amount: 20
+      - ingredient: Salt
+      - ingredient: Pepper
+    internal_ingredients:
+      - Sautéed Mushrooms
+      - Lemon Zest
+      - Lemon Juice
+    yields: Port Reduction
+    instructions: >-
+      Deglaze with port and red wine. Increase heat to high. Add spices, lemon zest and juice as well as salt and pepper to taste.
+      Reduce until the liquid is almost entirely evaporated.
+  
+  - internal_ingredients:
+      - Port Reduction
+      - Egg Whites
+    yields: Mushroom Paté
+    instructions: >-
+      Remove bay leaves and pimento seeds. In a blender, blend the mushroom mixture with the egg whites to a thick paste.
+  
+  - ingredients:
+      - ingredient: Salt
+      - ingredient: Pepper
+      - ingredient: Nutmeg
+    internal_ingredients:
+      - Cooked Spinach
+    yields: Spiced Spinach
+    instructions: >-
+      Season spinach with salt, pepper and nutmeg to taste.
+
+  - ingredients:
+      - ingredient: Puff Pastry
+        amount: 2
+        unit: sheets
+    internal_ingredients:
+      - Mozarella Slices
+      - Mushroom Paté
+      - Spiced Spinach
+      - Tomato-Chestnut-Mix
+    yields: Prepared Roll
+    instructions: >-
+      On a flat surface, unroll puff pastry. Cover with mozarella slices, leaving a strip free at the top. Cover mozarella with paté.
+      Cover paté with spinach. Cover spinach with tomato mixture.
+  
+  - internal_ingredients:
+      - Egg Yolks
+      - Prepared Roll
+    yields: Roll
+    instructions: >-
+      Whisk egg yolk. Coat free strip of puff pastry with egg yolk. Starting at the bottom of the puff pastry roll everything up.
+      Seal at the top by gently pressing the egg yolk strip into the roll beneath it. Coat the roll with the remaining egg yolk.
+
+passive_cooking:
+  - internal_ingredients:
+      - Roll
+    instructions: >-
+      Pre-heat oven to 160°C convection. Bake roll for 30-40 minutes until the crust starts to become a dark brown.

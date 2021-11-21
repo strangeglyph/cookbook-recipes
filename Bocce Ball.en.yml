@@ -1,0 +1,21 @@
+---
+name: Bocce Ball
+serves: 1
+tags: drink, cocktail, sweet
+descr: Orange juice cocktail with a dash of amaretto.
+
+cooking:
+  - ingredients:
+      - ingredient: Vodka
+        amount: 4
+        unit: cl
+      - ingredient: Amaretto
+        amount: 1
+        unit: cl
+      - ingredient: Tonic
+        amount: 2
+        unit: cl
+      - ingredient: Orange Juice
+        amount: 16
+        unit: cl
+    instructions: Add all ingredients to a glass with ice. Stir.

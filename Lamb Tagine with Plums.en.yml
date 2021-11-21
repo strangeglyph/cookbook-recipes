@@ -1,0 +1,117 @@
+name: Lamb Tagine with Plums
+serves: 4
+tags: lamb, main, fruit, moroccan
+descr: Moroccan lamb dish, in this version with dried plums.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Lamb
+        amount: 1
+        unit: kg
+    yields: Lamb Cubes
+    instructions: Clean lamb and cut into 1-2 cm sized cubes.
+
+  - ingredients:
+      - ingredient: Onions
+        amount: 2
+    yields: Diced Onions
+    instructions: Dice onions very finely.
+
+cooking:
+  - ingredients:
+      - ingredient: Garlic
+        amount: 4
+        unit: cloves
+      - ingredient: Salz
+        amount: 1
+        unit: tsp
+      - ingredient: Pfeffer
+        amount: 1
+        unit: tsp
+      - ingredient: Ingwerpulver
+        amount: 1
+        unit: tsp
+      - ingredient: Kurkuma
+        amount: 0.5
+        unit: tsp
+      - ingredient: Safran
+        amount: 0.5
+        unit: tsp
+    internal_ingredients:
+      - Lamb Cubes
+      - Dices Onions
+    yields: Lamb mix
+    instructions: Press garlic. Mix lamb with onions, garlic and spices.
+
+  - ingredients:
+      - ingredient: Olive oil
+        amount: 60
+        unit: ml
+      - ingredient: Butter
+        amount: 60
+        unit: g
+      - ingredient: Cinnamon
+        amount: 2
+        unit: sticks
+    internal_ingredients:
+      - Lamb mix
+    yields: Seared Lamb Cubes
+    instructions: >-
+      Heat olive oil and butter in a pan. Add lamb and cinnamon and sear. The lamb doesn't need to be cooked through
+      at this stage. It just needs to brown on the outside.
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Water
+        amount: 700
+        unit: ml
+    internal_ingredients:
+      - Seared Lamb Cubes
+    yields:
+      - Water, Set Aside
+      - Cooked Lamb
+      - Remaining Onion Mixture
+    instructions: >-
+      Fill pan with water. Cover and simmer at low heat for an hour. Take off 200 ml of Water and set aside. Continue
+      cooking meat for another 30 to 60 minutes, until tender. Potentially refill some water along the way to prevent
+      the meat from burning. Take out meat and set aside.
+
+cooking2:
+  - internal_ingredients:
+      - Remaining Onion Mixture
+    yields: Reduced Onion Mixture
+    instructions: Reduce the onions and water still in the pan until no water is left.
+
+  - ingredients:
+      - ingredient: Dried Plums
+        amount: 500
+        unit: g
+      - ingredient: Honey
+        amount: 3
+        unit: tbsp
+      - ingredient: Cinnamon
+        amount: 4
+        unit: tsp
+    internal_ingredients:
+      - Water, Set Aside
+    yields: Reduced Plums
+    instructions: Reduce dired plums with the set-aside water, honey and cinnamon to a syrup like consistency.
+
+  - ingredients:
+      - ingredient: Sesame
+        amount: 1
+        unit: tbsp
+      - ingredient: Chopped Almonds
+        amount: 1
+        unit: tbsp
+    yields: Roasted Sesame and Almonds
+    instructions: Roast in a pan.
+
+  - ingredients:
+      - ingredient: Flatbread
+    internal_ingredients:
+      - Cooked Lamb
+      - Reduced Onion Mixture
+      - Reduced Plums
+      - Roasted Sesame and Almonds
+    instructions: Mix lamb with onions and plums. Sprinkle with sesame and almonds and serve with flatbread.

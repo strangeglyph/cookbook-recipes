@@ -1,0 +1,54 @@
+---
+name: Mate-Likör
+serves: 1
+servings_unit: Liter
+tags: drink, likör
+descr: Süßer und kräutriger Mate-Tee-Likör
+
+prep:
+  - ingredients:
+      - ingredient: Ingwer
+        amount: 10
+        unit: g
+    yields: Ingwerscheiben
+    instructions: Ingwer schälen und in Scheiben schneiden.
+
+  - ingredients:
+      - ingredient: Kardamomkapseln
+        amount: 8
+    yields: Kardamomkapseln
+    instructions: Kardamomkapseln mit der flachen Seite eines Messers aufdrücken.
+
+cooking:
+  - ingredients:
+      - ingredient: Koriandersaat
+        amount: 15
+        unit: g
+      - ingredient: Erva Mate
+        amount: 15
+        unit: g
+      - ingredient: Zimt
+        amount: 1
+        unit: TL
+      - ingredient: Vodka
+        amount: 200
+        unit: ml
+    internal_ingredients:
+      - Ingwerscheiben
+      - Kardamomkapseln
+    yields: Durchgezogener Vodka
+    instructions: Alle Zutaten vermengen und mit Vodka übergießen. 10-14 Tage ziehen lassen.
+
+  - ingredients:
+      - ingredient: Vodka
+        amount: 500
+        unit: ml
+      - ingredient: Wasser
+        amount: 200
+        unit: ml
+      - ingredient: Zucker
+        amount: 180
+        unit: g
+    internal_ingredients:
+      - Durchgezogener Vodka
+    instructions: Durchgezogenen Vodka durch einen Teefilter gießen. Mit restlichem Vodka, Wasser und Zucker mischen.

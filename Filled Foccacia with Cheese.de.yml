@@ -1,0 +1,119 @@
+--- 
+name: Gefüllte Foccacia with Feta
+serves: 5
+tags: vegetarisch, hauptspeise
+descr: >-
+    Foccacia (oder Calzone?) gefüllt mit Spinat, Feta und Champignons
+
+prep: 
+  - ingredients:
+      - ingredient: Gefrorener Spinat
+        amount: 900
+        unit: g
+    yields: Aufgetauter Spinat
+    instructions: >-
+      Spinat auftauen. Z.B. in einem Topf den Spinat mit Wasser bedecken und aufkochen, bis der Spinat getaut ist.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 450
+        unit: g
+      - ingredient: Salz
+        amount: 1
+        unit: Tl
+      - ingredient: Öl
+        amount: 3
+        unit: El
+      - ingredient: Lauwarmes Wasser
+        amount: 200
+        unit: ml
+      - ingredient: Frische Hefe
+        amount: 20
+        unit: g
+    yields: Teig
+    instructions: >-
+      Hefe in Wasser auflösen. Dann alle Zutaten mischen und in einen glatten Teig verarbeiten. Abdecken und für
+      mindestens eine Stunde gehen lassen.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Zwiebeln
+        amount: 2
+    yields:
+      - Hälfte der Zwiebeln
+      - Andere Hälfte der Zwiebeln
+    instructions: >-
+      Zwei Zwiebeln würfeln.
+
+  - ingredients:
+      - ingredient: Champignons
+        amount: 400
+        unit: g
+    yields: Gewürfelte Pilze
+    instructions: >-
+      Champignons putzen. Kleine Pilze in Viertel, Größere in Sechstel schneiden.
+
+  - ingredients:
+      - ingredient: Feta
+        amount: 300
+        unit: g
+    yields: Gewürfelter Feta
+    instructions: >-
+      Feta in 1cm große Würfel schneiden.
+
+
+cooking:
+  - ingredients:
+      - ingredient: Knoblauch
+        amount: 4
+        unit: Zehen
+      - ingredient: Butter
+      - ingredient: Salz
+      - ingredient: Pfeffer
+      - ingredient: Muskatnuss
+    internal_ingredients:
+      - Aufgetauter Spinat
+      - Hälfte der Zwiebeln
+    yields: Gewürzter Spinat
+    instructions: >-
+      Butter in einer Pfanne zergehen lassen. Knoblauch pressen und mit der Hälfte der Zwiebeln in eine Pfanne geben und
+      glasig dünsten. Spinat dazugeben, mit Salz, Pfeffer und Muskatnuss würzen und dann vom Herd nehmen.
+
+  - ingredients:
+      - ingredient: Butter
+      - ingredient: Weißwein
+      - ingredient: Zitronensaft
+    internal_ingredients:
+      - Gewürfelte Pilze
+      - Andere Hälfte der Zwiebeln
+    yields: Gekochte Pilze
+    instructions: >-
+      Butter in einer Pfanne zergehen lassen. Die andere Hälfte der Zwiebeln dazugeben und glasig dünsten. Pilze
+      hinzufügen und kurz weiter kochen. Einen Schuss Weißwein und etwas Zitronensaft dazugießen. Mit Salz und Pfeffer
+      würzen und einkochen.
+
+  - internal_ingredients:
+      - Teig
+      - Gewürzter Spinat
+      - Gekochte Pilze
+      - Gewürfelter Feta
+    ingredients:
+      - ingredient: Basilikum (gehackt)
+        amount: 1
+        unit: Bund
+      - ingredient: Grobes Salz
+      - ingredient: Olivenöl
+    yields: Rohe Focaccia
+    instructions: >-
+      Den Teig auf etwa die doppelte Größe eines Backblechs ausrollen. Spinat auf der unteren Hälfte verteilen,
+      darüber die Champignons, darüber den Feta, darüber das Basilikum. Die obere Hälfte des Teiges nach unten falten
+      und alle Seiten gut verschließen. In die Oberseite mit einer Gabel ein paar Löcher machen. Foccacia mit Öl
+      bestreichen und mit grobem Salz bestreuen. Auf ein mit Backpapier ausgekleidetes Backblech legen und noch mal
+      für 30 Minuten gehen lassen.
+
+
+passive_cooking:
+  - internal_ingredients:
+      - Rohe Focaccia
+    instructions: >-
+      Ofen auf 220°C Umluft vorheizen. Foccacia für 12-15 Minuten backen.

@@ -1,0 +1,139 @@
+---
+name: Sacher Torte
+serves: 1
+tags: cake, chocolate
+descr: Rich and chocolatey
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Dark Chocolate
+        amount: 250
+        unit: g
+    yields: Molten Chocolate
+    instructions: Melt chocolate in a bain-marie.
+
+  - ingredients:
+      - ingredient: Eggs
+        amount: 9
+    yields:
+      - Egg Whites
+      - Egg Yolks
+    instructions: Separate eggs.
+
+cooking:
+  - internal_ingredients:
+      - Egg Whites
+    ingredients:
+      - ingredient: Sugar
+        amount: 105
+        unit: g
+      - ingredient: Salt
+    yields: Beaten Egg Whites
+    instructions: Whip egg whites while slowly adding sugar and a dash of salt.
+
+  - ingredients:
+      - ingredient: Butter (Room Temperature)
+        amount: 250
+        unit: g
+      - ingredient: Sugar
+        amount: 105
+        unit: g
+      - ingredient: Flour
+        amount: 250
+        unit: g
+    internal_ingredients:
+      - Egg Yolks
+      - Molten Chocolate
+      - Beaten Egg Whites
+    yields: Batter
+    instructions: >-
+      Cream butter and sugar together until light. Bit by bit add the egg yolks, the flour and the flour. Then
+      gently fold in the beaten egg whites.
+
+passive_cooking:
+  - internal_ingredients:
+      - Batter
+    ingredients:
+      - ingredient: Butter
+    yields: Cake (Dry)
+    instructions: >-
+      Line a spring form with baking paper. Coat bottom and sides with butter. Fill in the batter and bake
+      in the oven at 160°C convection, 180°C top/bottom heat for about 45 minutes.
+
+      Let cool and lift from the form. Remove baking paper.
+
+
+cooking2:
+  - ingredients:
+      - ingredient: Vanilla Beans
+        amount: 2
+      - ingredient: Water
+        amount: 150
+        unit: ml
+      - ingredient: Sugar
+        amount: 150
+        unit: g
+      - ingredient: Brown Rum
+        amount: 6
+        unit: Tbsp
+    yields: Vanilla Syrup
+    instructions: >-
+      Cut vanilla beans in half and remove pulp. Mix both with water and sugar and bring to a boil. Let cool, then
+      remove the beans and mix in the rum.
+
+  - internal_ingredients:
+      - Cake (Dry)
+      - Vanilla Syrup
+    yields: Cake Slices
+    instructions: >-
+      Cut cake horizontally in three slices and drench them in the syrup.
+
+  - ingredients:
+      - ingredient: Apricot Jam
+        amount: 400
+        unit: g
+    internal_ingredients:
+      - Cake Slices
+    yields: Cake (Without Glazing)
+    instructions: >-
+      Bring jam to a boil. Spread half of it on the bottom cake slice, put the middle slice on top and spread the
+      remaining jam. Then add the top slice.
+
+  - ingredients:
+      - ingredient: Cream
+        amount: 130
+        unit: ml
+      - ingredient: Butter
+        amount: 50
+        unit: g
+      - ingredient: Dark Chocolate Couverture
+        amount: 150
+        unit: g
+    yields: Chocolate Cream
+    instructions: >-
+      Heat cream and butter. Add couverture in little pieces and melt while stirring regularly. Insufficient
+      stirring can make the chocolate clump.
+
+  - ingredients:
+      - ingredient: Sugar
+        amount: 85
+        unit: g
+      - ingredient: Water
+        amount: 70
+        unit: ml
+      - ingredient: Crème Double
+        amount: 75
+        unit: g
+    internal_ingredients:
+      - Chocolate Cream
+    yields: Glazing
+    instructions: >-
+      Bring sugar to a boil with water and crème double. Let cool and stir in the chocolate cream. Refrigerate
+      for around an hour until the glazing thickens.
+
+  - internal_ingredients:
+      - Cake (Without Glazing)
+      - Glazing
+    instructions: >-
+      Stir glazing, then spread on cake. Potentially only spread part of it first, then let the glazing harden
+      before spreading the remaining glazing. Refrigerate for an hour.

@@ -1,0 +1,24 @@
+---
+name: Coconut Deluxe
+serves: 1
+tags: drink, cocktail, sweet
+descr: Kind of pina colada inspired, with coconut water.
+
+cooking:
+  - ingredients:
+      - ingredient: Rum
+        amount: 4
+        unit: cl
+      - ingredient: Coconut Water
+        amount: 4
+        unit: cl
+      - ingredient: Pineapple Juice
+        amount: 8
+        unit: cl
+      - ingredient: Coconut Syrup
+        amount: 2
+        unit: cl
+      - ingredient: Lemon Juice
+        amount: 1
+        unit: dash
+    instructions: Add all ingredients to a glass with ice. Stir.
