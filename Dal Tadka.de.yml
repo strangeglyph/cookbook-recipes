@@ -56,11 +56,11 @@ cooking:
       dazugeben, alles 25 Minuten zugedeckt köcheln lassen, bis die Linsen 
       weich sind. 5 Minuten vor Ende das vegane Hühnchen beigeben.
 
-  - ingedients:
+  - ingredients:
       - ingredient: Kreuzkümmel
         amount: 1
         unit: TL
-      - ingedient: Sesamsaat
+      - ingredient: Sesamsaat
         amount: 1
         unit: TL
       - ingredient: Fenchelsaat
@@ -87,7 +87,7 @@ cooking:
       - ingredient: Obst-Chutney
       - ingredient: Worcestershire-Sauce
       - ingredient: Senf
-    internal_ingedients:
+    internal_ingredients:
       - Dal
       - Tadka
     instructions: >- 

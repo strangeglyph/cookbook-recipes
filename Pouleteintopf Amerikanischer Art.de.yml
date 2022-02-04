@@ -75,13 +75,13 @@ cooking:
       und alles einkochen lassen.
 
 passive_cooking:
-  - internal_ingedients:
+  - internal_ingredients:
       - Abgetropfter Mais
       - Angebratenes Hühnchen
       - Angebratene Pilze
       - Sauce
     ingredients:
-      - Baguette oder Reis
+      - ingredient: Baguette oder Reis
     instructions: >-
       Mais in einer Gratinform verteilen. Hühnchen und Pilze auf dem Mais verteilen und mit Sauce übergießen.
       50 Minuten bei 200° Umluft backen. Mit Baguette oder Reis servieren.

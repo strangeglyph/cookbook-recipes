@@ -56,11 +56,11 @@ cooking:
       with a lid for about 25 minutes, until the lentils are soft. 5 minutes
       before the end, add the vegan chicken.
       
-  - ingedients:
+  - ingredients:
       - ingredient: Cumin
         amount: 1
         unit: tsp
-      - ingedient: Sesame Seeds
+      - ingredient: Sesame Seeds
         amount: 1
         unit: tsp
       - ingredient: Fennel Seeds
@@ -87,7 +87,7 @@ cooking:
       - ingredient: Fruit Chutney
       - ingredient: Worcestershire Sauce
       - ingredient: Mustard Paste
-    internal_ingedients:
+    internal_ingredients:
       - Dal
       - Tadka
     instructions: >- 

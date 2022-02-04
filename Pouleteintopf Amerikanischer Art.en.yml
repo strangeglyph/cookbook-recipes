@@ -74,13 +74,13 @@ cooking:
       Add a dash of port and a bit of marjoram and reduce.
 
 passive_cooking:
-  - internal_ingedients:
+  - internal_ingredients:
       - Drained Corn
       - Fried Chicken
       - Fried Mushrooms
       - Sauce
     ingredients:
-      - Baguette or Rice
+      - ingredient: Baguette or Rice
     instructions: >-
       Spread corn in a casserole dish. Layer chicken and mushrooms on top. Bake 50 minutes at 200° (convection).
       Serve with baguette or rice.
