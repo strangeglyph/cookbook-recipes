@@ -1,0 +1,95 @@
+name: Dal Tadka
+serves: 6
+tags: vegan, hauptspeise, südasiatisch
+descr: Südasiatischer Linseneintopf
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Zwiebeln
+        amount: 3
+    yields: Zwiebelwürfel
+    instructions: Zwiebeln würfeln.
+
+  - ingredients:
+      - ingredient: Gemüse (z.B. Karotten, Pilze, Kartoffeln)
+        amount: 300
+        unit: g
+    yields: Gemüse
+    instructions: Gemüse putzen und in mundgerechte Stücke schneiden.
+
+  - ingedients:
+      - ingredient: Ingwer
+        amount: 50
+        unit: g
+      - ingredient: Knoblauch
+        amount: 5
+        unit: Zehen
+    yields: Ingwer-Knoblauch-Paste
+    instructions: Ingwer und Knoblauch mit etwas Salz und Öl pürieren.
+
+cooking:
+  - ingredients:
+      - ingredient: Rote Linsen
+        amount: 300
+        unit: g
+      - ingredient: Gemüsebrühe
+        amount: 800
+        unit: ml
+      - ingredient: Weißwein
+        amount: 200
+        unit: ml
+      - ingredient: Pelati
+        amount: 200
+        unit: g
+      - ingredient: Veganes Hühnchen
+        amount: 200
+        unit: g
+    internal_ingredients:
+      - Zwiebelwürfel
+      - Gemüse
+      - Ingwer-Knoblauch-Paste
+    yields: Dal
+    instructions: >-
+      Die Zwiebeln mit etwas Öl in einer tiefen Pfanne anschwitzen. Dann die Zwiebeln
+      zur Seite schieben und die Linsen ebenfalls kurz anbraten. Mit
+      Gemüsebrühe und Weißwein ablöschen. Pelati und Ingwer-Knoblauch-Paste
+      dazugeben, alles 25 Minuten zugedeckt köcheln lassen, bis die Linsen 
+      weich sind. 5 Minuten vor Ende das vegane Hühnchen beigeben.
+
+  - ingedients:
+      - ingredient: Kreuzkümmel
+        amount: 1
+        unit: TL
+      - ingedient: Sesamsaat
+        amount: 1
+        unit: TL
+      - ingredient: Fenchelsaat
+        amount: 1
+        unit: TL
+      - ingredient: Koriandersaat
+        amount: 1
+        unit: TL
+      - ingredient: Schwarze Senfkörner
+        amount: 1
+        unit: TL
+      - ingredient: Chiliflocken
+      - ingredient: Zimt
+        amount: 1
+        unit: Stange
+    yields: Tadka
+    instructions: >-
+      Eine gute Menge Öl in einer kleinen Pfanne erhitzen. Die Gewürze
+      dazugeben - es sollte kleine Blasen geben. So etwa 30-60 Sekunden
+      erhitzen. Nicht zu dunkel werden lassen.
+
+  - ingredients:
+      - ingredient: Kurkuma
+      - ingredient: Obst-Chutney
+      - ingredient: Worcestershire-Sauce
+      - ingredient: Senf
+    internal_ingedients:
+      - Dal
+      - Tadka
+    instructions: >- 
+      Tadka ins Dal rühren, mit Kurkuma, Obst-Chutney, Worcestershire-Sauce
+      und Senf abschmecken. Dazu passt: Baguette oder Naan.

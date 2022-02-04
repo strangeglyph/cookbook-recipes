@@ -1,0 +1,95 @@
+name: Dal Tadka
+serves: 6
+tags: vegan, main, south asian
+descr: South Asian Lentil Stew
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Onions
+        amount: 3
+    yields: Diced Onion
+    instructions: Dice onions.
+
+  - ingredients:
+      - ingredient: Vegetables (e.g. carrots, mushrooms, potatoes)
+        amount: 300
+        unit: g
+    yields: Vegetables
+    instructions: Clean vegetables and cut into bite-sized pieces.
+
+  - ingedients:
+      - ingredient: Ginger
+        amount: 50
+        unit: g
+      - ingredient: Garlic
+        amount: 5
+        unit: Zehen
+    yields: Ginger Garlic Paste
+    instructions: Finely blend ginger and garlic with a bit of salt and oil.
+
+cooking:
+  - ingredients:
+      - ingredient: Red Lentils
+        amount: 300
+        unit: g
+      - ingredient: Vegetable Broths
+        amount: 800
+        unit: ml
+      - ingredient: White Wine
+        amount: 200
+        unit: ml
+      - ingredient: Diced Tomatoes
+        amount: 200
+        unit: g
+      - ingredient: Vegan Chicken
+        amount: 200
+        unit: g
+    internal_ingredients:
+      - Diced Onion
+      - Vegetables
+      - Ginger Garlic Paste
+    yields: Dal
+    instructions: >-
+      Sautée the onions with a bit of oil in a deep pan. Push them to the
+      side, then fry the lentils for a bit as well. Deglaze with broth
+      and white wine. Add tomatoes and ginger garlic paste and let simmer
+      with a lid for about 25 minutes, until the lentils are soft. 5 minutes
+      before the end, add the vegan chicken.
+      
+  - ingedients:
+      - ingredient: Cumin
+        amount: 1
+        unit: tsp
+      - ingedient: Sesame Seeds
+        amount: 1
+        unit: tsp
+      - ingredient: Fennel Seeds
+        amount: 1
+        unit: tsp
+      - ingredient: Coriander Seeds
+        amount: 1
+        unit: tsp
+      - ingredient: Black Mustard Seeds
+        amount: 1
+        unit: tsp
+      - ingredient: Chili Flakes
+      - ingredient: Cinnamon
+        amount: 1
+        unit: stick
+    yields: Tadka
+    instructions: >-
+      Heat a good amount of oil in a small pan. Add the spices - there should
+      be small bubbles. Keep on stove for about 30-60 seconds, making sure
+      it doesn't get too dark.
+      
+  - ingredients:
+      - ingredient: Tumeric
+      - ingredient: Fruit Chutney
+      - ingredient: Worcestershire Sauce
+      - ingredient: Mustard Paste
+    internal_ingedients:
+      - Dal
+      - Tadka
+    instructions: >- 
+      Mix Tadka into the Dal, then season to taste with tumeric, chutney,
+      worcestershire sauce and mustard paste. Serve with baguette or naan.
