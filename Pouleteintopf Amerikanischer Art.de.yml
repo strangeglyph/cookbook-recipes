@@ -46,7 +46,7 @@ cooking:
   - internal_ingredients:
       - Mariniertes Hühnchen
     ingredients:
-      - Butter
+      - ingredient: Butter
     yields: Angebratenes Hühnchen
     instructions: Hühnchen mit etwas Butter anbraten. Nur von außen bräunen, sollte innen noch rosa sein.
 

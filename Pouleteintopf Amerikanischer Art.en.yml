@@ -46,7 +46,7 @@ cooking:
   - internal_ingredients:
       - Marinated Chicken
     ingredients:
-      - Butter
+      - ingredient: Butter
     yields: Fried Chicken
     instructions: Fry chicken with a bit of butter. Should be brown on the outside, but still pink in the inside.
 

@@ -17,7 +17,7 @@ mis_en_place:
     yields: Vegetables
     instructions: Clean vegetables and cut into bite-sized pieces.
 
-  - ingedients:
+  - ingredients:
       - ingredient: Ginger
         amount: 50
         unit: g

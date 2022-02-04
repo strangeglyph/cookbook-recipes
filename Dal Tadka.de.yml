@@ -17,7 +17,7 @@ mis_en_place:
     yields: Gemüse
     instructions: Gemüse putzen und in mundgerechte Stücke schneiden.
 
-  - ingedients:
+  - ingredients:
       - ingredient: Ingwer
         amount: 50
         unit: g
