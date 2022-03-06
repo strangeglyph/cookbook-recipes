@@ -1,0 +1,62 @@
+---
+name: Landbrot (Grundrezept)
+serves: 4
+servings_unit: Leibe
+tags: brot, vegan
+descr: Grundrezept für Landbrot und Erweiterungsvorschläge
+note: >-
+  <p>Mögliche Variationen:</p>
+
+  <ul>
+    <li>Kürbiskerne, Fenchel und Kurkuma</li>
+    <li>Oliven, getrocknete Tomaten, Chiliflocken und italienische Kräuter</li>
+    <li>Walnüsse, Feigen, Piment und Wasser z.T. durch Bier ersetzen</li>
+    <li>Speck, Zwiebeln und Walnüsse</li>
+  </ul>
+
+  <p>Bei den letzten Beiden optional: 200g Mehl im Vorteig durch Vollkornmehl ersetzen. Wassermenge um 50ml erhöhen.</p>
+
+  <p>Technik zum Leib formen: <a href="https://www.youtube.com/watch?v=hWXA8xFYu9A">https://www.youtube.com/watch?v=hWXA8xFYu9A</a></p>
+
+prep:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 500
+        unit: g
+      - ingredient: Wasser
+        amount: 500
+        unit: ml
+      - ingredient: Hefe (frisch)
+        amount: 5
+        unit: g
+    yields: Vorteig
+    instructions: Alles vermischen, über Nach aufgehen lassen. Sollte am nächsten morgen schwammig ausschauen.
+
+cooking:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 500
+        unit: g
+      - ingredient: Wasser
+        amount: 150
+        unit: ml
+      - ingredient: Salz
+        amount: 25
+        unit: g
+      - ingredient: sonstige Zutaten
+    internal_ingredients:
+      - Vorteig
+    yields: Teig
+    instructions: >-
+      Alles vermengen, bis ein mehr oder minder fester Teig entsteht. Über die nächsten Stunden (bis der Teig doppelt bis
+      dreimal so groß ist) in regelmäßigen Abständen
+      (30 bis 45 Minuten) den Teig falten. D.h.: Am Rand unter den Teig greifen, hochziehen bis er fast reißt, dann auf
+      die gegenüberliegende Seite des Teigs falten. Schüssel 90° drehen und alles wiederholen, bis man eine volle Rotation
+      hinter sich hat.
+
+  - internal_ingredients:
+      - Teig
+    instructions: >-
+      Teig in 4 gleichgroße Teile teilen. Jeweils auf der Arbeitsfläche (nicht eingemehlt!) erst in ein Quadrat oder eine
+      grobe Kugelform falten, dann mit der Faltkante nach unten durch hin- und herschieben in eine runde Form bringen.
+      Im Backofen bei 220°C Umluft im Bräter backen: Erst 30 Minuten mit Deckel, dann 15 Minuten ohne.

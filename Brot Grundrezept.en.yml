@@ -1,0 +1,62 @@
+---
+name: Country Bread (Base)
+serves: 4
+servings_unit: loaves
+tags: bread, vegan
+descr: Base recipe for country bread and ideas for variations
+note: >-
+  <p>Possible variations:</p>
+
+  <ul>
+    <li>Pumpkin seeds, fennel and tumeric</li>
+    <li>Olives, dried tomatoes, chili flakes and italian herbs</li>
+    <li>Walnuts, dried figs, allspice and replace part of the water with beer</li>
+    <li>Bacon, onions und walnuts</li>
+  </ul>
+
+  <p>Optionally, for the last two: Replace 200g of flour in the pre-dough with whole flour. Increase water by 50ml.</p>
+
+  <p>Technique to shape the loaves: <a href="https://www.youtube.com/watch?v=hWXA8xFYu9A">https://www.youtube.com/watch?v=hWXA8xFYu9A</a></p>
+
+prep:
+  - ingredients:
+      - ingredient: Flour
+        amount: 500
+        unit: g
+      - ingredient: Water
+        amount: 500
+        unit: ml
+      - ingredient: Yeast (fresh)
+        amount: 5
+        unit: g
+    yields: Pre-dough
+    instructions: Mix everything together and let rise overnight. Should have a spongy texture the next morning.
+
+cooking:
+  - ingredients:
+      - ingredient: Flour
+        amount: 500
+        unit: g
+      - ingredient: Water
+        amount: 150
+        unit: ml
+      - ingredient: Salt
+        amount: 25
+        unit: g
+      - ingredient: optional ingredients
+    internal_ingredients:
+      - Pre-dough
+    yields: Dough
+    instructions: >-
+      Mix everything together until you have a stiff dough. Over the next couple of hours (until the dough has
+      doubled or tripled) fold the dough in regular
+      (30 to 45 minute) intervals. I.e. From one side of the bowl, put your hand under the dough. Pull up until the dough
+      almost starts tearing, then fold over to the other side. Rotate bowl 90° and repeat all this until you have made a full
+      rotation around the bowl.
+
+  - internal_ingredients:
+      - Dough
+    instructions: >-
+      Divide dough into 4 equally large parts. Fold each on the (unfloured!) worktop into a square or rough sphere, flip
+      and with small pulling motions shape into a boule. Bake in a dutch oven at 220°C (convection): First 30 minutes with the lid on,
+      then another 15 minutes without the lid.

@@ -23,7 +23,7 @@ mis_en_place:
         unit: g
       - ingredient: Garlic
         amount: 5
-        unit: Zehen
+        unit: Cloves
     yields: Ginger Garlic Paste
     instructions: Finely blend ginger and garlic with a bit of salt and oil.
 
