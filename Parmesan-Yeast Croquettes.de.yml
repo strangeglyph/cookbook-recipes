@@ -1,0 +1,50 @@
+---
+name: Parmesan-Hefe-Kroketten
+serves: 12
+servings_unit: Kroketten
+servings_increment: 6
+tags: beilage, vegetarisch
+
+
+prep:
+  - ingredients:
+      - ingredient: Kartoffeln (mehlig kochend)
+        amount: 250
+        unit: g
+    yields: Kartoffelbrei
+    instructions: Kartoffeln in gut gesalzenem Wasser gar kochen. Auskühlen lassen, pellen und mit der Gabel zerdrücken.
+
+cooking:
+  - internal_ingredients:
+      - Kartoffelbrei
+    ingredients:
+      - ingredient: Ei
+        amount: 1
+      - ingredient: Mehl
+        amount: 100
+        unit: g
+      - ingredient: Butter (geschmolzen)
+        amount: 30
+        unit: g
+      - ingredient: Parmesan
+        amount: 70
+        unit: g
+      - ingredient: Hefe (frisch)
+        amount: 0.25
+        unit: Block
+      - ingredient: Salz
+        amount: 5
+        unit: g
+    yields: Teig
+    instructions: >-
+      Hefe mit etwas Milch auflösen. Alle Zutaten zu einem geschmeidigen Teig verarbeiten. 
+      Gehen lassen, bis der Teig auf die 1.5- bis 2-fache Größe angewachsen ist.
+
+  - internal_ingredients:
+      - Teig
+    ingredients:
+      - ingredient: Öl
+    instructions: >-
+      Öl auf 180 °C erhitzen. Mit zwei Teelöffeln Nocken vom Teig abstechen und 
+      ins heiße Öl gleiten lassen. 5-6 Minuten frittieren, dabei ab und zu wenden.
+      Auf einem Abtropfgitter abtropfen lassen.

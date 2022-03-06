@@ -1,0 +1,50 @@
+---
+name: Parmesan Yeast Croquettes
+serves: 12
+servings_unit: Croquettes
+servings_increment: 6
+tags: side, vegetarian
+
+
+prep:
+  - ingredients:
+      - ingredient: Potatoes (floury)
+        amount: 250
+        unit: g
+    yields: Potato Mash
+    instructions: Cook potatoes in well-salted Water gesalzenem Wasser gar kochen. Auskühlen lassen, pellen und mit der Gabel zerdrücken.
+
+cooking:
+  - internal_ingredients:
+      - Potato Mash
+    ingredients:
+      - ingredient: Egg
+        amount: 1
+      - ingredient: Flour
+        amount: 100
+        unit: g
+      - ingredient: Butter (molten)
+        amount: 30
+        unit: g
+      - ingredient: Parmesan
+        amount: 70
+        unit: g
+      - ingredient: Yeast (fresh)
+        amount: 0.25
+        unit: Block
+      - ingredient: Salz
+        amount: 5
+        unit: g
+    yields: Dough
+    instructions: >-
+      Dissolve yeast in a bit of milk. Mix all  ingredients until they come together in a smooth dough.
+      Let rise until grown to 1.5x to 2x the size.
+
+  - internal_ingredients:
+      - Dough
+    ingredients:
+      - ingredient: Oil
+    instructions: >-
+      Heat oil to 180 °C. Cut off small croquettes from the main dough with two tea
+      spoons and drop them into the hot oil. Fry for 5-6 minutes, flip occasionally.
+      Put out to drain on a drainage grid.#
