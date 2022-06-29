@@ -4,11 +4,8 @@ serves: 80
 servings_unit: ml
 servings_increment: 20
 tags: vegetarisch, vegan, chutney, sauce
-descr: >-
-  Ein ziemlich scharfes und sehr knoblauchiges Chutney.
-  Shyamol, ein Freund auf Bangladesh, hat mir dieses Rezept gegeben und meinte, er ist süchtig nach Fladenbrod mit diesem
-  Chutney.
-  Hält eine Woche im Kühlschrank.
+descr: Scharfes Chutney aus Bangladesh (mit Dank and Shyamol)
+note: Hält eine Woche im Kühlschrank.
 
 mis_en_place:
   - ingredients:

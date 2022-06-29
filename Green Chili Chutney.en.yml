@@ -4,10 +4,8 @@ serves: 80
 servings_unit: ml
 servings_increment: 20
 tags: vegetarian, vegan, chutney, condiment
-descr: >-
-  A fairly spicy and very garlicy chutney.
-  Shyamol, a bangladeshi friend of mine, gave me this recipe and says he's addicted to eating it with flatbread.
-  Lasts a week in the fridge.
+descr: Spicy bangladeshi chutney courtesy of Shyamol
+note: Lasts a week in the fridge.
 
 mis_en_place:
   - ingredients:

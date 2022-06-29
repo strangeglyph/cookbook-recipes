@@ -2,7 +2,7 @@
 name: Fish Filets with Grape Sauce
 serves: 4
 tags: fish, main, german, fruit
-descr: A childhood classic. Pasta as a side is traditional, but rice or couscous work just as well.
+note: Traditionally served with pasta, but rice or couscous work just as well.
 
 mis_en_place:
   - ingredients:
