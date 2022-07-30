@@ -1,0 +1,50 @@
+---
+name: Cinnamon Knots
+serves: 30
+servings_unit: knots
+servings_increment: 15
+tags: pastry, dessert, vegan
+related:
+  - Basic Enriched Dough
+
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+          amount: 150
+          unit: g
+      - ingredient: Sugar
+        amount: 200
+        unit: g
+      - ingredient: Cinnamon
+        amount: 2
+        unit: tbsp
+    yields: Melted Butter
+    instructions: >-
+      Melt butter in a small pot. Mix in sugar and cinnamon. Let cool slightly.
+
+cooking:
+  - ingredients:
+      - ingredient: Basic Enriched Dough
+        amount: 1700
+        unit: g
+    hidden_ingredients:
+      - Melted Butter
+    yields: Cinnamon Knots
+    instructions: >-
+      <p>Split dough in half.</p>
+      
+      <p>Roll out first portion to something like 5 mm in height, about twice as large as you can fit in the fridge.
+      Spread one sixths of the butter mix on half of the rolled out dough. Fold other half over. Refrigerate for 30 minutes. 
+      Repeat process two more times. Additionally, repeat with the second portion of the dough, in parallel if you have space.</p>
+      
+      <p>Roll out again. Cut into thin strips (about one cm wide). Twist and tie into a knot. Put knots onto a parchment-lined baking tray. Rest for 30-60 minutes.</p>
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Milk
+      - ingredient: Nib Sugar
+    hidden_ingredients:
+      - Cinnamon Knots
+    instructions:
+      Preheat oven to 250°C (top/down heat). Coat cinnamon knots with milk and sprinkle with nib sugar. Bake for 8-10 minutes.

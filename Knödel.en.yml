@@ -1,0 +1,53 @@
+---
+name: German Dumplings (Base)
+serves: 4
+tags: side
+note: One (german) bread roll = ca. 60g
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Bread Rolls
+        amount: 180
+        unit: g
+    yields: Diced Rolls
+    instructions: Dice rolls.
+
+  - ingredients:
+      - ingredient: Onion
+        amount: 1
+    yields: Diced Onion
+    instructions: Dice onions.
+
+cooking:
+  - ingredients:
+      - ingredient: Milk
+        amount: 150
+        unit: ml
+      - ingredient: Broth Powder
+      - ingredient: Egg
+        amount: 1
+      - ingredient: Pepper
+      - ingredient: Nutmeg
+    hidden_ingredients:
+      - Diced Rolls
+    yields: Soggy Dice
+    instructions: >-
+      Heat milk. Dissolve broth powder. Add egg, pepper and nutmeg and whisk well. Add milk to the diced rolls and mix
+      well.
+
+  - ingredients:
+      - ingredient: Butter
+    internal_ingredients:
+      - Diced Onion
+    hidden_ingredients:
+      - Soggy Dice
+    yields: Raw Dumplings
+    instructions: >-
+      Melt butter in a pan. Sauté onions until translucent. Add to the diced rolls as well and mix again. Shape into
+      golf ball sized balls.
+
+  - internal_ingredients:
+      - Raw Dumplings
+    instructions: >-
+      Bring salt water to boil in a large pot. Then keep just below the simmering point. Boil dumplings for 8-10
+      minutes. When they float to the top, they are usually done.

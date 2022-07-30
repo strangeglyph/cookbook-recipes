@@ -1,0 +1,51 @@
+---
+name: Naan
+serves: 8
+servings_increment: 4
+servings_unit: Loaves
+tags: bread
+
+prep:
+  - ingredients:
+      - ingredient: Fresh Yeast
+        amount: 2
+        unit: g
+      - ingredient: Water
+        amount: 50
+        unit: ml
+    yields: Yeast (dissolved)
+    instructions: Dissolve yeast in water.
+
+  - ingredients:
+      - ingredient: Flour
+        amount: 300
+        unit: g
+      - ingredient: Yoghurt
+        amount: 250
+        unit: g
+    internal_ingredients:
+      - Yeast (dissolved)
+    yields: Predough
+    instructions: Knead everything together and let rise overnight.
+
+  - ingredients:
+      - ingredient: Flour
+        amount: 300
+        unit: g
+      - ingredient: Water
+        amount: 120
+        unit: ml
+      - ingredient: Salt
+        amount: 15
+        unit: g
+    internal_ingredients:
+      - Predough
+    instructions: >-
+      <div>Knead well until you get a smooth homogeneous dough. Cover and let rise until doubled or tripled in size.
+      </div>
+      <div>
+      Bring a pan without oil to medium heat. Divide dough in eight roughly equally sized pieces. Form each into a ball,
+      then press flat with your hand. Pull on the edges to turn it into a round plate, roughly the size of your hand.
+      Bake in a pan on both sides until brown. Every two to three naan, wipe the pan with some kitchen towels to get rid
+      of burnt flour.
+      </div>

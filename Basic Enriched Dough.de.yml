@@ -1,0 +1,55 @@
+---
+name: Angereicherter Teig (Grundrezept)
+serves: 1700
+servings_unit: Gram Endgewicht
+servings_increment: 850
+tags: brot, vegan
+note: Zucker weglassen für herzhafte Gebäcke
+related:
+  - Cinnamon Knots
+
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+          amount: 150
+          unit: g
+      - ingredient: Milch
+        amount: 350
+        unit: g
+    yields: Melted butter
+    instructions: >-
+      Butter in einem kleinen Topf schmelzen. Vom Herd nehmen, Milch hinzufügen und auskühlen lassen.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 500
+        unit: g
+      - ingredient: Hefe (frisch)
+        amount: 5
+        unit: g
+    hidden_ingredients:
+      - Melted butter
+    yields: Vorteig
+    instructions: >-
+      Hefe in der Milch auflösen. Zum Mehl geben, vermischen und über Nacht aufgehen lassen. 
+      Sollte am nächsten Tag schwammig aussehen.
+
+cooking:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 400
+        unit: g
+      - ingredient: Milch
+        amount: 150
+        unit: ml
+      - ingredient: Zucker
+        amount: 150
+        unit: g
+      - ingredient: Salz
+      - ingredient: Kardamom (gemahlen)
+    internal_ingredients:
+      - Vorteig
+    instructions: >-
+      Alles verkneten bis ein geschmeidiger Teig entsteht. Auf doppelte bis dreifache Größe aufgehen lassen,
+      dabei in regelmäßigen Abständen falten.

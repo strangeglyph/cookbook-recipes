@@ -1,0 +1,37 @@
+---
+name: Mayonnaise (Grundrezept)
+serves: 250
+servings_unit: ml
+servings_increment: 125
+tags: dip, zutat
+
+cooking:
+  - ingredients:
+      - ingredient: Eigelbe
+        amount: 2
+      - ingredient: Senf
+        amount: 2
+        unit: TL
+      - ingredient: Salz
+      - ingredient: Pfeffer
+      - ingredient: Zucker
+    yields: Mayonnaise (a)
+    instructions: Alles verquirlen.
+
+  - hidden_ingredients:
+      - Mayonnaise (a)
+    ingredients:
+      - ingredient: Öl
+        amount: 250
+        unit: ml
+    yields: Mayonnaise (b)
+    instructions: Das Öl erst tropfenweise hinzugeben. Wenn die Masse cremig wird, anfangen das Öl in dünnem Strahl zufügen.
+
+  - hidden_ingredients:
+      - Mayonnaise (b)
+    ingredients:
+      - ingredient: Zitronensaft
+        amount: 2
+        unit: TL
+      - ingredient: Worcestershiresauce
+    instructions: Zitonensaft unterrühren, mit Worcestershiresauce abschmecken.

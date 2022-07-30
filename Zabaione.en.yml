@@ -1,0 +1,18 @@
+---
+name: Zabaione
+serves: 1
+tags: dessert
+
+cooking:
+  - ingredients:
+      - ingredient: Egg Yolks
+        amount: 1
+      - ingredient: Sugar
+        amount: 10
+        unit: g
+      - ingredient: Marsala
+        amount: 40
+        unit: ml
+    instructions: >-
+      Heat water in a large pot (but do not bring to a boil). Whip egg yolks, sugar and marsala in a baine-marie until
+      foamy. Serve immediately.

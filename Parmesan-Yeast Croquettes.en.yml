@@ -12,7 +12,7 @@ prep:
         amount: 250
         unit: g
     yields: Potato Mash
-    instructions: Cook potatoes in well-salted Water gesalzenem Wasser gar kochen. Auskühlen lassen, pellen und mit der Gabel zerdrücken.
+    instructions: Cook potatoes in well-salted water. Let cool, peel and mash with a fork.
 
 cooking:
   - internal_ingredients:
@@ -47,4 +47,4 @@ cooking:
     instructions: >-
       Heat oil to 180 °C. Cut off small croquettes from the main dough with two tea
       spoons and drop them into the hot oil. Fry for 5-6 minutes, flip occasionally.
-      Put out to drain on a drainage grid.#
+      Put out to drain on a drainage grid.

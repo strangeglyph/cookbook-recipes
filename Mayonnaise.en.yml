@@ -1,0 +1,37 @@
+---
+name: Mayonnaise (Base)
+serves: 250
+servings_unit: ml
+servings_increment: 125
+tags: dip, condiment
+
+cooking:
+  - ingredients:
+      - ingredient: Egg Yolks
+        amount: 2
+      - ingredient: Mustard
+        amount: 2
+        unit: tsp
+      - ingredient: Salt
+      - ingredient: Pepper
+      - ingredient: Sugar
+    yields: Mayonnaise (a)
+    instructions: Blend together
+
+  - hidden_ingredients:
+      - Mayonnaise (a)
+    ingredients:
+      - ingredient: Oil
+        amount: 250
+        unit: ml
+    yields: Mayonnaise (b)
+    instructions: Add oil drop by drop. Once the mayonnaise becomes creamy, start adding it in a thin stream.
+
+  - hidden_ingredients:
+      - Mayonnaise (b)
+    ingredients:
+      - ingredient: Lemon Juice
+        amount: 2
+        unit: tsp
+      - ingredient: Worcestershire Sauce
+    instructions: Add lemon juice, season to taste with worcestershire sauce.

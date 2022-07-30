@@ -1,6 +1,102 @@
 ---
 name: Cassata Siciliana
 serves: 1
+servings_unit: 24cm Kuchen
 tags: cake, dessert
 
-prep:
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Eier
+        amount: 3
+    yields:
+      - Eiweiß
+      - Eigelb
+    instructions:
+      - Eier trennen
+
+  - ingredients:
+      - ingredient: Zartbitterschokolade
+        amount: 110
+        unit: g
+    yields: Schokowürfel
+    instructions: Schokolade klein würfeln.
+
+  - ingredients:
+      - ingredient: Kandierte Früchte
+        amount: 225
+        unit: g
+    yields: Fruchtwürfel
+    instructions: Früchte klein würfeln.
+
+cooking:
+  - ingredients:
+      - ingredient: Zucker
+        amount: 135
+        unit: g
+      - ingredient: Zitronenschale
+        amount: 1
+        unit: Zitrone
+      - ingredient: Salz
+    internal_ingredients:
+      - Eiweiß
+    yields: Eischnee
+    instructions: Eiweiß mit einer Prise Salz sehr steif schlagen. Zucker und Zitronenschale zugeben, weiterschlagen.
+
+  - internal_ingredients:
+      - Eischnee
+      - Eigelb
+    yields: Eimasse
+    instructions: Eigelb eins nach dem anderen hinzufügen und kurz weiterschlagen.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 130
+        unit: g
+    hidden_ingredients:
+      - Eimasse
+    yields: Biscuitmasse
+    instructions: Mehl sieben und vorsichtig unterheben.
+
+passive_cooking:
+  - internal_ingredients:
+      - Biscuitmasse
+    yields: Biscuit
+    instructions: >-
+      Springform einfetten und mit Mehl bestäuben. Ofen auf 180°C Ober-/Unterhitze vorheizen. Biscuitmasse in die
+      Springform füllen und 20-30 Minuten backen. Über Nacht auskühlen lassen, dann horizontal halbieren.
+
+cooking2:
+  - ingredients:
+      - ingredient: Ricotta
+        amount: 375
+        unit: g
+      - ingredient: Mascarpone
+        amount: 375
+        unit: g
+      - ingredient: Zucker
+        amount: 150
+        unit: g
+      - ingredient: Maraschino (oder Cointreau)
+        amount: 3
+        unit: EL
+      - ingredient: ausgekratzte Vanille
+        amount: 0.5
+    internal_ingredients:
+      - Schokowürfel
+      - Fruchtwürfel
+    yields: Füllung
+    instructions: Alles mischen.
+
+  - ingredients:
+      - ingredient: Maraschino (oder Cointreau)
+        amount: 3
+        unit: EL
+    internal_ingredients:
+      - Biscuit
+      - Füllung
+    instructions: >-
+      Auf einem Dessertteller anrichten: Die untere Hälfte des Biscuits, mit der Hälfte des Likörs betreufeln, etwas
+      weniger als die Hälfte der Füllung darauf verteilen. Obere Hälfte des Biscuits darauf platzieren, mit dem
+      restlichen Likör betreufeln, wieder etwas weniger als die restliche Füllung darauf verteilen. Restliche Füllung
+      am Rand verteilen. Für 4 Stunden kaltstellen.

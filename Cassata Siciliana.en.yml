@@ -1,0 +1,103 @@
+---
+name: Cassata Siciliana
+serves: 1
+servings_unit: 24cm cake
+tags: cake, dessert
+
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Eggs
+        amount: 3
+    yields:
+      - Egg Whites
+      - Egg Yolks
+    instructions:
+      - Separate eggs
+
+  - ingredients:
+      - ingredient: 70% Dark Chocolate
+        amount: 110
+        unit: g
+    yields: Chocolate Chunks
+    instructions: Cut chocolate into small chunks.
+
+  - ingredients:
+      - ingredient: Candied Fruits
+        amount: 225
+        unit: g
+    yields: Diced Fruit
+    instructions: Cut candied fruits into small chunks.
+
+cooking:
+  - ingredients:
+      - ingredient: Sugar
+        amount: 135
+        unit: g
+      - ingredient: Zest
+        amount: 1
+        unit: Lemon's
+      - ingredient: Salt
+    internal_ingredients:
+      - Egg Whites
+    yields: Whipped Egg Whites
+    instructions: Whip egg whites with a dash of salt until very stiff. Add sugar and lemon zest and continue whipping.
+
+  - internal_ingredients:
+      - Whipped Egg Whites
+      - Egg Yolks
+    yields: Egg Mix
+    instructions: Add egg yolks one after another and briefly continue whipping.
+
+  - ingredients:
+      - ingredient: Flour
+        amount: 130
+        unit: g
+    hidden_ingredients:
+      - Egg Mix
+    yields: Sponge Batter
+    instructions: Sieve flour and carefully fold into the eggs.
+
+passive_cooking:
+  - internal_ingredients:
+      - Sponge Batter
+    yields: Sponge Cake
+    instructions: >-
+      Butter and flour a springform pan. Preheat oven to 180°C top/bottom heat. Pour sponge batter into the form and
+      bake for 20-30 minutes. Let cool over night, then cut in half horizontally.
+
+cooking2:
+  - ingredients:
+      - ingredient: Ricotta
+        amount: 375
+        unit: g
+      - ingredient: Mascarpone
+        amount: 375
+        unit: g
+      - ingredient: Sugar
+        amount: 150
+        unit: g
+      - ingredient: Maraschino (or Cointreau)
+        amount: 3
+        unit: tbsp
+      - ingredient: Vanilla
+        amount: 0.5
+        unit: Bean's
+    internal_ingredients:
+      - Chocolate Chunks
+      - Diced Fruit
+    yields: Filling
+    instructions: Mix everything.
+
+  - ingredients:
+      - ingredient: Maraschino (or Cointreau)
+        amount: 3
+        unit: tbsp
+    internal_ingredients:
+      - Sponge Cake
+      - Filling
+    instructions: >-
+      Arrange on a dessert platter: The bottom half of the sponge. Sprinkle with half the liqueur. Spread a bit less
+      than half the filling on top of the sponge. Place the other half of the sponge on top and sprinkle with the
+      remaining liqueur. Spread again slightly less than the remainder of the filling on top. Spread the remaining
+      filling around the edges of the cake. Refridgerate for 4 hours.

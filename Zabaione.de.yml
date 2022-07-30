@@ -1,0 +1,18 @@
+---
+name: Zabaione
+serves: 1
+tags: dessert
+
+cooking:
+  - ingredients:
+      - ingredient: Eigelb
+        amount: 1
+      - ingredient: Zucker
+        amount: 10
+        unit: g
+      - ingredient: Marsala
+        amount: 40
+        unit: ml
+    instructions: >-
+      Wasser in einem großen Topf erhitzen (darf nicht kochen). Eigelb, Zucker und Marsala im Wasserbad
+      schaumig schlagen. Sofort servieren.

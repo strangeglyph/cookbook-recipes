@@ -1,0 +1,101 @@
+name: Chili-Paneer
+serves: 2
+tags: vegetarisch, hauptspeise, südasiatisch
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Zwiebeln
+        amount: 2
+    yields: Zwiebeln
+    instructions: Zwiebeln in große Stücke schneiden.
+
+  - ingredients:
+      - ingredient: Paprika
+        amount: 2
+    yields: Paprika
+    instructions: Paprika in Stücke von ähnlicher Größe wie die Zwiebeln schneiden.
+
+  - ingredients:
+      - ingredient: Paneer
+        amount: 300
+        unit: g
+    yields: Paneerwürfel
+    instructions: Paneer in 1 cm große Würfel schneiden.
+
+  - ingredients:
+      - ingredient: Salz
+        amount: 2
+        unit: TL
+      - ingredient: Stärke
+        amount: 2
+        unit: EL
+      - ingredient: Eier
+        amount: 2
+      - ingredient: Ingwer-Knoblauch-Paste
+        amount: .5
+        unit: EL
+    internal_ingredients:
+      - Paneerwürfel
+    yields: Paneer
+    instructions: >-
+      Alle Zutaten bis auf den Paneer mit einem Schneebesen mischen, bis man eine sämige Sauce hat. Dann den Paneer
+      vorsichtig untermischen, bis der Paneer von allen Seiten bedeckt ist.
+
+  - ingredients:
+      - ingredient: Kreuzkümmelsaat
+        amount: 2
+        unit: TL
+      - ingredient: Knoblauch (gehackt)
+        amount: 2
+        unit: Zehen
+      - ingredient: Ingwer-Knoblauch-Paste
+        amount: .5
+        unit: EL
+      - ingredient: Chilis (gehackt)
+        amount: 4
+      - ingredient: Korianderpulver
+        amount: 2
+        unit: TL
+      - ingredient: Hot Sauce
+        amount: 1
+        unit: TL
+      - ingredient: Chilipulver
+        amount: 1
+        unit: TL
+      - ingredient: Hing
+        amount: 1
+        unit: Prise
+    internal_ingredients:
+      - Zwiebeln
+    yields: Gewürzmischung
+    instructions: >-
+      Alles in eine Schüssel geben.
+
+cooking:
+  - ingredients:
+      - ingredient: Panko
+    internal_ingredients:
+      - Paneer
+    yields: Gebratener Paneer
+    instructions: >-
+      Panko mit dem Paneer mischen. Dann großzügig Öl in einer Pfanne erhitzen. Den gesamten Paneer hinzugeben (falls
+      man größere Mengen kocht, braucht man eventuell zwei Durchgänge). Anbraten bis der Paneer goldbraun ist, dann
+      auf einem mit Küchentüchern bedeckten Teller abtropfen lassen.
+
+  - ingredients:
+      - ingredient: Shaoxing-Wein
+      - ingredient: Glutamat
+      - ingredient: Sojasauce
+      - ingredient: Worcestershiresauce
+      - ingredient: Curryblätter
+        amount: 2
+        unit: handvoll
+    internal_ingredients:
+      - Gewürzmischung
+      - Paprika
+      - Gebratener Paneer
+    instructions: >-
+      Öl in einer Pfanne erhitzen (das Öl vom Anbraten des Paneers kann wiederverwendet werden). Die Gewürzmischung
+      beigeben und für etwa eine bis zwei Minuten anbraten. Mit Shaoxing-Wein ablöschen. Glutamat, Soja- und 
+      Worcestershiresauce, Curryblätter und Paprika beigeben. Abdecken und bei niedriger Hitze für 10 Minuten köcheln
+      lassen. Dann den Paneer unterrühren, durcherhitzen und servieren.

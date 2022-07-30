@@ -1,0 +1,101 @@
+name: Chili Paneer
+serves: 2
+tags: vegetarian, main, south asian
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Onion
+        amount: 2
+    yields: Onion Pieces
+    instructions: Cut onion into large pieces.
+
+  - ingredients:
+      - ingredient: Bell Pepper
+        amount: 2
+    yields: Bell Pepper Pieces
+    instructions: Cut bell peppers into pieces of similar size as the onion.
+
+  - ingredients:
+      - ingredient: Paneer
+        amount: 300
+        unit: g
+    yields: Paneer Cubes
+    instructions: Cut paneer into 1 cm large cubes.
+
+  - ingredients:
+      - ingredient: Salt
+        amount: 2
+        unit: tsp
+      - ingredient: Starch
+        amount: 2
+        unit: tbsp
+      - ingredient: Egg
+        amount: 2
+      - ingredient: Ginger Garlic Paste
+        amount: .5
+        unit: tbsp
+    internal_ingredients:
+      - Paneer Cubes
+    yields: Coated Paneer
+    instructions: >-
+      Whisk all of the ingredients except the paneer until you get a homogenous, creamy consistency. Then stir in the paneer
+      and mix until it is well-coated from all sides.
+
+  - ingredients:
+      - ingredient: Cumin Seeds
+        amount: 2
+        unit: tsp
+      - ingredient: Garlic (chopped)
+        amount: 2
+        unit: cloves
+      - ingredient: Ginger Garlic Paste
+        amount: .5
+        unit: tbsp
+      - ingredient: Chilis (chopped)
+        amount: 4
+      - ingredient: Coriander Powder
+        amount: 2
+        unit: tsp
+      - ingredient: Hot Sauce
+        amount: 1
+        unit: tsp
+      - ingredient: Chili Powder
+        amount: 1
+        unit: tsp
+      - ingredient: Hing
+        amount: 1
+        unit: dash
+    internal_ingredients:
+      - Onion Pieces
+    yields: Spice Mix
+    instructions: >-
+      Add everything to a bowl.
+
+cooking:
+  - ingredients:
+      - ingredient: Panko
+    internal_ingredients:
+      - Coated Paneer
+    yields: Fried Paneer
+    instructions: >-
+      Mix panko with the egg-coated paneer. Then heat a generous amount of oil in a pan and add all the paneer (if you
+      cook a larger amount, you might need two batches). Fry until it is a deep golden brown on all sides, then set on
+      a paper towel lined plate.
+
+  - ingredients:
+      - ingredient: Shaoxing Wine
+      - ingredient: MSG
+      - ingredient: Soy Sauce
+      - ingredient: Worcestershire Sauce
+      - ingredient: Curry Leaves
+        amount: 2
+        unit: handful
+    internal_ingredients:
+      - Spice Mix
+      - Bell Pepper Pieces
+      - Fried Paneer
+    instructions: >-
+      Heat oil in a pan (you can reuse the oil from the paneer frying step). Add the spice mix and fry until fragrant,
+      around one to two minutes. Deglaze with Shaoxing wine. Add MSG, soy and worcestershire sauce, curry leaves and
+      bell pepper. Cover and turn heat to low. Let simmer for around 10 minutes. Then stir in the paneer, briefly reheat
+      and serve.

@@ -1,0 +1,48 @@
+---
+name: Naan
+serves: 8
+servings_increment: 4
+servings_unit: Brote
+tags: brot
+
+prep:
+  - ingredients:
+      - ingredient: Frische Hefe
+        amount: 2
+        unit: g
+      - ingredient: Wasser
+        amount: 50
+        unit: ml
+    yields: Hefe (aufgelöst)
+    instructions: Hefe in Wasser auflösen.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 300
+        unit: g
+      - ingredient: Joghurt
+        amount: 250
+        unit: g
+    internal_ingredients:
+      - Hefe (aufgelöst)
+    yields: Vorteig
+    instructions: Alles verkneten, über Nacht aufgehen lassen.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 300
+        unit: g
+      - ingredient: Wasser
+        amount: 120
+        unit: ml
+      - ingredient: Salz
+        amount: 15
+        unit: g
+    internal_ingredients:
+      - Vorteig
+    instructions: >-
+      <div>Alles gut verkneten, bis ein geschmeidiger Teig entsteht. Abgedeckt auf das doppelte bis dreifache aufgehen lassen.</div>
+      <div>Pfanne ohne Öl auf mittlere Hitze bringen. Den Teig in etwa 8 gleich große Stücke teilen. Jeweils einen Teil
+      in eine Kugel formen, mit der Hand flach drücken und dann rundum breit ziehen. In der Pfanne von beiden Seiten
+      braun backen. Alle zwei bis drei Naan die Pfanne mit etwas Küchenpapier auswischen damit das Mehl nicht verbrennt.
+      </div>

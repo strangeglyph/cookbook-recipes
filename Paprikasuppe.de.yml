@@ -1,0 +1,75 @@
+---
+name: Paprikasuppe
+serves: 4
+tags: hauptspeise, suppe, vegetarisch, vegan
+
+prep:
+  - ingredients:
+      - ingredient: Gehackte Haselnüsse oder Cashews
+        amount: 75
+        unit: g
+      - ingredient: Pinienkerne
+        amount: 45
+        unit: g
+      - ingredient: Sesamsaat
+        amount: 3
+        unit: EL
+      - ingredient: Kreuzkümmel
+        amount: 1.5
+        unit: TL
+      - ingredient: Korianderpulver
+        amount: 1.5
+        unit: TL
+      - ingredient: Pfeffer
+        amount: 1.5
+        unit: TL
+      - ingredient: Fleur de Sel
+        amount: 0.5
+        unit: TL
+    yields: Dukkah
+    instructions: >-
+      Alle Zutaten bis auf das Salz in einer Pfanne anrösten, auskühlen lassen und mit dem Salz im Mixer fein zerkleinern.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Rote Paprika
+        amount: 800
+        unit: g
+    yields: Paprika
+    instructions: Paprika waschen, vierteln, putzen und entkernen. Viertel in 3cm große Stücke schneiden.
+
+  - ingredients:
+      - ingredient: Karotten
+        amount: 200
+        unit: g
+    yields: Karotten
+    instructions: Karotten schälen, längs vierteln und in 3cm lange Stücke schneiden.
+
+  - ingredients:
+      - ingredient: Rote Zwiebeln
+        amount: 100
+        unit: g
+    yields: Zwiebeln
+    instructions: Zwiebeln vierteln, schälen und in einzelne Schichten teilen.
+
+cooking:
+  - internal_ingredients:
+      - Paprika
+      - Karotten
+      - Zwiebeln
+    yields: Gemüsepürée
+    instructions: >-
+      Gemüse mit Olivenöl auf einem Backblech mischen und bei 200°C Ober-/Unterhitze 35 Minute garen. Dann pürieren.
+
+  - ingredients:
+      - ingredient: Gemüsefond
+        amount: 500
+        unit: ml
+      - ingredient: Weißwein
+    internal_ingredients:
+      - Gemüsepürée
+    instructions: >-
+      Gemüsefond in einem Topf erhitzen. Gemüsepürée beigeben und mit dem Weißwein das restliche Pürée aus dem Behälter
+      spülen. Abschmecken, nach belieben, mit: Salz, Hühnerbrühe, Ras el Hanout, Thai-Curry-Paste, Korianderpulver, Zucker.
+      Mit Dukkah (den gemahlenen Gewürzen) und Crème Fraîche servieren. Einen Teil des Dukkahs mit Olivenöl mischen und als
+      Dip zu Fladenbrot servieren.

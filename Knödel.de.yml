@@ -1,0 +1,53 @@
+---
+name: Knödel (Grundrezept)
+serves: 4
+tags: beilage
+note: Ein Brötchen = ca. 60g
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Brötchen
+        amount: 180
+        unit: g
+    yields: Brötchenwürfel
+    instructions: Brötchen klein würfeln.
+
+  - ingredients:
+      - ingredient: Zwiebel
+        amount: 1
+    yields: Zwiebelwürfel
+    instructions: Zwiebeln klein würfeln.
+
+cooking:
+  - ingredients:
+      - ingredient: Milch
+        amount: 150
+        unit: ml
+      - ingredient: Brühepulver
+      - ingredient: Ei
+        amount: 1
+      - ingredient: Pfeffer
+      - ingredient: Muskatnuss
+    hidden_ingredients:
+      - Brötchenwürfel
+    yields: Weiche Würfel
+    instructions: >-
+      Milch erwärmen. Brühe darin auflösen. Ei, Pfeffer und Muskatnuss dazugeben und alles gut verquirlen.
+      Zu den Brötchenwürfeln geben und gut durchmischen.
+
+  - ingredients:
+      - ingredient: Butter
+    internal_ingredients:
+      - Zwiebelwürfel
+    hidden_ingredients:
+      - Weiche Würfel
+    yields: Rohe Knödel
+    instructions: >-
+      Butter in einer Pfanne schmelzen. Zwiebeln darin glasig dünsten. Ebenfalls zu den Brötchenwürfeln geben und
+      wieder gut durchmischen. Ca. golfballgroße Kugeln formen.
+
+  - internal_ingredients:
+      - Rohe Knödel
+    instructions: >-
+      Salzwasser in einem großen Topf aufkochen und dann knapp unter den Siedepunkt bringen. Die Knödel darin 8-10
+      Minuten ziehen lassen. Wenn sie von alleine an der Oberfläche schwimmen, sind sie normalerweise fertig.

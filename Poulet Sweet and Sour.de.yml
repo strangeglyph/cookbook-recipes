@@ -1,0 +1,82 @@
+---
+name: Poulet Sweet and Sour
+serves: 4
+note: Mit Reis servieren
+
+prep:
+  - ingredients:
+      - ingredient: Hühnchenbrust
+        amount: 800
+        unit: g
+      - ingredient: Sojasauce
+        amount: 2
+        unit: EL
+      - ingredient: Sherry
+        amount: 2
+        unit: EL
+    yields: Mariniertes Hühnchen
+    instructions: Hühnchen in 1-2 cm große Würfel schneiden. Mit Sojasauce und Sherry mischen und marinieren.
+
+cooking:
+  - internal_ingredients:
+      - Mariniertes Hühnchen
+    yields: Angebratene Hühnchenwürfel
+    instructions: Hühnchen in einer Pfanne mit Öl bei mittlerer bis hoher Hitze rundum anbraten, dann bei Seite stellen.
+
+  - ingredients:
+      - ingredient: Zucker
+        amount: 5
+        unit: EL
+      - ingredient: Wasser
+        amount: 250
+        unit: ml
+    yields: Karamell
+    instructions: >-
+      Zucker in einer Pfanne leich braun karamellisieren. 1-2 Minuten abkühlen lassen, dann mit Wasser ablöschen und
+      auflösen.
+
+  - ingredients:
+      - ingredient: Kastanien (vorgegart)
+        amount: 250
+        unit: g
+      - ingredient: Sojasauce
+        amount: 1
+        unit: EL
+      - ingredient: Essig
+        amount: 3
+        unit: EL
+      - ingredient: Tomatenmark
+        amount: 3
+        unit: EL
+      - ingredient: Cayennepfeffer
+        amount: 0.5
+        unit: TL
+      - ingredient: Ingwerpulver
+        amount: 1
+        unit: TL
+    internal_ingredients:
+      - Mariniertes Hühnchen
+    hidden_ingredients:
+      - Karamell
+    yields: Sauce
+    instructions: Alles zum Karamell geben, gut verrühren und kurz aufkochen. Hitze reduzieren. Abschmecken.
+
+  - ingredients:
+      - ingredient: Stärke
+        amount: 1
+        unit: TL
+      - ingredient: Sherry
+        amount: 1
+        unit: TL
+    hidden_ingredients:
+      - Sauce
+    yields: Sauce pt 2
+    instructions: Beides vermischen und unter die Sauce rühren. Zwei Minuten köcheln lassen.
+
+  - ingredients:
+      - ingredient: Ananas (Dose)
+        amount: 4
+        unit: Scheiben
+    hidden_ingredients:
+      - Sauce pt 2
+    instructions: Ananasscheiben achteln oder zwölfteln, beigeben, kurz erwärmen.

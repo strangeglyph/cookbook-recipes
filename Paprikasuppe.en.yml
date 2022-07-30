@@ -1,0 +1,81 @@
+---
+name: Paprika Soup
+serves: 4
+tags: main, soup, vegetarian, vegan
+note: Serve with turkish flat bread
+
+
+prep:
+  - ingredients:
+      - ingredient: Chopped Hazelnuts or Cashews
+        amount: 75
+        unit: g
+      - ingredient: Pine Nuts
+        amount: 45
+        unit: g
+      - ingredient: Sesame Seeds
+        amount: 3
+        unit: tbsp
+      - ingredient: Cumin
+        amount: 1.5
+        unit: tsp
+      - ingredient: Coriander Powder
+        amount: 1.5
+        unit: tsp
+      - ingredient: Pepper
+        amount: 1.5
+        unit: tsp
+      - ingredient: Fleur de Sel
+        amount: 0.5
+        unit: tsp
+    yields: Dukkah
+    instructions: >-
+      Roast all ingredients except the salt in a pan. Let cool, then grind together with the salt to a fine powder.
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Red Bell Peppers
+        amount: 800
+        unit: g
+    yields: Bell Peppers
+    instructions: Clean, quarter and deseed. Then cut into 3cm large pieces.
+
+  - ingredients:
+      - ingredient: Carrots
+        amount: 200
+        unit: g
+    yields: Carrots
+    instructions: Peel carrots, quarter lengthwise and cut into 3cm large pieces.
+
+  - ingredients:
+      - ingredient: Red Onions
+        amount: 100
+        unit: g
+    yields: Onions
+    instructions: Quarter onions, remove skin, then divide into individual layers.
+
+cooking:
+  - internal_ingredients:
+      - Bell Peppers
+      - Carrots
+      - Onions
+    yields: Vegetable Puree
+    instructions: >-
+      Mix vegetables with olive oil on a baking tray and bake at 200°C top/down heat for 35 minutes. Then blend into a fine paste.
+
+  - ingredients:
+      - ingredient: Vegetable Stock
+        amount: 500
+        unit: ml
+      - ingredient: White Wine
+    internal_ingredients:
+      - Vegetable Puree
+    instructions: >-
+      <div>
+      Heat vegetable stock in a pot. Add vegetable puree, then flush out the remaining puree from its container with white wine.
+      Season to taste with e.g. salt, chicken broth, ras el hanout, thai curry paste, coriander powder, or sugar.
+      </div>
+      <div>
+      Serve with dukkah (the blended spices) and crème fraîche. Mix part of the dukkah with olie oil and serve as a dip with
+      flat bread.
+      </div>

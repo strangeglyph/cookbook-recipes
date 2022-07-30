@@ -1,0 +1,81 @@
+---
+name: Poulet Sweet and Sour
+serves: 4
+note: Serve with rice
+
+prep:
+  - ingredients:
+      - ingredient: Chicken Breast
+        amount: 800
+        unit: g
+      - ingredient: Soy Sauce
+        amount: 2
+        unit: tbsp
+      - ingredient: Sherry
+        amount: 2
+        unit: tbsp
+    yields: Marinated Chicken
+    instructions: Cut chicken into 1-2 cm large chunks. Mix with soy sauce and sherry and leave to marinate.
+
+cooking:
+  - internal_ingredients:
+      - Marinated Chicken
+    yields: Fried Chicken
+    instructions: Fry chicken in a pan on medium to high heat, then set aside.
+
+  - ingredients:
+      - ingredient: Sugar
+        amount: 5
+        unit: EL
+      - ingredient: Water
+        amount: 250
+        unit: ml
+    yields: Caramel
+    instructions: >-
+      Caramelize sugar in a pan until lightly brown. Let cool for 1-2 minutes, than add water and dissolve.
+
+  - ingredients:
+      - ingredient: Chestnuts (precooked)
+        amount: 250
+        unit: g
+      - ingredient: Soy Sauce
+        amount: 1
+        unit: tbsp
+      - ingredient: Vinegar
+        amount: 3
+        unit: tbsp
+      - ingredient: Tomato Extract
+        amount: 3
+        unit: tbsp
+      - ingredient: Cayenne Pepper
+        amount: 0.5
+        unit: tsp
+      - ingredient: Ginger Powder
+        amount: 1
+        unit: tsp
+    internal_ingredients:
+      - Marinated Chicken
+    hidden_ingredients:
+      - Caramel
+    yields: Sauce
+    instructions: Add everything to the caramel. Mix well and briefly bring to a boil. Reduce heat and season to taste.
+
+  - ingredients:
+      - ingredient: Starch
+        amount: 1
+        unit: tbsp
+      - ingredient: Sherry
+        amount: 1
+        unit: tbsp
+    hidden_ingredients:
+      - Sauce
+    yields: Sauce pt 2
+    instructions: Mix starch and sherry to a slurry and stir into the sauce. Let simmer for two minutes.
+
+  - ingredients:
+      - ingredient: Pineapple (Canned)
+        amount: 4
+        unit: Slices
+    hidden_ingredients:
+      - Sauce pt 2
+    instructions: Cut pineapple slices into eighth or twelvth. Add and heat through.

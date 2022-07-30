@@ -1,0 +1,52 @@
+---
+name: Zimtknoten
+serves: 30
+servings_unit: Knoten
+servings_increment: 15
+tags: gebäck, dessert, vegan
+related:
+  - Basic Enriched Dough
+
+
+prep:
+  - ingredients:
+      - ingredient: Butter
+          amount: 150
+          unit: g
+      - ingredient: Zucker
+        amount: 200
+        unit: g
+      - ingredient: Zimt
+        amount: 2
+        unit: EL
+    yields: Geschmolzene Butter
+    instructions: >-
+      Butter in einem kleinen Topf schmelzen. Zucker und Zimt einrühren, etwas abkühlen lassen.
+
+cooking:
+  - ingredients:
+      - ingredient: Angereicherter Teig (Grundrezept)
+        amount: 1700
+        unit: g
+    hidden_ingredients:
+      - Geschmolzene Butter
+    yields: Cinnamon Knots
+    instructions: >-
+      <p>Teig in zwei Portionen aufteilen.</p>
+      
+      <p>Die erste Portion auf etwa 5mm Dicke ausrollen, etwa doppelt so groß wie in den Kühlschrank passt.
+      Ein Sechstel der Buttermasse auf eine Hälfte des ausgerollten Teigs ausrollen. Andere Hälfte des Teigs darüber falten.
+      Für 30 Minuten in den Kühlschrank stellen. Das Ganze zwei mal wiederholen. Das Ganze auch mit der anderen Portion
+      Teig wiederholen - gleichzeitig, falls der Platz ausreicht.</p>
+      
+      <p>Wieder ausrollen. In dünne Streifen schneiden (etwa 1cm breit). Verdrehen und verknoten. Knoten auf ein mit 
+      Backpapier ausgelegtes Backblech legen und 30-60 Minuten gehen lassen.</p>
+
+passive_cooking:
+  - ingredients:
+      - ingredient: Milch
+      - ingredient: Hagelzucker
+    hidden_ingredients:
+      - Cinnamon Knots
+    instructions:
+      Ofen auf 250°C Ober-/Unterhitze vorheizen. Zimtknoten mit Milch bestreichen und mit Hagelzucker bestreuen. Für 8-10 Minuten backen.
