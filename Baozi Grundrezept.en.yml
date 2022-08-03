@@ -1,0 +1,26 @@
+name: Baozi (Base)
+serves: 10
+servings_unit: Baozi
+servings_increment: 5
+tags: vegan, main, chinese
+related:
+  - Mushroom Tofu Baozi Filling
+
+prep:
+  - ingredients:
+      - ingredient: Flour
+        amount: 350
+        unit: g
+      - ingredient: Water
+        amount: 170
+        unit: ml
+      - ingredient: Yeast (fresh)
+        amount: 15
+        unit: g
+      - ingredient: Sugar
+        amount: 5
+        unit: g
+      - ingredient: Salt
+        amount: 5
+        unit: g
+    instructions: Knead well and let rise until doubled or tripled in size.

@@ -1,0 +1,26 @@
+name: Baozi Grundrezept
+serves: 10
+servings_unit: Baozi
+servings_increment: 5
+tags: vegan, hauptspeise, chinesisch
+related:
+  - Mushroom Tofu Baozi Filling
+
+prep:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 350
+        unit: g
+      - ingredient: Wasser
+        amount: 170
+        unit: ml
+      - ingredient: Hefe (frisch)
+        amount: 15
+        unit: g
+      - ingredient: Zucker
+        amount: 5
+        unit: g
+      - ingredient: Salz
+        amount: 5
+        unit: g
+    instructions: Alles gut verkneten und auf das doppelte bis dreifache aufgehen lassen.

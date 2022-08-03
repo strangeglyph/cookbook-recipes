@@ -1,0 +1,66 @@
+name: Picknick-Cake
+serves: 1
+tags: kuchen, vegetarisch
+
+prep:
+  - ingredients:
+      - ingredient: Haselnüsse
+        amount: 200
+        unit: g
+    yields: Geröstete Haselnüsse
+    instructions: >-
+      Backofen auf 180°C vorheizen. Haselnüsse im Backofen ca. 10 Minuten, oder bis die Schale schwarz wird, rösten.
+      Abkühlen lassen, dann schälen. Dazu die Haselnüsse in einen geschlossenen Container füllen und schütteln, bis sich
+      die Schale löst.
+
+cooking:
+  - ingredients:
+      - ingredient: Zucker
+        amount: 200
+        unit: g
+      - ingredient: Eier
+        amount: 4
+      - ingredient: Salz
+    yields: Eimischung
+    instructions: Alles zusammen schaumig rühren.
+
+  - ingredients:
+      - ingredient: Rosinen
+        amount: 200
+        unit: g
+      - ingredient: Dörraprikosen
+        amount: 200
+        unit: g
+      - ingredient: Dörrfeigen
+        amount: 150
+        unit: g
+      - ingredient: Zitrone (bio)
+        amount: 1
+      - ingredient: Kirsch
+        amount: 1
+        unit: EL
+    internal_ingredients:
+      - Geröstete Haselnüsse
+    hidden_ingredients:
+      - Eimischung
+    yields: Obst-Ei-Mischung
+    instructions: Dörrobst in Streifen schneiden. Schale von der Zitrone reiben. Alles unter den Teig rühren.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 200
+        unit: g
+      - ingredient: Milch
+        amount: 50
+        unit: ml
+    hidden_ingredients:
+      - Obst-Ei-Mischung
+    yields: Teig
+    instructions: Mehl und Milch unterrühren.
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    instructions: >-
+      Backofen auf 180°C Ober-/Unterhitze vorheizen. Eine Kastenform mit Backpapier auskleiden. Den Teig einfüllen
+      und 60 Minuten lang backen.

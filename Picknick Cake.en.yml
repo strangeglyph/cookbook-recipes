@@ -1,0 +1,64 @@
+name: Picknick Cake
+serves: 1
+tags: cake, vegetarian
+
+prep:
+  - ingredients:
+      - ingredient: Hazelnuts
+        amount: 200
+        unit: g
+    yields: Roasted Hazelnuts
+    instructions: >-
+      Heat oven to 180°C. Roast hazelnuts for 10 minutes or until the skin turns back. Let cool, then peel. To that end,
+      fill hazelnuts into a closed container, then shake until the skin falls off.
+
+cooking:
+  - ingredients:
+      - ingredient: Sugar
+        amount: 200
+        unit: g
+      - ingredient: Eggs
+        amount: 4
+      - ingredient: Salt
+    yields: Egg Mix
+    instructions: Beat everything until foamy.
+
+  - ingredients:
+      - ingredient: Raisins
+        amount: 200
+        unit: g
+      - ingredient: Dried Apricots
+        amount: 200
+        unit: g
+      - ingredient: Dried Figs
+        amount: 150
+        unit: g
+      - ingredient: Lemon (bio)
+        amount: 1
+      - ingredient: Kirsch
+        amount: 1
+        unit: tbsp
+    internal_ingredients:
+      - Roasted Hazelnuts
+    hidden_ingredients:
+      - Egg Mix
+    yields: Fruit Egg Mix
+    instructions: Cut dried fruit into strips. Zest the lemon. Mix everything into the batter.
+
+  - ingredients:
+      - ingredient: Flour
+        amount: 200
+        unit: g
+      - ingredient: Milk
+        amount: 50
+        unit: ml
+    hidden_ingredients:
+      - Fruit Egg Mix
+    yields: Batter
+    instructions: Mix in flour and milk.
+
+passive_cooking:
+  - internal_ingredients:
+      - Batter
+    instructions: >-
+      Preheat oven to 180°C top/down heat. Line a loaf tin with baking paper. Fill in the batter and bake for 60 minutes.
