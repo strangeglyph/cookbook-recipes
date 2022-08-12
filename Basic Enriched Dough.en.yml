@@ -12,8 +12,8 @@ related:
 prep:
   - ingredients:
       - ingredient: Butter
-          amount: 150
-          unit: g
+        amount: 150
+        unit: g
       - ingredient: Milk
         amount: 350
         unit: g

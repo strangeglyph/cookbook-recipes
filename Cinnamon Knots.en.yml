@@ -11,8 +11,8 @@ related:
 prep:
   - ingredients:
       - ingredient: Butter
-          amount: 150
-          unit: g
+        amount: 150
+        unit: g
       - ingredient: Sugar
         amount: 200
         unit: g
