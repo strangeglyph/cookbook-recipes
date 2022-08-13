@@ -1,0 +1,43 @@
+---
+name: Crumpets
+serves: 7
+tags: vegan, beilage, frühstück, brot
+
+prep:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 150
+        unit: g
+      - ingredient: Wasser
+        amount: 250
+        unit: g
+      - ingredient: Salz
+        amount: .5
+        unit: tsp
+      - ingredient: Zucket
+        amount: .5
+        unit: TL
+      - ingredient: Hefe (frisch)
+        amount: 10
+        unit: g
+    yields: Batter without Baking Powder
+    instructions: >-
+      Hefe im Wasser auflösen, dann alles zusammen mischen bis ein gleichmäßiger Teig entsteht. 30 bis 60 Minuten
+      gehen lassen.
+
+  - ingredients:
+      - ingredient: Backpulver
+        amount: 1
+        unit: TL
+    hidden_ingredients:
+      - Batter without Baking Powder
+    yields: Teig
+    instructions: Backpulver einrühren und Teig kräftig durchrühren um das Glutennetz aufzubrechen.
+
+cooking:
+  - internal_ingredients:
+      - Teig
+    instructions: >-
+      Eine Pfanne ohne Öl auf mittlerer Hitze vorheizen. Runde Keksförmchen (Durchmesser ca. 8cm) in die Pfanne legen.
+      Jedes Förmchen mit etwa 1.5cm Teig befüllen. In der Pfanne backen, bis die Oberfläche trocken wird. Falls die 
+      Unterseite anfängt, zu verbrennen, stattdessen die Crumpets aus den Förmchen lösen, wenden, und so zu Ende backen.

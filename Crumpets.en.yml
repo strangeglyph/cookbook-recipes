@@ -1,0 +1,42 @@
+---
+name: Crumpets
+serves: 7
+tags: vegan, side, breakfast, bread
+
+prep:
+  - ingredients:
+      - ingredient: Flour
+        amount: 150
+        unit: g
+      - ingredient: Water
+        amount: 250
+        unit: g
+      - ingredient: Salt
+        amount: .5
+        unit: tsp
+      - ingredient: Sugar
+        amount: .5
+        unit: tsp
+      - ingredient: Yeast (fresh)
+        amount: 10
+        unit: g
+    yields: Batter without Baking Powder
+    instructions: >-
+      Dissolve yeast in water, then mix everything together until you have a smooth batter. Let rise for 30 to 60 minutes.
+
+  - ingredients:
+      - ingredient: Baking Powder
+        amount: 1
+        unit: tsp
+    hidden_ingredients:
+      - Batter without Baking Powder
+    yields: Batter
+    instructions: Stir in the baking powder and mix vigorously to break up the gluten network.
+
+cooking:
+  - internal_ingredients:
+      - Batter
+    instructions: >-
+      Preheat a pan without oil to medium heat. Place circular cookie cutters (diameter around 8cm) in the pan.
+      Fill each cookie cutter to around 1.5cm in height with the batter. Bake in the pan until the top is dry. If you feel
+      the bottom starts to get too dark, instead remove the crumpet from the cookie cutter and flip to finish.
