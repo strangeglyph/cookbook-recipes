@@ -1,5 +1,5 @@
 name: Chili-Paneer
-serves: 2
+serves: 5
 tags: vegetarisch, hauptspeise, südasiatisch
 
 mis_en_place:
@@ -10,14 +10,14 @@ mis_en_place:
     instructions: Zwiebeln in große Stücke schneiden.
 
   - ingredients:
-      - ingredient: Paprika
-        amount: 2
+      - ingredient: Paprika (rot und gelb)
+        amount: 5
     yields: Paprika
     instructions: Paprika in Stücke von ähnlicher Größe wie die Zwiebeln schneiden.
 
   - ingredients:
       - ingredient: Paneer
-        amount: 300
+        amount: 750
         unit: g
     yields: Paneerwürfel
     instructions: Paneer in 1 cm große Würfel schneiden.
@@ -27,12 +27,12 @@ mis_en_place:
         amount: 2
         unit: TL
       - ingredient: Stärke
-        amount: 2
+        amount: 3
         unit: EL
       - ingredient: Eier
-        amount: 2
+        amount: 3
       - ingredient: Ingwer-Knoblauch-Paste
-        amount: .5
+        amount: 1
         unit: EL
     internal_ingredients:
       - Paneerwürfel
@@ -43,19 +43,23 @@ mis_en_place:
 
   - ingredients:
       - ingredient: Kreuzkümmelsaat
-        amount: 2
+        amount: 3
         unit: TL
       - ingredient: Knoblauch (gehackt)
-        amount: 2
+        amount: 3
         unit: Zehen
       - ingredient: Ingwer-Knoblauch-Paste
-        amount: .5
+        amount: 1
         unit: EL
+    yields: Kreuzkümmel-Mix
+    instructions: Alles in einer kleinen Schüssel bei Seite stellen
+
+  - ingredients:
       - ingredient: Chilis (gehackt)
         amount: 4
       - ingredient: Korianderpulver
-        amount: 2
-        unit: TL
+        amount: 1
+        unit: EL
       - ingredient: Hot Sauce
         amount: 1
         unit: TL
@@ -67,9 +71,8 @@ mis_en_place:
         unit: Prise
     internal_ingredients:
       - Zwiebeln
-    yields: Gewürzmischung
-    instructions: >-
-      Alles in eine Schüssel geben.
+    yields: Zwiebel-Mix
+    instructions: Alles in einer kleinen Schüssel bei Seite stellen
 
 cooking:
   - ingredients:
@@ -79,7 +82,7 @@ cooking:
     yields: Gebratener Paneer
     instructions: >-
       Panko mit dem Paneer mischen. Dann großzügig Öl in einer Pfanne erhitzen. Den gesamten Paneer hinzugeben (falls
-      man größere Mengen kocht, braucht man eventuell zwei Durchgänge). Anbraten bis der Paneer goldbraun ist, dann
+      man größere Mengen kocht, braucht man eventuell mehrere Durchgänge). Anbraten bis der Paneer goldbraun ist, dann
       auf einem mit Küchentüchern bedeckten Teller abtropfen lassen.
 
   - ingredients:
@@ -87,15 +90,24 @@ cooking:
       - ingredient: Glutamat
       - ingredient: Sojasauce
       - ingredient: Worcestershiresauce
+      - ingredient: Limettensaft
+        amount: 1
+        unit: EL
       - ingredient: Curryblätter
         amount: 2
-        unit: handvoll
+        unit: Handvoll
+      - ingredient: Korianderblätter (gehackt)
+        amount: 1
+        unit: Handvoll
     internal_ingredients:
-      - Gewürzmischung
+      - Kreuzkümmel-Mix
+      - Zwiebel-Mix
       - Paprika
       - Gebratener Paneer
     instructions: >-
-      Öl in einer Pfanne erhitzen (das Öl vom Anbraten des Paneers kann wiederverwendet werden). Die Gewürzmischung
-      beigeben und für etwa eine bis zwei Minuten anbraten. Mit Shaoxing-Wein ablöschen. Glutamat, Soja- und 
-      Worcestershiresauce, Curryblätter und Paprika beigeben. Abdecken und bei niedriger Hitze für 10 Minuten köcheln
-      lassen. Dann den Paneer unterrühren, durcherhitzen und servieren.
+      Öl in einer Pfanne erhitzen (das Öl vom Anbraten des Paneers kann wiederverwendet werden). Den Kreuzkümmelmix
+      beigeben und braten, bis die Kreuzkümmelsaat anfängt zu springen, etwa eine Minute. Dann den Zwiebelmix und einen
+      großzügigen Schuss Shaoxing-Wein dazu geben und für etwa drei Minuten anschwitzen. Glutamat, Soja- und 
+      Worcestershiresauce, Limettensaft, Curryblätter und Paprika beigeben. Abdecken und bei niedriger Hitze für 30 Minuten 
+      köcheln lassen. Deckel abnehmen und Hitze auf mittelhoch stellen um die Flüssigkeit abzukochen. Dabei
+      aufpassen, dass nichts von unten anbrennt. Dann den Paneer und die Korianderblätter unterrühren, durcherhitzen und servieren.
