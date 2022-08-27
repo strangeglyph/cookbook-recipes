@@ -1,0 +1,49 @@
+name: Cod with Roasted Bell Peppers
+serves: 5
+tags: main, fish
+note: Serve with baguette.
+
+prep:
+  - ingredients:
+      - ingredient: Bell Peppers (various colors)
+        amount: 15
+    yields: Roasted Bell Pepper
+    instructions: >- 
+      Quarter bell pepper, then char in the oven (grill mode) at 240°C for around 20 to 30 minutes, until the skin
+      is black. Then cool in a closed container (e.g. a freezer bag with the opening folded over). Peel and cut into 
+      strips lengthwise.
+
+
+cooking:
+  - internal_ingredients:
+      - Roasted Bell Pepper
+    ingredients:
+      - ingredient: Chili Flakes
+      - ingredient: Garlic
+        amount: 5
+        unit: cloves
+      - ingredient: Red Wine Vinegar
+        amount: 2.5
+        unit: tbsp
+      - ingredient: Cod
+        amount: 800
+        unit: g
+    yields: In the dish 1
+    instructions: >-
+      Mix roasted bell pepper with chili flakes, vinegar and crushed garlic in a large casserole or lasagna dish. Arrange
+      the cod on top. Season with salt and pepper.
+
+  - hidden_ingredients:
+      - In the dish 1
+    ingredients:
+      - ingredient: Red Onion
+        amount: 1
+      - ingredient: Parsley
+        amount: 1
+        unit: tbsp
+      - ingredient: Capers
+        amount: 1
+        unit: tbsp
+    instructions: >-
+      Cut onion into rings, then distribute everything on top of the cod. Bake for 30-35 minutes at 150°C (convection).
+      Serve with baguette.
