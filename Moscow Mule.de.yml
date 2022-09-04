@@ -1,0 +1,16 @@
+name: Moscow Mule
+tags: drink, cocktail, alkoholisch
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Ginger Beer
+        amount: 10
+        unit: cl
+      - ingredient: Vodka
+        amount: 4
+        unit: cl
+      - ingredient: Zitronensaft
+        amount: 1
+        unit: cl
+    instructions: Alles in einem Glas mit Eiswürfeln mischen.

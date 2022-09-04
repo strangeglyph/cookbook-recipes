@@ -1,0 +1,16 @@
+name: Papi-Api
+tags: drink, cocktail, alkoholisch
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Gin
+        amount: 2
+        unit: cl
+      - ingredient: Martini Rosso
+        amount: 4
+        unit: cl
+      - ingredient: Sekt
+        amount: 1
+        unit: Schuss
+    instructions: Alles in einem Glas mit Eiswürfeln mischen.

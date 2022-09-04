@@ -1,0 +1,22 @@
+name: Gesa's Winter Api
+tags: drink, cocktail, alcoholic
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Campari
+        amount: 2
+        unit: cl
+      - ingredient: Gin
+        amount: 2
+        unit: cl
+      - ingredient: Martini Rosso
+        amount: 2
+        unit: cl
+      - ingredient: Pineapple Juice
+        amount: 12
+        unit: cl
+      - ingredient: Lemon Juice
+        amount: 1
+        unit: dash
+    instructions: Mix everything in a glass with ice cubes.

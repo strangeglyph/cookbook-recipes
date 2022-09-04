@@ -1,0 +1,39 @@
+name: Caipirinha (Oles Art)
+tags: drink, cocktail, alkoholisch
+serves: 1
+note: Ole meint, seine Art wäre besser.
+related:
+  - Caipirinha
+
+prep:
+  - ingredients:
+      - ingredient: Limette (bio)
+        amount: 1
+    yields: Limettenspalten
+    instructions: Limette achteln.
+
+  - ingredients:
+      - ingredient: Eiswürfel
+        amount: 9
+    yields: Crushed Ice
+    instructions: Eiswürfel in einem Gefrierbeutel zerschlagen.
+
+cooking:
+  - ingredients:
+      - ingredient: Weißer Zucker
+        amount: 2
+        unit: EL
+    internal_ingredients:
+      - Limettenspalten
+    yields: Zerstoßene Limetten
+    instructions: Limetten und Zucker in einem Shaker zerstoßen.
+
+  - ingredients:
+      - ingredient: Cachaça
+        amount: 6
+        unit: cl
+    internal_ingredients:
+      - Crushed Ice
+    hidden_ingredients:
+      - Zerstoßene Limetten
+    instructions: Cachaça und Crushed Ice dazugeben. Ordentlich shaken. Dann alles in ein Glas geben.

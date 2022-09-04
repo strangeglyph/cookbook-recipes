@@ -1,0 +1,22 @@
+name: Gesas Winter-Api
+tags: drink, cocktail, alkoholisch
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Campari
+        amount: 2
+        unit: cl
+      - ingredient: Gin
+        amount: 2
+        unit: cl
+      - ingredient: Martini Rosso
+        amount: 2
+        unit: cl
+      - ingredient: Ananassaft
+        amount: 12
+        unit: cl
+      - ingredient: Zitronensaft
+        amount: 1
+        unit: Schuss
+    instructions: Alles in einem Glas mit Eiswürfeln mischen.

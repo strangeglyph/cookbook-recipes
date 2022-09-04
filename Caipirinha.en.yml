@@ -1,0 +1,39 @@
+name: Caipirinha
+tags: drink, cocktail, alcoholic
+serves: 1
+
+prep:
+  - ingredients:
+      - ingredient: Lime (bio)
+        amount: 1
+    yields: Lime Slices
+    instructions: Cut lime in half, then each half into eights.
+
+  - ingredients:
+      - ingredient: Ice Cubes
+        amount: 9
+    yields: Crushed Ice
+    instructions: Crush ice in a freezing bag.
+
+cooking:
+  - ingredients:
+      - ingredient: White Sugar
+        amount: 1
+        unit: tbsp
+      - ingredient: Brown Sugar
+        amount: 1
+        unit: tbsp
+      - ingredient: Cachaça
+        amount: 6
+        unit: cl
+    internal_ingredients:
+      - Lime Slices
+    yields: Caipirinha (no ice)
+    instructions: Muddle in a glass. Stir once, muddle again. Then stir well to dissolve the sugar.
+
+
+  - internal_ingredients:
+      - Crushed Ice
+    hidden_ingredients:
+      - Caipirinha (no ice)
+    instructions: Add, stir again.

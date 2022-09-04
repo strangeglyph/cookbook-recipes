@@ -1,0 +1,39 @@
+name: Caipirinha (Ole's Way)
+tags: drink, cocktail, alcoholic
+serves: 1
+note: Ole insists his way is superior.
+related:
+  - Caipirinha
+
+prep:
+  - ingredients:
+      - ingredient: Lime (bio)
+        amount: 1
+    yields: Lime Slices
+    instructions: Cut lime in half, then cut each half into quarters.
+
+  - ingredients:
+      - ingredient: Ice Cubes
+        amount: 9
+    yields: Crushed Ice
+    instructions: Crush ice in a freezer bag.
+
+cooking:
+  - ingredients:
+      - ingredient: White Sugar
+        amount: 2
+        unit: tbsp
+    internal_ingredients:
+      - Lime Slices
+    yields: Muddled Limes
+    instructions: Muddle limes and sugar in a shaker.
+
+  - ingredients:
+      - ingredient: Cachaça
+        amount: 6
+        unit: cl
+    internal_ingredients:
+      - Crushed Ice
+    hidden_ingredients:
+      - Muddled Limes
+    instructions: Add Cachaça and crushed ice. Shake well. Then pour everything into a glass.

@@ -1,0 +1,41 @@
+name: Caipirinha
+tags: drink, cocktail, alkoholisch
+serves: 1
+related:
+  - Caipirinha (Oles Way)
+
+prep:
+  - ingredients:
+      - ingredient: Limette (bio)
+        amount: 1
+    yields: Limettenspalten
+    instructions: Limette sechzehnteln.
+
+  - ingredients:
+      - ingredient: Eiswürfel
+        amount: 9
+    yields: Crushed Ice
+    instructions: Eiswürfel in einem Gefrierbeutel zerschlagen.
+
+cooking:
+  - ingredients:
+      - ingredient: Weißer Zucker
+        amount: 1
+        unit: EL
+      - ingredient: Brauner Zucker
+        amount: 1
+        unit: EL
+      - ingredient: Cachaça
+        amount: 6
+        unit: cl
+    internal_ingredients:
+      - Limettenspalten
+    yields: Caipirinha (ohne Eis)
+    instructions: Im Glas zerstoßen. Einmal umrühren, noch mal zerstoßen. Gut umrühren, um den Zucker aufzulösen.
+
+
+  - internal_ingredients:
+      - Crushed Ice
+    hidden_ingredients:
+      - Caipirinha (ohne Eis)
+    instructions: Hinzufügen, noch einmal umrühren.
