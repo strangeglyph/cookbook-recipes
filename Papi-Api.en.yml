@@ -1,0 +1,16 @@
+name: Papi-Api
+tags: drink, cocktail, alcoholic
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Gin
+        amount: 2
+        unit: cl
+      - ingredient: Martini Rosso
+        amount: 4
+        unit: cl
+      - ingredient: Prosecco
+        amount: 1
+        unit: dash
+    instructions: Mix everything in a glass with ice cubes.

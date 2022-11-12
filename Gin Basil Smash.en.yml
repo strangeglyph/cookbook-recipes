@@ -1,0 +1,24 @@
+name: Gin Basil Smash
+tags: drink, cocktail, alcoholic
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Gin
+        amount: 6
+        unit: cl
+      - ingredient: Basil
+        amount: 10
+        unit: leaves
+    yields: Gin-Basil-Mix
+    instructions: Muddle gin and basil.
+
+  - ingredients:
+      - ingredient: Simple Sugar Syrup
+        amount: 2
+        unit: cl
+      - ingredient: Lemon Juice
+        amount: 1.8
+        unit: cl
+    internal_ingredients: Gin-Basil-Mix
+    instructions: Mix everything in a glass with ice cubes.

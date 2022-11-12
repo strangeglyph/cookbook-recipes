@@ -1,0 +1,16 @@
+name: White Russian
+tags: drink, cocktail, alkoholisch
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Milch
+        amount: 8
+        unit: cl
+      - ingredient: Kaffeelikör
+        amount: 2
+        unit: cl
+      - ingredient: Vodka
+        amount: 3
+        unit: cl
+    instructions: Alles in einem Glas mit Eiswürfeln mischen.

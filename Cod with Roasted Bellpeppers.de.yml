@@ -1,0 +1,49 @@
+name: Kabeljau mit gerösteter Paprika
+serves: 5
+tags: hauptspeise, fisch
+note: Dazu passt Baguette.
+
+prep:
+  - ingredients:
+      - ingredient: Paprika (verschiedene Farben)
+        amount: 15
+    yields: Geröstete Paprika
+    instructions: >-
+      Paprika vierteln, im Backofen (Grill-Modus) bei 240°C ca. 20-30 Minuten auf der obersten Schiene rösten, bis
+      die Schale schwarz ist. Dann in einem geschlossenen Behälter (z.B. Tiefkühl-Beutel mit umgeschlagener Öffnung)
+      auskühlen lassen. Schälen und in längs Streifen schneiden.
+
+
+cooking:
+  - internal_ingredients:
+      - Geröstete Paprika
+    ingredients:
+      - ingredient: Chiliflocken
+      - ingredient: Knoblauch
+        amount: 5
+        unit: Zehen
+      - ingredient: Rotweinessig
+        amount: 2.5
+        unit: EL
+      - ingredient: Kabeljau
+        amount: 800
+        unit: g
+    yields: In der Form 1
+    instructions: >-
+      Geröstete Paprika mit Chiliflocken, Rotweinessig und gepresstem Knoblauch in einer großen Gratin- oder Lasagneform
+      mischen. Denn Kabeljau darauf verteilen. Mit Salz und Pfeffer würzen.
+
+  - hidden_ingredients:
+      - In der Form 1
+    ingredients:
+      - ingredient: Rote Zwiebel
+        amount: 1
+      - ingredient: Petersilie
+        amount: 1
+        unit: EL
+      - ingredient: Kapern
+        amount: 1
+        unit: EL
+    instructions: >-
+      Zwiebel in Ringe schneiden, dann alles über dem Kabeljau verteilen. Für 30-35 Minuten bei 150°C im Backofen
+      (Ober-/Unterhitze) garen. Dazu Baguette reichen.

@@ -1,0 +1,19 @@
+name: Yellow Sunrise
+tags: drink, cocktail, alcoholic
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Cointreau
+        amount: 4
+        unit: cl
+      - ingredient: Licor 43
+        amount: 2
+        unit: cl
+      - ingredient: Orange Juice
+        amount: 12
+        unit: cl
+      - ingredient: Lemon Juice
+        amount: 1.5
+        unit: cl
+    instructions: Mix everything in a glass with ice cubes.

@@ -1,0 +1,24 @@
+name: Gin Basil Smash
+tags: drink, cocktail, alkoholisch
+serves: 1
+
+cooking:
+  - ingredients:
+      - ingredient: Gin
+        amount: 6
+        unit: cl
+      - ingredient: Basilikum
+        amount: 10
+        unit: Blätter
+    yields: Gin-Basilikum-Mischung
+    instructions: Basilikum mit Gin zerstoßen.
+
+  - ingredients:
+      - ingredient: Einfacher Zuckersirup
+        amount: 2
+        unit: cl
+      - ingredient: Zitronensaft
+        amount: 1.8
+        unit: cl
+    internal_ingredients: Gin-Basilikum-Mischung
+    instructions: Alles in einem Glas mit Eiswürfeln mischen.
