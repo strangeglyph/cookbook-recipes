@@ -1,0 +1,48 @@
+---
+name: Crêpes
+serves: 16
+servings_unit: Crêpes
+servings_increment: 4
+tags: vegetarian, main, dessert
+note: >-
+  <p>Potential toppings:</p>
+  
+  <ul>
+    <li>Cheese, italian herbs, black pepper</li>
+    <li>Marzipan</li>
+    <li>Nutella and bananas</li>
+    <li>Jam</li>
+    <li>Sugar, Cinnamon, Lemon Juice</li>
+    <li>Sugar, Grand Manier (flambéed)</li>
+  </ul>
+  
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 100
+        unit: g
+    yields: Molten Butter
+    instructions: Melt butter in a small pot or pan.
+
+  - ingredients:
+      - ingredient: Flour
+        amount: 500
+        unit: g
+      - ingredient: Milk
+        amount: 400
+        unit: ml
+      - ingredient: Water
+        amount: 100
+        unit: ml
+      - ingredient: Eggs
+        amount: 4
+      - ingredient: Salt
+        amount: 2
+        unit: tsp
+    internal_ingredients: Molten Butter
+    instructions: >-
+      <p>Mix everything together. Let rest for about 30 minutes. In the meantime, prepare your desired toppings.</p>
+    
+      <p>Heat a pan to medium heat without oil. Pour one ladle of batter into the pan. Cook until the bottom of the crêpe
+      is a light brown and comes free easily. Flip the crêpe, top in the pan, fold into a pocket and serve.</p>

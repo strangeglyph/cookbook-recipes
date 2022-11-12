@@ -1,0 +1,50 @@
+---
+name: Chicken Corn Grapefruit Salad
+serves: 5
+tags: main, chicken
+note: Serve with baguette
+
+cooking:
+  - ingredients:
+      - ingredient: Chicken
+        amount: 900
+        unit: g
+    yields: Diced Chicken
+    instructions: Fry chicken with salt and pepper until cooked through. Let cool, then dice.
+
+  - ingredients:
+      - ingredient: Grapefruit
+        amount: 2
+    yields: Grapefruit Pieces
+    instructions: Filet grapefruit, then cut into small pieces.
+
+  - ingredients:
+      - ingredient: Corn
+        amount: 2
+        unit: cans
+    yields: Corn
+    instructions: Drain corn.
+
+  - ingredients:
+      - ingredient: Crème fraîche
+        amount: 200
+        unit: g
+      - ingredient: Lemons (Juice)
+        amount: 0.5
+      - ingredient: Tomato Paste
+        amount: 3
+        unit: tbsp
+      - ingredient: Vinegar
+        amount: 1
+        unit: tbsp
+      - ingredient: Sugar
+        amount: 2
+        unit: tsp
+      - ingredient: Salt
+      - ingredient: Pepper
+    internal_ingredients:
+      - Diced Chicken
+      - Grapefruit Pieces
+      - Corn
+    yields: Dessing
+    instructions: Mix ingredients for dressing, then mix with salad ingredients.

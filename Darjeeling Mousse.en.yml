@@ -1,0 +1,58 @@
+---
+name: Darjeeling Mousse
+tags: vegetarian, dessert
+serves: 4
+
+cooking:
+  - ingredients:
+      - ingredient: Milk
+        amount: 250
+        unit: ml
+      - ingredient: Darjeeling
+        amount: 20
+        unit: g
+      - ingredient: Sugar
+        amount: 60
+        unit: g
+    yields: Tea
+    instructions: >-
+      Bring milk to a boil. Remove from heat, add tea and steep for three minutes. Remove tea leaves, add sugar
+      and dissolve.
+
+  - ingredients:
+      - ingredient: Egg Yolks
+        amount: 4
+      - ingredients: Sugar
+        amount: 60
+        unit: g
+    internal_ingredients: Tea
+    yields: Egg Mix
+    instructions: >-
+      In a metal bowl, mix egg yolks and sugar until foamy. Add metal bowl to a bain-marie. Keep mixing while adding
+      the tea and mix until the mixture sets and becomes creamy.
+      
+  - ingredients:
+      - ingredient: Gelatin
+        amount: 3
+        unit: sheets
+    hidden_ingredients: Egg Mix
+    yields: Egg Mix 2
+    instructions: >-
+      Soak gelatin in cold water 5 minutes. Drain, then mix into cream to dissolve. Place cream into a water bath of
+      cold water to cool down.
+
+  - ingredients:
+      - ingredient: Cream
+        amount: 300
+        unit: ml
+    hidden_ingredients: Egg Mix 2
+    yields: Mousse
+    instructions: >-
+      Whip cream, then gently fold into the mousse. Refrigerate for at least 6 hours, preferrably overnight.
+
+  - ingredients:
+      - ingredient: Oranges
+        amount: 2
+    instructions: >-
+      Fillet oranges, then press out juice from the leftovers and add to the orange fillets. Serve mousse
+      with the oranges.

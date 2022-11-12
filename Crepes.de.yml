@@ -1,0 +1,49 @@
+---
+name: Crêpes
+serves: 16
+servings_unit: Crêpes
+servings_increment: 4
+tags: vegetarisch, hauptspeise, dessert
+note: >-
+  <p>Mögliche Belage:</p>
+  
+  <ul>
+    <li>Käse, Kräuter der Provence, schwarzer Pfeffer</li>
+    <li>Marzipan</li>
+    <li>Nutella und Bananen</li>
+    <li>Marmelade</li>
+    <li>Zimt, Zucker und Zitronensaft</li>
+    <li>Zucker und Grand Manier (flambieren!)</li>
+  </ul>
+  
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 100
+        unit: g
+    yields: Geschmolzene Butter
+    instructions: Butter in einem kleinen Topf oder einer kleinen Pfanne schmelzen.
+
+  - ingredients:
+      - ingredient: Mehl
+        amount: 500
+        unit: g
+      - ingredient: Milch
+        amount: 400
+        unit: ml
+      - ingredient: Wasser
+        amount: 100
+        unit: ml
+      - ingredient: Eier
+        amount: 4
+      - ingredient: Salz
+        amount: 2
+        unit: TL
+    internal_ingredients: Geschmolzene Butter
+    instructions: >-
+      <p>Alles vermischen. 30 Minuten ruhen lassen. Inzwischen den gewünschten Belag vorbereiten.</p>
+    
+      <p>Eine Pfanne auf mittlerer Hitze ohne Öl erhitzen. Eine Schöpfkelle Teig in die Pfanne geben. Backen, bis die
+      Unterseite leicht braun wird und sich einfach vom Pfannenboden löst. Wenden, in der Pfanne belegen, zusammenfalten
+      und servieren.</p>

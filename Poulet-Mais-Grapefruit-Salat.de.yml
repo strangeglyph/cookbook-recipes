@@ -1,0 +1,51 @@
+---
+name: Poulet-Mais-Grapefruit-Salat
+serves: 5
+tags: hauptspeise, hühnchen
+note: Dazu passt Baguette
+
+cooking:
+  - ingredients:
+      - ingredient: Poulet
+        amount: 900
+        unit: g
+    yields: Poulet-Würfel
+    instructions: Poulet mit Salz und Pfeffer gar braten, auskühlen lassen und in Würfel schneiden.
+
+  - ingredients:
+      - ingredient: Grapefruit
+        amount: 2
+    yields: Grapefruit-Stücke
+    instructions: Grapefruit filetieren und in kleine Stücke schneiden.
+
+  - ingredients:
+      - ingredient: Mais
+        amount: 2
+        unit: Dosen
+    yields: Mais
+    instructions: Mais abtropfen lassen.
+
+  - ingredients:
+      - ingredient: Crème fraîche
+        amount: 200
+        unit: g
+      - ingredient: Zitrone (Saft)
+        amount: 0.5
+      - ingredient: Tomatenmark
+        amount: 3
+        unit: EL
+      - ingredient: Essig
+        amount: 1
+        unit: EL
+      - ingredient: Zucker
+        amount: 2
+        unit: TL
+      - ingredient: Salz
+      - ingredient: Pfeffer
+    internal_ingredients:
+      - Poulet-Würfel
+      - Grapefruit-Stücke
+      - Mais
+    yields: Dessing
+    instructions: Zutaten für das Dessing mischen, dann unter die restlichen Zutaten heben.
+
