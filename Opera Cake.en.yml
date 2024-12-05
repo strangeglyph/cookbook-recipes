@@ -1,0 +1,144 @@
+---
+name: Opera Cake
+tags: cake, dessert
+serves: 1
+note: >-
+  <p>Contains partly pasteurized eggs in the buttercream. Use fresh eggs and keep refrigerated.</p>
+  <p>Makes four biscuit layers - use three quarters for a three layer version.</p>
+
+cooking:
+  - ingredients:
+      - ingredient: Water
+        amount: 150
+        unit: ml
+      - ingredient: Sugar
+        amount: 150
+        unit: g
+      - ingredient: Instant Espresso
+        amount: 3
+        unit: packets
+      - ingredient: Amaretto
+    yields: Coffee Syrup
+    instructions: >-
+      Bring water, sugar and espresso powder to a boil and stir to dissolve. Let cool and add a generous dash of 
+      Amaretto. Set aside.
+
+  - ingredients:
+      - ingredient: Eggs
+        amount: 6
+    yields:
+      - Egg Yolks
+      - Egg Whites
+    instructions: Split eggs. Whip all egg whites. Reserve {{.167}} egg yolk
+
+  - ingredients:
+      - ingredient: Butter
+        amount: 30
+        unit: g
+    yields: Molten Butter
+    instructions: Melt butter.
+
+  - ingredients:
+      - ingredient: Eggs
+        amount: 5
+      - ingredient: Sugar
+        amount: 30
+        unit: g
+      - ingredient: Flour
+        amount: 60
+        unit: g
+      - ingredient: Powdered Sugar
+        amount: 60
+        unit: g
+      - ingredient: Ground Almonds
+        amount: 200
+        unit: g
+    internal_ingredients:
+      - Egg Whites
+      - Molten Butter
+    yields: Joconde Sponge
+    instructions: >-
+      <p>Preheat Oven to 220°C (upper/lower heat).</p>
+      <p>Beat eggs and sugar until very foamy. Sift and fold in dry ingredients. Fold in egg whites. Fold in molten butter.</p>
+      <p>Line two baking sheets with parchment paper and divide the batter between them. Spread flat (about 3mm thick) 
+      and bake for 8-10 minutes.</p>
+      <p>Layer sponges. Cut in half. Layer again, then cut out the largest rectangular area possible. Lather with syrup and set aside, covered with parchment paper.</p>
+
+  - ingredients:
+      - ingredient: Sugar
+        amount: 130
+        unit: g
+      - ingredient: Water
+        amount: 50
+        unit: ml
+      - ingredient: Eggs
+        amount: 1
+      - ingredient: Butter
+        amount: 300
+        unit: g
+      - ingredient: Instant Espresso
+        amount: 5
+        unit: packets
+    internal_ingredients:
+      - Egg yolk
+    yields: Butter Cream
+    instructions: >-
+      <p>
+      Bring sugar and water to a boil. In the meantime, beat eggs together until foamy. Add boiling syrup to the eggs
+      and continue mixing.
+      </p>
+      <p>
+      Add in the butter in small cubes while the egg mixture is still hot. Keep mixing until incorporated. The butter 
+      cream should be thick and creamy. If it is to runny, add more butter. The whole process may take half an hour --
+      a stand mixer helps.
+      </p>
+      <p>
+      Mix espresso powder with a minimal amount of water, then mix into the butter cream.
+      </p>
+
+  - ingredients:
+      - ingredient: Chocolate
+        amount: 150
+        unit: g
+      - ingredient: Milk
+        amount: 60
+        unit: ml
+      - ingredient: Cream
+        amount: 30
+        unit: ml
+      - ingredient: Butter
+        amount: 50
+        unit: g
+    yields: Ganache
+    instructions: >-
+      Chop chocolate and melt in a baine marie at low heat. Add milk, cream and butter - half first, mix to incorporate,
+      then the remainder.
+
+  - internal_ingredients:
+      - Joconde Sponge
+      - Butter Cream
+      - Ganache
+    yields: Cake
+    instructions: >-
+      Assemble cake with alternating layers of sponge, ganache, sponge again and butter cream.
+
+  - ingredients:
+      - ingredient: Sugar
+        amount: 100
+        unit: g
+      - ingredient: Cocoa Powder
+        amount: 50
+        unit: g
+      - ingredient: Water
+        amount: 50
+        unit: ml
+      - ingredient: Cream
+        amount: 60
+        unit: ml
+      - ingredient: Agar Agar
+        amount: 2
+        unit: tsp
+    yields: Mirror Glaze
+    instructions: >-
+      Mix and bring to a boil. Keep at a boil for 1-2 minutes. Strain through a sieve and let cool to 34°C. Strain again and pour over cake.
+

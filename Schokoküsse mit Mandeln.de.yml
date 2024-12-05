@@ -1,0 +1,47 @@
+---
+name: Schokoküsse mit Mandeln
+serves: 40
+servings_unit: Kekse
+servings_increment: 10
+tags: kekse, schokolade, kaffee
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Mandelstifte
+        amount: 125
+        unit: g
+      - ingredient: Zartbitterschokolade
+        amount: 125
+        unit: g
+    yields: Geröstete Mandeln
+    instructions: Mandeln in einer Pfanne ohne Fett goldbraun rösten. Schokolade raspeln und mit den Mandeln mischen.
+
+cooking:
+  - ingredients:
+      - ingredient: Eiweiss
+        amount: 2
+      - ingredient: Zucker
+        amount: 150
+        unit: g
+      - ingredient: Salz
+        amount: 1
+        unit: Prise
+    yields: Eischnee
+    instructions: Eiweiß steifschlagen bis zu weichen Spitzen, dabei langsam Zucker und Salz einrieseln lassen
+
+  - ingredients:
+      - ingredient: Espressopulver
+        amount: 3
+        unit: EL
+    internal_ingredients:
+      - Eischnee
+      - Geröstete Mandeln
+    yields: Teig
+    instructions: >-
+      Eischnee im Wasserbad schlagen, bis die Masse zäh und matt ist. Herausnehmen und Mandeln und Espressopulver 
+      unterheben, so dass die Masse marmoriert aussieht.
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    instructions: Mit 2 Teelöffeln Häufchen auf ein mit Backpapier belegtes Backblech setzen. Bei 140°C Umluft 15 Minuten backen.

@@ -4,6 +4,7 @@ serves: 1
 servings_unit: liter
 tags: drink, liqueur
 descr: Sweet and herbal erva-mate liqueur
+note: Halve the amount of Erva Mate for a less grassy and more cinnamonny taste.
 
 prep:
   - ingredients:
@@ -25,7 +26,7 @@ cooking:
         amount: 15
         unit: g
       - ingredient: Erva Mate
-        amount: 15
+        amount: 30
         unit: g
       - ingredient: Cinnamon
         amount: 1

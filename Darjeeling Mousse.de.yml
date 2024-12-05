@@ -22,7 +22,7 @@ cooking:
   - ingredients:
       - ingredient: Eigelb
         amount: 4
-      - ingredients: Zucker
+      - ingredient: Zucker
         amount: 60
         unit: g
     internal_ingredients: Tee

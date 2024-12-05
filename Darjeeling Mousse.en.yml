@@ -22,7 +22,7 @@ cooking:
   - ingredients:
       - ingredient: Egg Yolks
         amount: 4
-      - ingredients: Sugar
+      - ingredient: Sugar
         amount: 60
         unit: g
     internal_ingredients: Tea

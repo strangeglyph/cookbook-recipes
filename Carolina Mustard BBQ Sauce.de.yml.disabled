@@ -1,0 +1,27 @@
+name: Carolina Senf-BBQ-Sauce
+tags: side, condiment, vegan
+serves: ...
+
+cooking:
+  - ingredients:
+      - ingredient: Ketchup
+        amount: tbd
+      - ingredient: Apfelessig
+        amount: tbd
+      - ingredient: Senf
+        amount: tbd
+      - ingredient: Worcestershire-Sauce
+        amount: tbd
+      - ingredient: Brauner Zucker
+        amount: tbd
+      - ingredient: Chili
+        amount: tbd
+      - ingredient: Honig
+        amount: tbd
+      - ingredient: Pfeffer
+        amount: tbd
+      - ingredient: Knoblauchpulver
+        amount: tbd
+    instructions: >-
+      Alles in einem Topf zum köcheln bringen. Mischen, bis Zucker und Honig sich aufgelöst haben. Abkühlen lassen,
+      im Kühlschrank lagern.

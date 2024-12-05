@@ -1,0 +1,66 @@
+---
+name: Kastanien-Steinpilz-Suppe
+serves: 3
+tags: vegetarisch, vegan, suppe, pilze
+note: "Dazu passt Baguette. Vegane Konversion: Sahne weglassen."
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Steinpilze oder Champignons
+        amount: 100
+        unit: g
+      - ingredient: Eingelegte Pfifferlinge
+        amount: 1
+        unit: kleines Glas
+    yields: Pilzstücke
+    instructions: Steinpilze und Pfifferlinge abgießen und in Stücke schneiden.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 1
+        unit: EL
+      - ingredient: Tomatenpüree
+        amount: 1
+        unit: EL
+      - ingredient: Kastanien (vorgegart)
+        amount: 500
+        unit: g
+    yields: Kastanienmischung
+    instructions: Kastanien in heißer Butter goldbraun anbraten, dann das Tomatenpüree kurz mitbraten.
+
+  - internal_ingredients:
+      - Kastanienmischung
+    ingredients:
+      - ingredient: Hühnerbouillon
+        amount: 1000
+        unit: ml
+      - ingredient: Rotwein
+        amount: 300
+        unit: ml
+      - ingredient: Steinpilzpulver
+        amount: 1
+        unit: TL
+    yields: Suppe1
+    instructions: >-
+      Bouillon und Rotwein zugeben, aufkochen, Hitze reduzieren und Steinpilzpulver einrühren. Zugedeckt ca. 30 Min. köcheln lassen, bis die Kastanien weich sind.
+      Suppe fein pürieren und nochmals aufkochen.
+
+  - ingredients:
+      - ingredient: Butter
+        amount: 0.5
+        unit: EL
+    internal_ingredients:
+      - Pilzstücke
+    hidden_ingredients:
+      - Suppe1
+    yields: Suppe2
+    instructions: Pilze in heißer Butter goldbraun anbraten und dann zur Suppe geben.
+
+  - ingredients:
+      - ingredient: Sahne
+        amount: 100
+        unit: ml
+    hidden_ingredients:
+      - Suppe2
+    instructions: Sahne in die Suppe rühren, mit Salz, Pfeffer und Cayennepfeffer abschmecken.

@@ -1,0 +1,47 @@
+---
+name: Chocolate Espresso Cookies with Almonds
+serves: 40
+servings_unit: cookies
+servings_increment: 10
+tags: cookies, chocolate, coffee
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Almond Slivers
+        amount: 125
+        unit: g
+      - ingredient: Dark Chocolate
+        amount: 125
+        unit: g
+    yields: Roasted Almonds
+    instructions: Toast almonds in a pan without any fat until golden brown. Grate the chocolate and mix it with the almonds.
+
+cooking:
+  - ingredients:
+      - ingredient: Egg Whites
+        amount: 2
+      - ingredient: Sugar
+        amount: 150
+        unit: g
+      - ingredient: Salt
+        amount: 1
+        unit: pinch
+    yields: Meringue
+    instructions: Beat egg whites until soft peaks form, gradually adding sugar and salt while beating.
+
+  - ingredients:
+      - ingredient: Espresso Powder
+        amount: 3
+        unit: tbsp
+    internal_ingredients:
+      - Meringue
+      - Roasted Almonds
+    yields: Dough
+    instructions: >-
+      Place the meringue over a water bath and whisk until the mixture becomes thick and matte. Remove from the heat, 
+      then gently fold in the almonds and espresso powder until the mixture has a marbled appearance.
+
+passive_cooking:
+  - internal_ingredients:
+      - Dough
+    instructions: Using two teaspoons, place small heaps of dough onto a baking sheet lined with parchment paper. Bake at 140°C (fan) for 15 minutes.

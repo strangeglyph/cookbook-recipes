@@ -1,0 +1,63 @@
+---
+name: Basler Brunsli
+serves: 50
+servings_unit: Kekse
+servings_increment: 10
+tags: kekse, schokolade
+descr: Traditionelles Schweizer Guetzli
+
+cooking:
+  - ingredients:
+      - ingredient: Zucker
+        amount: 150
+        unit: g
+      - ingredient: Salz
+        amount: 1
+        unit: Prise
+      - ingredient: Gemahlene Mandeln
+        amount: 250
+        unit: g
+      - ingredient: Zimt
+        amount: .5
+        unit: TL
+      - ingredient: Nelkenpulver
+        amount: 1
+        unit: Messerspitze
+      - ingredient: Kakaopulver
+        amount: 2
+        unit: EL
+      - ingredient: Mehl
+        amount: 2
+        unit: EL
+    yields: Teig1
+    instructions: Alles in einer Schüssel mischen.
+
+  - ingredients:
+      - ingredient: Eiweiss
+        amount: 2
+    internal_ingredients:
+      - Teig1
+    yields: Teig2
+    instructions: Eiweiss steifschlagen, drauntermischen.
+
+  - ingredients:
+      - ingredient: Zartbitterschokolade
+        amount: 100
+        unit: g
+      - ingredient: Kirsch
+        amount: 2
+        unit: TL
+    internal_ingredients:
+        - Teig2
+    yields: Teig
+    instructions: Schokolade und Kirsch schmelzen, dann unter den Teig ziehen.
+
+passive_cooking:
+  - internal_ingredients:
+      - Teig
+    yields: Ausgestochene Plätzchen
+    instructions: Auf ca. 1 cm Dicke ausrollen, dann ausstechen. Über Nacht trocknen lassen.
+
+  - internal_ingredients:
+      - Ausgestochene Plätzchen
+    instructions: Bei 200°C Umluft ca. 6 Minuten backen. Plätzchen sollten innen noch weich sein.

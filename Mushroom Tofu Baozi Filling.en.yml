@@ -1,0 +1,9 @@
+name: Mushroom Tofu Baozi Filling
+serves: 10
+servings_unit: Baozi
+servings_increment: 5
+hide_from_all: yes
+tags: vegan, main, chinese
+related:
+  - Baozi Grundrezept
+

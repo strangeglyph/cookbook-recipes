@@ -4,6 +4,7 @@ serves: 1
 servings_unit: Liter
 tags: drink, likör
 descr: Süßer und kräutriger Mate-Tee-Likör
+note: Mate-Menge halbieren für einen weniger kräuterigen, mehr zimtigen Likör.
 
 prep:
   - ingredients:
@@ -25,7 +26,7 @@ cooking:
         amount: 15
         unit: g
       - ingredient: Erva Mate
-        amount: 15
+        amount: 30
         unit: g
       - ingredient: Zimt
         amount: 1

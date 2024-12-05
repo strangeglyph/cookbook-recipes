@@ -1,0 +1,66 @@
+---
+name: Chestnut and Mushroom Soup
+serves: 3
+tags: vegetarian, vegan, soup, mushrooms
+note: "Pairs well with baguette. Vegan conversion: omit the cream."
+
+mis_en_place:
+  - ingredients:
+      - ingredient: Porcini Mushrooms or Button Mushrooms
+        amount: 100
+        unit: g
+      - ingredient: Canned Chanterelles
+        amount: 1
+        unit: small jar
+    yields: Mushroom Pieces
+    instructions: Drain porcini and chanterelles, then cut into pieces.
+
+cooking:
+  - ingredients:
+      - ingredient: Butter
+        amount: 1
+        unit: tbsp
+      - ingredient: Tomato Paste
+        amount: 1
+        unit: tbsp
+      - ingredient: Pre-cooked Chestnuts
+        amount: 500
+        unit: g
+    yields: Chestnut Mixture
+    instructions: Sauté chestnuts in hot butter until golden brown, then briefly cook the tomato paste.
+
+  - internal_ingredients:
+      - Chestnut Mixture
+    ingredients:
+      - ingredient: Chicken Broth
+        amount: 1000
+        unit: ml
+      - ingredient: Red Wine
+        amount: 300
+        unit: ml
+      - ingredient: Porcini Powder
+        amount: 1
+        unit: tsp
+    yields: Soup1
+    instructions: >-
+      Add broth and red wine, bring to a boil, reduce heat, and stir in porcini powder. Cover and simmer for about 30 minutes, until the chestnuts are tender.
+      Puree the soup until smooth and bring to a boil again.
+
+  - ingredients:
+      - ingredient: Butter
+        amount: 0.5
+        unit: tbsp
+    internal_ingredients:
+      - Mushroom Pieces
+    hidden_ingredients:
+      - Soup1
+    yields: Soup2
+    instructions: Sauté mushrooms in hot butter until golden, then add to the soup.
+
+  - ingredients:
+      - ingredient: Cream
+        amount: 100
+        unit: ml
+    hidden_ingredients:
+      - Soup2
+    instructions: Stir cream into the soup, and season with salt, pepper, and cayenne.
