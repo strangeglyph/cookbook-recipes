@@ -1,0 +1,24 @@
+name: Caramel Sauce
+tags: side, sauce, dessert
+serves: 200
+servings_unit: ml
+servings_increment: 50
+
+
+cooking:
+  - ingredients:
+      - ingredient: Sugar
+        amount: 200
+        unit: g
+      - ingredient: Water
+        amount: 100
+        unit: ml
+      - ingredient: Salt
+        amount: 1
+        unit: g
+      - ingredient: Cream
+        amount: 200
+        unit: ml
+    yields: Syrup
+    instructions: >-
+      Bring sugar, water and salt to a boil. Simmer until caramel colored. Add cream, continue simmering until thickened.

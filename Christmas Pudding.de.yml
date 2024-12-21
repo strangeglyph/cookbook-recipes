@@ -1,0 +1,108 @@
+name: Christmas Pudding
+serves: 12
+tags: dessert, britisch
+descr: Klassisches britisches Weihnachtsdessert mit Dörrobst.
+note: Dazu passt Karamellsauce oder Brandy-Butter
+related:
+  - Caramel Sauce
+
+prep:
+  - ingredients:
+      - ingredient: Orangeat
+        amount: 50
+        unit: g
+      - ingredient: Zitronat
+        amount: 50
+        unit: g
+      - ingredient: Dörrpflaumen
+        amount: 150
+        unit: g
+      - ingredient: Dörraprikosen
+        amount: 150
+        unit: g
+      - ingredient: Dörrdatteln
+        amount: 150
+        unit: g
+      - ingredient: Dörrfeigen
+        amount: 100
+        unit: g
+      - ingredient: Cranberries
+        amount: 100
+        unit: g
+      - ingredient: Rosinen
+        amount: 150
+        unit: g
+      - ingredient: Stout
+        amount: 200
+        unit: ml
+      - ingredient: Rum
+        amount: 50
+        unit: ml
+      - ingredient: Rosmarin
+        amount: 1
+        unit: Zweig
+    yields: Eingelegtes Obst
+    instructions: >-
+      Alles Obst in kleine Stücke schneiden. Mit Rosmarin, Stout und Rum mischen und für 24-48 Stunden ziehen lassen.
+
+cooking:
+  - ingredients:
+      - ingredient: Pecans, gehackt
+        amount: 100
+        unit: g
+      - ingredient: Mandeln, gemahlen
+        amount: 100
+        unit: g
+      - ingredient: Mehl
+        amount: 100
+        unit: g
+      - ingredient: Eier
+        amount: 2
+      - ingredient: Butter
+        amount: 150
+        unit: g
+      - ingredient: Zimt
+        amount: 1
+        unit: TL
+      - ingredient: Muskantnuss
+        amount: 0.5
+        unit: TL
+      - ingredient: Ingwerpulver
+        amount: 1
+        unit: TL
+      - ingredient: Piment
+        amount: 1
+        unit: TL
+      - ingredient: Kardamom
+        amount: 1
+        unit: TL
+      - ingredient: Anis
+        amount: 1
+        unit: Messerspitze
+      - ingredient: Nelke
+        amount: 1
+        unit: Messerspitze
+    internal_ingredients:
+      - Eingelegtes Obst
+    yields: Teig
+    instructions: Butter schmelzen, dann alles mischen.
+
+  - hidden_ingredients:
+      - Teig
+    yields: Pudding
+    instructions: >-
+      Eine 1.5- bis 2-Liter Keramik- oder Metalschüssel mit Butter bestreichen. Einen Kreis Backpapier innen in die
+      Schüssel legen. Den Teig in die Schüssel füllen. Eine weitere Schicht Backpapier über den Teig legen - in der Mitte
+      falten, damit sich die Abdeckung ausdehnen kann. Das Packpapier an den Rändern der Schüssel festmachen,
+      um den Pudding wasserdicht zu verschließen. Die Schüssel mit zwei Schichten Alufolie einwickeln.
+      
+      Schüssel in einen großen Topf stellen. Wasser halbhoch einfüllen. Zum köcheln bringen und abgedeckt sechs bis
+      acht Stunden dämpfen. Dabei regelmäßig Wasser nachfüllen. Aus dem Topf entnehmen, abkühlen lassen, dann auswickeln.
+      
+      Im Kühlschrank lagern, dabei ab und zu mit Rum übergießen.
+
+  - hidden_ingredients:
+      - Pudding
+    instructions: >-
+      Zum servieren den Pudding wieder einwickeln und noch einmal eine Stunde dämpfen. Dazu passt Karamellsauce
+      oder Brandy-Butter.

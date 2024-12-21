@@ -1,0 +1,12 @@
+name: Dampfnudeln mit Pflaumen
+tags: main, sweet, dessert, vegetarian
+serves: 4
+
+prep:
+  - ingredients:
+      - ingredient: Mehl
+        amount: 300
+        unit: g
+      - ingredient: Salz
+        amount: .5
+        unit: TL

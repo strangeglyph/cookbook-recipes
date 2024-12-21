@@ -1,0 +1,104 @@
+name: Christmas Pudding
+serves: 12
+tags: dessert, british
+descr: Classic british dried fruit christmas dessert.
+note: Serve with caramel sauce or brandy butter.
+related:
+  - Caramel Sauce
+
+prep:
+  - ingredients:
+      - ingredient: Candied Orange Peel
+        amount: 50
+        unit: g
+      - ingredient: Candied Lemon Peel
+        amount: 50
+        unit: g
+      - ingredient: Dried Plums
+        amount: 150
+        unit: g
+      - ingredient: Dried Apricots
+        amount: 150
+        unit: g
+      - ingredient: Dried Dates
+        amount: 150
+        unit: g
+      - ingredient: Dried Figs
+        amount: 100
+        unit: g
+      - ingredient: Cranberries
+        amount: 100
+        unit: g
+      - ingredient: Raisins
+        amount: 150
+        unit: g
+      - ingredient: Stout
+        amount: 200
+        unit: ml
+      - ingredient: Rum
+        amount: 50
+        unit: ml
+      - ingredient: Rosemary
+        amount: 1
+        unit: twig
+    yields: Soaked Fruit
+    instructions: >-
+      Chop all the fruit into small pieces. Mix with rosemary, stout and rum, soak for 24-48 hours.
+
+cooking:
+  - ingredients:
+      - ingredient: Pecans, chopped
+        amount: 100
+        unit: g
+      - ingredient: Almonds, ground
+        amount: 100
+        unit: g
+      - ingredient: Flour
+        amount: 100
+        unit: g
+      - ingredient: Egg
+        amount: 2
+      - ingredient: Butter
+        amount: 150
+        unit: g
+      - ingredient: Cinnamon
+        amount: 1
+        unit: tsp
+      - ingredient: Nutmeg
+        amount: 0.5
+        unit: tsp
+      - ingredient: Ginger Powder
+        amount: 1
+        unit: tsp
+      - ingredient: Allspice
+        amount: 1
+        unit: tsp
+      - ingredient: Cardamom
+        amount: 0.5
+        unit: tsp
+      - ingredient: Anise
+        amount: 1
+        unit: pinch
+      - ingredient: Clove
+        amount: 1
+        unit: pinch
+    internal_ingredients:
+      - Soaked Fruit
+    yields: Batter
+    instructions: Melt butter, then mix everything together.
+
+  - hidden_ingredients:
+      - Batter
+    yields: Pudding
+    instructions: >-
+      Butter a 1.5-2 liter ceramic or metal bowl. Place a circle of parchment paper in the bottom. Pack in the pudding
+      mixture. Put a layer of parchment paper on top of the pudding. Pleat it in the middle to allow for expansion and 
+      crimp it around the edges of the bowl to prevent water from coming in. Wrap the bowl in two layers of aluminum
+      foil as well. Place in a large pot. Fill in enough water to cover bowl half-way. Bring to a simmer and steam for
+      six to eight hours, replacing water as needed. Remove from pot, let cool, then unwrap.
+      
+      Store in the fridge, soaking with rum occasionally.
+
+  - hidden_ingredients:
+      - Pudding
+    instructions: To serve, rewrap pudding and steam again for an hour. Serve with caramel sauce or brandy butter.
