@@ -7,7 +7,7 @@ descr: Pumpkin cake. No, not the american variant. This one is not overly sweet 
 mis_en_place:
   - ingredients:
       - ingredient: Lemon (edible zest)
-        amount: 1
+        amount: 1.5
     yields:
       - Lemon Juice (Half)
       - Lemon Juice (Other Half)
@@ -15,34 +15,34 @@ mis_en_place:
     instructions: Zest and juice the lemon.
 
   - ingredients:
-      - ingredient: Pumpkin
-        amount: 600
+      - ingredient: Pumpkin, peeled and deseeded
+        amount: 500
         unit: g
     yields: Grated Pumpkin
-    instructions: Peel pumpkin. Remove seeds. Then cut the pumpkin into slices and grate on a medium-sized grater.
+    instructions: Then cut the pumpkin into slices and grate on a grater with medium to small holes.
 
 cooking:
   - ingredients:
       - ingredient: Sugar
-        amount: 200
+        amount: 250
         unit: g
       - ingredient: Eggs
-        amount: 4
+        amount: 5
     yields: Sugar Egg Mix
     instructions: Whisk sugar and eggs until well combined and light in colour.
 
   - ingredients:
       - ingredient: Cinnamon
-        amount: 1
+        amount: 1.5
         unit: tsp
       - ingredient: Ground Almonds
-        amount: 120
+        amount: 150
         unit: g
       - ingredient: Flour
-        amount: 100
+        amount: 125
         unit: g
       - ingredient: Baking Powder
-        amount: 1
+        amount: 1.5
         unit: tsp
     internal_ingredients:
       - Lemon Zest
@@ -63,10 +63,10 @@ passive_cooking:
 cooking2:
   - ingredients:
       - ingredient: Powdered Sugar
-        amount: 150
+        amount: 200
         unit: g
       - ingredient: Kirsch
-        amount: 3
+        amount: 4
         unit: tsp
       - ingredient: Water
         amount: 1

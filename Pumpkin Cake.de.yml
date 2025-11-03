@@ -9,7 +9,7 @@ descr: >-
 mis_en_place:
   - ingredients:
       - ingredient: Zitrone (Schale essbar)
-        amount: 1
+        amount: 1.5
     yields:
       - Zitronensaft (Hälfte)
       - Zitronensaft (Andere Hälfte)
@@ -17,36 +17,36 @@ mis_en_place:
     instructions: Zitronenschale abreiben und die Zitrone dann ausdrücken.
 
   - ingredients:
-      - ingredient: Kürbis
-        amount: 600
+      - ingredient: Kürbis, geschält und entkernt
+        amount: 500
         unit: g
     yields: Geraspelter Kürbis
     instructions: >-
-      Kürbis schälen und die Kerne entfernen. Dann den Kürbis in Scheiben schneiden und mit einer Reibe
-      mit mittelgroßen Löchern kleinraspeln.
+      Dann den Kürbis in Scheiben schneiden und mit einer Reibe
+      mit mitteleren bis kleinen Löchern fein raspeln.
 
 cooking:
   - ingredients:
       - ingredient: Zucker
-        amount: 200
+        amount: 250
         unit: g
       - ingredient: Eier
-        amount: 4
+        amount: 5
     yields: Zucker-Eier-Mischung
     instructions: Zucker und Eier verrühren bis eine helle Masse entsteht.
 
   - ingredients:
       - ingredient: Zimt
-        amount: 1
+        amount: 1.5
         unit: TL
       - ingredient: Gemahlene Mandeln
-        amount: 120
+        amount: 150
         unit: g
       - ingredient: Mehl
-        amount: 100
+        amount: 125
         unit: g
       - ingredient: Backpulver
-        amount: 1
+        amount: 1.5
         unit: TL
     internal_ingredients:
       - Zitronenschale
@@ -68,10 +68,10 @@ passive_cooking:
 cooking2:
   - ingredients:
       - ingredient: Puderzucker
-        amount: 150
+        amount: 200
         unit: g
       - ingredient: Kirsch
-        amount: 3
+        amount: 4
         unit: TL
       - ingredient: Water
         amount: 1
