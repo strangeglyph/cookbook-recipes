@@ -14,7 +14,7 @@ cooking:
         amount: 1000
         unit: ml
     yields: Durchgezogener Alkohol
-    instructions: Die Zitronen mit einem Sparschäler schälen , mit Alkohol übergießen und 2-3 Wochen ziehen lassen.
+    instructions: Die Zitronen mit einem Sparschäler schälen, mit Alkohol übergießen und 2-3 Wochen ziehen lassen.
 
   - ingredients:
       - ingredient: Wasser
@@ -23,8 +23,8 @@ cooking:
       - ingredient: Zucker
         amount: 1000
         unit: g
-    instructions: Zuckersirup
-    yields: Wasser aufkochen, Zucker darin auflösen.
+    yields: Zuckersirup
+    instructions: Wasser aufkochen, Zucker darin auflösen.
 
   - internal_ingredients:
       - Durchgezogener Alkohol

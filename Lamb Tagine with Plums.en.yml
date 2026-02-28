@@ -39,8 +39,7 @@ cooking:
         unit: tsp
     internal_ingredients:
       - Lamb Cubes
-      - Dices Onions
-    yields: Lamb mix
+      - Diced Onions
     instructions: Press garlic. Mix lamb with onions, garlic and spices.
 
   - ingredients:
@@ -53,9 +52,6 @@ cooking:
       - ingredient: Cinnamon
         amount: 2
         unit: sticks
-    internal_ingredients:
-      - Lamb mix
-    yields: Seared Lamb Cubes
     instructions: >-
       Heat olive oil and butter in a pan. Add lamb and cinnamon and sear. The lamb doesn't need to be cooked through
       at this stage. It just needs to brown on the outside.
@@ -65,23 +61,16 @@ passive_cooking:
       - ingredient: Water
         amount: 700
         unit: ml
-    internal_ingredients:
-      - Seared Lamb Cubes
     yields:
       - Water, Set Aside
       - Cooked Lamb
-      - Remaining Onion Mixture
+      - Onions
     instructions: >-
-      Fill pan with water. Cover and simmer at low heat for an hour. Take off 200 ml of Water and set aside. Continue
+      Add water to pan. Cover and simmer at low heat for an hour. Take off 200 ml of Water and set aside. Continue
       cooking meat for another 30 to 60 minutes, until tender. Potentially refill some water along the way to prevent
-      the meat from burning. Take out meat and set aside.
+      the meat from burning. Take out meat and set aside. Reduce the onions in the pan until no water is left.
 
 cooking2:
-  - internal_ingredients:
-      - Remaining Onion Mixture
-    yields: Reduced Onion Mixture
-    instructions: Reduce the onions and water still in the pan until no water is left.
-
   - ingredients:
       - ingredient: Dried Plums
         amount: 500
@@ -95,7 +84,7 @@ cooking2:
     internal_ingredients:
       - Water, Set Aside
     yields: Reduced Plums
-    instructions: Reduce dired plums with the set-aside water, honey and cinnamon to a syrup like consistency.
+    instructions: Reduce dried plums with the set-aside water, honey and cinnamon to a syrup like consistency.
 
   - ingredients:
       - ingredient: Sesame
@@ -111,7 +100,7 @@ cooking2:
       - ingredient: Flatbread
     internal_ingredients:
       - Cooked Lamb
-      - Reduced Onion Mixture
+      - Onions
       - Reduced Plums
       - Roasted Sesame and Almonds
     instructions: Mix lamb with onions and plums. Sprinkle with sesame and almonds and serve with flatbread.

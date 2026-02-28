@@ -9,7 +9,6 @@ mis_en_place:
       - ingredient: Rhubarb
         amount: 500
         unit: g
-    yields: Rhubarb Pieces
     instructions: >-
       Wash rhubarb, remove leaves and bottom part of the stalk. Pull off strings on the outside with a knife.
       Cut stalks into rough pieces.
@@ -25,8 +24,6 @@ cooking:
       - ingredient: Amaretto
         amount: 3
         unit: Tbsp
-    internal_ingredients:
-      - Rhubarb Pieces
     yields: Rhubarb Mousse
     instructions: >-
       Mix rhubarb with butter and sugar in a pan. Cover and simmer at low heat until soft. Let cool, then

@@ -9,7 +9,7 @@ mis_en_place:
       - ingredient: Potatoes
         amount: 1
         unit: kg
-    yields: Diced Potatoes
+    yields: Potatoes
     instructions: >-
       Peel potatoes and, depending on size, cut into quarters or eighths. Let rest in water to prevent them from turning
       black.
@@ -18,21 +18,21 @@ mis_en_place:
       - ingredient: Carrots
         amount: 1
         unit: kg
-    yields: Sliced Carrots
+    yields: Carrots
     instructions: >-
       Peel carrots and cut into 0.5-1cm wide slices.
 
   - ingredients:
       - ingredient: Onions
         amount: 4
-    yields: Onion Quarters
+    yields: Onions
     instructions: >-
       Peel and quarter onions.
 
   - ingredients:
       - ingredient: Piri Piri
         amount: 4
-    yields: Chili Strips
+    yields: Chili
     instructions: >-
       Cut Piri Piri in half lengthwise and deseed. Then cut into thin strips.
 
@@ -40,7 +40,7 @@ mis_en_place:
       - ingredient: Garlic
         amount: 8
         unit: Cloves
-    yields: Pressed Garlic
+    yields: Garlic
     instructions: >-
       Peel and press garlic.
 
@@ -49,7 +49,7 @@ mis_en_place:
         amount: 600
         unit: g
       - ingredient: Paprika Powder
-    yields: Prepared Chicken
+    yields: Chicken
     instructions: >-
       Clean Chicken, then season with salt, pepper and paprika.
 
@@ -65,13 +65,12 @@ cooking:
         amount: 1
         unit: jar
     internal_ingredients:
-      - Diced Potatoes
-      - Sliced Carrots
-      - Quartered Onions
-      - Chili Strips
-      - Pressed Garlic
-      - Prepared Chicken
-    yields: Farmer's Pot
+      - Potatoes
+      - Carrots
+      - Onions
+      - Chili
+      - Garlic
+      - Chicken
     instructions: >-
       Exluding the chicken, mix everything in a dutch oven and season with salt. Put the chicken on top and cover.
 
@@ -79,7 +78,5 @@ passive_cooking:
   - ingredients:
       - ingredient: Baguette
         amount: 1
-    internal_ingredients:
-      - Farmer's Pot
     instructions: >-
       Cook the farmer's pot at 200°C top/down heat for 1:30h. Serve with baguette.

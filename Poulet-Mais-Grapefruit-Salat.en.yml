@@ -9,13 +9,13 @@ cooking:
       - ingredient: Chicken
         amount: 900
         unit: g
-    yields: Diced Chicken
+    yields: Chicken
     instructions: Fry chicken with salt and pepper until cooked through. Let cool, then dice.
 
   - ingredients:
       - ingredient: Grapefruit
         amount: 2
-    yields: Grapefruit Pieces
+    yields: Grapefruit
     instructions: Filet grapefruit, then cut into small pieces.
 
   - ingredients:
@@ -43,8 +43,7 @@ cooking:
       - ingredient: Salt
       - ingredient: Pepper
     internal_ingredients:
-      - Diced Chicken
-      - Grapefruit Pieces
+      - Chicken
+      - Grapefruit
       - Corn
-    yields: Dessing
     instructions: Mix ingredients for dressing, then mix with salad ingredients.

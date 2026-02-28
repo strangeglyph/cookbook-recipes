@@ -1,9 +1,7 @@
 --- 
-name: Filled Foccacia with Cheese
+name: Spinach Feta Calzone
 serves: 5
 tags: vegetarian, main
-descr: >-
-    Foccacia (or is it a calzone?) filled with spinach, feta and mushrooms
 
 prep: 
   - ingredients:
@@ -102,14 +100,11 @@ cooking:
         unit: bunch
       - ingredient: Coarse Salt
       - ingredient: Olive Oil
-    yields: Raw Foccacia
     instructions: >-
       Roll out dough to twice the size of a baking tray. Spread spinach on bottom half, then champignons, then feta
       and finally the basil. Fold empty half of dough over and seal. Punch holes into the top with a fork. Spread olive
       oil on top and season with coarse salt. Transfer to lined baking tray and let rest for 30 minutes.
 
 passive_cooking:
-  - internal_ingredients:
-      - Raw Focaccia
-    instructions: >-
-      Pre-heat oven to 220°C convection. Bake foccacia for 12-15 minutes.
+  - instructions: >-
+      Pre-heat oven to 220°C convection. Bake calzone for 12-15 minutes.

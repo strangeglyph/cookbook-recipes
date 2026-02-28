@@ -26,7 +26,6 @@ prep:
       - ingredient: Fleur de Sel
         amount: 0.5
         unit: TL
-    yields: Dukkah
     instructions: >-
       Alle Zutaten bis auf das Salz in einer Pfanne anrösten, auskühlen lassen und mit dem Salz im Mixer fein zerkleinern.
 
@@ -57,7 +56,6 @@ cooking:
       - Paprika
       - Karotten
       - Zwiebeln
-    yields: Gemüsepürée
     instructions: >-
       Gemüse mit Olivenöl auf einem Backblech mischen und bei 200°C Ober-/Unterhitze 35 Minute garen. Dann pürieren.
 
@@ -66,8 +64,6 @@ cooking:
         amount: 500
         unit: ml
       - ingredient: Weißwein
-    internal_ingredients:
-      - Gemüsepürée
     instructions: >-
       Gemüsefond in einem Topf erhitzen. Gemüsepürée beigeben und mit dem Weißwein das restliche Pürée aus dem Behälter
       spülen. Abschmecken, nach belieben, mit: Salz, Hühnerbrühe, Ras el Hanout, Thai-Curry-Paste, Korianderpulver, Zucker.

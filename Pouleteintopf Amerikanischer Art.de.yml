@@ -17,23 +17,20 @@ prep:
 
 mis_en_place:
   - ingredients:
-      - ingredient: Champignons
-        amount: 500
-        unit: g
-    yields: Champignonwürfel
-    instructions: Champignons putzen und vierteln.
-
-  - ingredients:
       - ingredient: Mais
         amount: 2
         unit: Dosen
-    yields: Abgetropften Mais
+    yields: Mais
     instructions: Mais abtropfen lassen.
 
+  - ingredients:
+      - ingredient: Champignons
+        amount: 500
+        unit: g
+    instructions: Champignons putzen und vierteln.
+
 cooking:
-  - internal_ingredients:
-      - Champignonwürfel
-    ingredients:
+  - ingredients:
       - ingredient: Butter
       - ingredient: Weißwein
       - ingredient: Worcestershiresauce
@@ -76,7 +73,7 @@ cooking:
 
 passive_cooking:
   - internal_ingredients:
-      - Abgetropfter Mais
+      - Mais
       - Angebratenes Hühnchen
       - Angebratene Pilze
       - Sauce

@@ -23,8 +23,8 @@ cooking:
       - ingredient: Sugar
         amount: 1000
         unit: g
-    instructions: Syrup
-    yields: Bring water to a boil and dissolve the sugar.
+    yields: Syrup
+    instructions: Bring water to a boil and dissolve the sugar.
 
   - internal_ingredients:
       - Infused Alcohol

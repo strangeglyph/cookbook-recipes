@@ -62,27 +62,18 @@ cooking:
       - Chopped walnuts
       - Chopped apricots
       - Batter
-    yields: Batter with fruit
     instructions: Mix in the fruits and nuts as well as the flour and baking powder.
 
   - ingredients:
       - ingredient: Cornflakes
         amount: 150
-        unit: g
-    internal_ingredients:
-      - Batter with fruit
-    yields: Batter with cornflakes
+        unit: gs
     instructions: Stir in cornflakes (with a spoon to prevent them from breaking up too much).
 
-  - internal_ingredients:
-      - Batter with cornflakes
-    yields: Formed cookies
-    instructions: >-
+  - instructions: >-
       With two spoons, put small mounds of batter on a parchment-lined baking tray. The batches should be roughly
       2 cm in diameter, maybe a bit smaller. The cookies spread as they are baked, make sure to leave a decent gap
       between the mounds.
 
 passive_cooking:
-  - internal_ingredients:
-      - Formed cookies
-    instructions: Bake for 9-12 minutes at 200°C top/down heat, 180°C convection until they turn golden-brown.
+  - instructions: Bake for 9-12 minutes at 200°C top/down heat, 180°C convection until they turn golden-brown.

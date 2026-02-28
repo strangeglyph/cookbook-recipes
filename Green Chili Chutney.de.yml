@@ -4,7 +4,7 @@ serves: 80
 servings_unit: ml
 servings_increment: 20
 tags: vegetarisch, vegan, chutney, sauce
-descr: Scharfes Chutney aus Bangladesh (mit Dank and Shyamol)
+descr: Scharfes Chutney aus Bangladesh (mit Dank an Shyamol)
 note: Hält eine Woche im Kühlschrank.
 
 mis_en_place:
@@ -41,7 +41,6 @@ cooking:
       - Gehackter Knoblauch
       - Gewürfelte Zwiebeln
       - Zerdrückte Mangos
-    yields: Chutney
     instructions: >-
       Die Chillies und den Knoblauch mit etwas Öl in einem Mixer pürieren bis eine einheitliche Masse entsteht.
       Mit den Zwiebeln und der Mango mischen. Falls nötig mit Öl verdünnen - das Chutney sollte dünn, fast saucenartig

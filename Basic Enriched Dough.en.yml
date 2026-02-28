@@ -17,7 +17,6 @@ prep:
       - ingredient: Milk
         amount: 350
         unit: g
-    yields: Melted butter
     instructions: >-
       Melt butter in a small pot. Remove from heat, add milk and allow to cool completely.
 
@@ -28,8 +27,6 @@ prep:
       - ingredient: Yeast (fresh)
         amount: 5
         unit: g
-    hidden_ingredients:
-      - Melted butter
     yields: Predough
     instructions: Dissolve yeast in milk. Add to flour and mix well. Rest overnight - should have a spongy look the next day.
 

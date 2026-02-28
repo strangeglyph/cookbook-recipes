@@ -14,13 +14,10 @@ prep:
       - ingredient: Sherry
         amount: 2
         unit: EL
-    yields: Mariniertes Hühnchen
     instructions: Hühnchen in 1-2 cm große Würfel schneiden. Mit Sojasauce und Sherry mischen und marinieren.
 
 cooking:
-  - internal_ingredients:
-      - Mariniertes Hühnchen
-    yields: Angebratene Hühnchenwürfel
+  - yields: Angebratene Hühnchenwürfel
     instructions: Hühnchen in einer Pfanne mit Öl bei mittlerer bis hoher Hitze rundum anbraten, dann bei Seite stellen.
 
   - ingredients:
@@ -55,10 +52,9 @@ cooking:
         amount: 1
         unit: TL
     internal_ingredients:
-      - Mariniertes Hühnchen
+      - Angebratene Hühnchenwürfel
     hidden_ingredients:
       - Karamell
-    yields: Sauce
     instructions: Alles zum Karamell geben, gut verrühren und kurz aufkochen. Hitze reduzieren. Abschmecken.
 
   - ingredients:
@@ -68,15 +64,10 @@ cooking:
       - ingredient: Sherry
         amount: 1
         unit: TL
-    hidden_ingredients:
-      - Sauce
-    yields: Sauce pt 2
     instructions: Beides vermischen und unter die Sauce rühren. Zwei Minuten köcheln lassen.
 
   - ingredients:
       - ingredient: Ananas (Dose)
         amount: 4
         unit: Scheiben
-    hidden_ingredients:
-      - Sauce pt 2
     instructions: Ananasscheiben achteln oder zwölfteln, beigeben, kurz erwärmen.

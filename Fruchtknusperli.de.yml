@@ -12,7 +12,7 @@ prep:
         amount: 200
         unit: g
     yields: Weiche Butter
-    instructions: Butter zum weich werden aus dem Kühlschrank holen.
+    instructions: Butter zum Weichwerden aus dem Kühlschrank holen.
 
 mis_en_place:
   - ingredients:
@@ -42,7 +42,7 @@ cooking:
       - ingredient: Salz
     internal_ingredients:
       - Weiche Butter
-    yields: Teig
+    yields: Buttermasse
     instructions: Alles in einer Schüssel verrühren bis es schaumig wird.
 
   - ingredients:
@@ -61,28 +61,19 @@ cooking:
     internal_ingredients:
       - Gehackte Walnüsse
       - Gehackte Aprikosen
-      - Teig
-    yields: Teig mit Früchten
-    instructions: Die Früchte, Nüsse und das Mehl und Backpulver in den Teig mischen.
+      - Buttermasse
+    instructions: Die Früchte, Nüsse und das Mehl und Backpulver untermischen mischen.
 
   - ingredients:
       - ingredient: Cornflakes
         amount: 150
         unit: g
-    internal_ingredients:
-      - Teig mit Früchten
-    yields: Teig mit Cornflakes
     instructions: Cornflakes unterrühren (am besten mit einem Löffel, damit die Cornflakes nicht zu sehr zerbrechen).
 
-  - internal_ingredients:
-      - Teig mit Früchten
-    yields: Kekse
-    instructions: >-
+  - instructions: >-
       Mit zwei Löffeln kleine Häufchen Teig auf ein mit Backpapier ausgelegtes Backblech legen. Die Häufchen sollten
       einen Durchmesser von etwa zwei Zentimeter haben, eventuell etwas kleiner. Die Kekse verlaufen während des
       Backens, also genug Platz zwischen den Häufchen lassen.
 
 passive_cooking:
-  - internal_ingredients:
-      - Kekse
-    instructions: Die Kekse für 9-12 Minuten bei 200°C Ober/Unterhitze, 180°C Umluft backen bis sie goldenbraun werden.
+  - instructions: Die Kekse für 9-12 Minuten bei 200°C Ober/Unterhitze, 180°C Umluft backen bis sie goldenbraun werden.

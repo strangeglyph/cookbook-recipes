@@ -17,7 +17,6 @@ prep:
       - ingredient: Milch
         amount: 350
         unit: g
-    yields: Melted butter
     instructions: >-
       Butter in einem kleinen Topf schmelzen. Vom Herd nehmen, Milch hinzufügen und auskühlen lassen.
 
@@ -28,9 +27,6 @@ prep:
       - ingredient: Hefe (frisch)
         amount: 5
         unit: g
-    hidden_ingredients:
-      - Melted butter
-    yields: Vorteig
     instructions: >-
       Hefe in der Milch auflösen. Zum Mehl geben, vermischen und über Nacht aufgehen lassen. 
       Sollte am nächsten Tag schwammig aussehen.
@@ -48,8 +44,6 @@ cooking:
         unit: g
       - ingredient: Salz
       - ingredient: Kardamom (gemahlen)
-    internal_ingredients:
-      - Vorteig
     instructions: >-
       Alles verkneten bis ein geschmeidiger Teig entsteht. Auf doppelte bis dreifache Größe aufgehen lassen,
       dabei in regelmäßigen Abständen falten.

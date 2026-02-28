@@ -9,35 +9,35 @@ prep:
       - ingredient: Pinienkerne
         amount: 60
         unit: g
-    yields: Geröstete Pinienkerne
+    yields: Pinienkerne
     instructions: Pinienkerne rösten.
 
 mis_en_place:
   - ingredients:
       - ingredient: Mango
         amount: 1
-    yields: Mangowürfel
+    yields: Mango
     instructions: Mango schälen und würfeln.
 
   - ingredients:
       - ingredient: Mozzarella
         amount: 250
         unit: g
-    yields: Mozzarellawürfel
+    yields: Mozzarella
     instructions: Mozzarella würfeln.
 
   - ingredients:
       - ingredient: Avocado
         amount: 1
       - ingredient: Zitronensaft
-    yields: Avocadowürfel
+    yields: Avocado
     instructions: Avocado würfeln und mit etwas Zitronensaft beträufeln.
 
   - ingredients:
       - ingredient: Rucola
         amount: 250
         unit: g
-    yields: Rucolablätter
+    yields: Rucola
     instructions: Rucolablätter waschen und etwas verkleinern.
 
   - ingredients:
@@ -59,10 +59,10 @@ mis_en_place:
 
 cooking:
   - internal_ingredients:
-      - Mangowürfel
-      - Avocadowürfel
-      - Mozzarellawürfel
-      - Rucolablätter
+      - Mango
+      - Avocado
+      - Mozzarella
+      - Rucola
       - Dressing
       - Pinienkerne
     ingredients:

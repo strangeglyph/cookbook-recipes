@@ -40,7 +40,6 @@ cooking:
     internal_ingredients:
       - Lammwürfel
       - Zwiebelwürfel
-    yields: Lammmischung
     instructions: Knoblauch pressen. Lamm mit Zwiebeln, Knoblauch und Gewürzen gut mischen.
 
   - ingredients:
@@ -53,9 +52,6 @@ cooking:
       - ingredient: Zimt
         amount: 2
         unit: Stangen
-    internal_ingredients:
-      - Lammmischung
-    yields: Angebratene Lammwürfel
     instructions: >-
       Olivenöl und Butter in einer Pfanne erhitzen. Lamm und Zimt dazugeben und scharf anbraten. Das Lamm muss nicht durch
       sein, sondern soll hier nur von außen Farben annehmen.
@@ -65,23 +61,17 @@ passive_cooking:
       - ingredient: Wasser
         amount: 700
         unit: ml
-    internal_ingredients:
-      - Angebratene Lammwürfel
     yields:
       - Abgenommenes Wasser
       - Gekochtes Lamm
-      - Übrige Zwiebelmischung
+      - Zwiebeln
     instructions: >-
-      Pfanne mit Wasser auffüllen. Zugedeckt bei niedriger Hitze für eine Stunde köcheln lassen. 200 ml Wasser abnehmen
+      Wasser zur Pfanne geben. Zugedeckt bei niedriger Hitze für eine Stunde köcheln lassen. 200 ml Wasser abnehmen
       und beiseite stellen. Fleisch für 30 Minuten bis eine Stunde weiterköcheln lassen, bis es zart ist. Eventuell
       zwischendrin Wasser nachfüllen, damit das Fleisch nicht anbrennt. Fleisch herausnehmen, beiseite stellen.
+      Die übrigen Zwiebeln in der Pfanne einkochen bis kein Wasser mehr vorhanden ist.
 
 cooking2:
-  - internal_ingredients:
-      - Übrige Zwiebelmischung
-    yields: Eingekochte Zwiebelmischung
-    instructions: Das übrige Wasser und die Zwiebeln in der Pfanne einkochen bis kein Wasser mehr vorhanden ist.
-
   - ingredients:
       - ingredient: Dörrpflaumen
         amount: 500
@@ -111,7 +101,7 @@ cooking2:
       - ingredient: Fladenbrot
     internal_ingredients:
       - Gekochtes Lamm
-      - Eingekochte Zwiebelmischung
+      - Zwiebeln
       - Eingekochte Pflaumen
       - Gerösteter Sesam und Mandeln
     instructions: Lamm mit Zwiebeln und Pflaumen mischen, mit Sesam und Mandeln bestreuen und mit Fladenbrot servieren.

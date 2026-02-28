@@ -1,109 +1,110 @@
 ---
 name: Operntorte
-tags: cake, dessert
+tags: Kuchen, Dessert
 serves: 1
 note: >-
-  <p>Contains partly pasteurized eggs in the buttercream. Use fresh eggs and keep refrigerated.</p>
-  <p>Makes four biscuit layers - use three quarters for a three layer version.</p>
+  <p>Enthält teilpasteurisierte Eier in der Buttercreme. Frische Eier verwenden und gekühlt lagern.</p>
+  <p>Ergibt vier Biskuitböden - für eine dreilagige Variante drei Viertel davon verwenden.</p>
 
 cooking:
   - ingredients:
-      - ingredient: Water
+      - ingredient: Wasser
         amount: 150
         unit: ml
-      - ingredient: Sugar
+      - ingredient: Zucker
         amount: 150
         unit: g
-      - ingredient: Instant Espresso
+      - ingredient: Instant-Espresso
         amount: 3
-        unit: packets
+        unit: Päckchen
       - ingredient: Amaretto
-    yields: Coffee Syrup
+    yields: Kaffeesirup
     instructions: >-
-      Bring water, sugar and espresso powder to a boil and stir to dissolve. Let cool and add a generous dash of 
-      Amaretto. Set aside.
+      Wasser, Zucker und Espressopulver aufkochen und rühren bis sich alles aufgelöst hat. Abkühlen lassen und
+      einen großzügigen Schuss Amaretto hinzufügen. Beiseite stellen.
 
   - ingredients:
-      - ingredient: Eggs
+      - ingredient: Eier
         amount: 6
     yields:
-      - Egg Yolks
-      - Egg Whites
-    instructions: Split eggs. Whip all egg whites. Reserve {{.167}} egg yolk
+      - Eigelb
+      - Eiweiß
+    instructions: Eier trennen. Alle Eiweiße steif schlagen. Ein Sechstel Eigelb zurückbehalten.
 
   - ingredients:
       - ingredient: Butter
         amount: 30
         unit: g
-    yields: Molten Butter
-    instructions: Melt butter.
+    yields: Geschmolzene Butter
+    instructions: Butter schmelzen.
 
   - ingredients:
-      - ingredient: Eggs
+      - ingredient: Eier
         amount: 5
-      - ingredient: Sugar
+      - ingredient: Zucker
         amount: 30
         unit: g
-      - ingredient: Flour
+      - ingredient: Mehl
         amount: 60
         unit: g
-      - ingredient: Powdered Sugar
+      - ingredient: Puderzucker
         amount: 60
         unit: g
-      - ingredient: Ground Almonds
+      - ingredient: Gemahlene Mandeln
         amount: 200
         unit: g
     internal_ingredients:
-      - Egg Whites
-      - Molten Butter
-    yields: Joconde Sponge
+      - Eiweiß
+      - Geschmolzene Butter
+      - Kaffeesirup
+    yields: Joconde-Biskuit
     instructions: >-
-      <p>Preheat Oven to 220°C (upper/lower heat).</p>
-      <p>Beat eggs and sugar until very foamy. Sift and fold in dry ingredients. Fold in egg whites. Fold in molten butter.</p>
-      <p>Line two baking sheets with parchment paper and divide the batter between them. Spread flat (about 3mm thick) 
-      and bake for 8-10 minutes.</p>
-      <p>Layer sponges. Cut in half. Layer again, then cut out the largest rectangular area possible. Lather with syrup and set aside, covered with parchment paper.</p>
+      <p>Ofen auf 220°C (Ober-/Unterhitze) vorheizen.</p>
+      <p>Eier und Zucker sehr schaumig schlagen. Trockene Zutaten sieben und unterheben. Eiweiß unterheben. Geschmolzene Butter unterheben.</p>
+      <p>Zwei Backbleche mit Backpapier auslegen und den Teig gleichmäßig darauf verteilen. Flach ausstreichen (ca. 3 mm dick)
+      und 8-10 Minuten backen.</p>
+      <p>Biskuitböden stapeln. Halbieren. Erneut stapeln und die größtmögliche rechteckige Fläche ausschneiden. Mit Sirup tränken und abgedeckt mit Backpapier beiseite stellen.</p>
 
   - ingredients:
-      - ingredient: Sugar
+      - ingredient: Zucker
         amount: 130
         unit: g
-      - ingredient: Water
+      - ingredient: Wasser
         amount: 50
         unit: ml
-      - ingredient: Eggs
+      - ingredient: Eier
         amount: 1
       - ingredient: Butter
         amount: 300
         unit: g
-      - ingredient: Instant Espresso
+      - ingredient: Instant-Espresso
         amount: 5
-        unit: packets
+        unit: Päckchen
     internal_ingredients:
-      - Egg yolk
-    yields: Butter Cream
+      - Eigelb
+    yields: Buttercreme
     instructions: >-
       <p>
-      Bring sugar and water to a boil. In the meantime, beat eggs together until foamy. Add boiling syrup to the eggs
-      and continue mixing.
+      Zucker und Wasser aufkochen. In der Zwischenzeit Eier schaumig schlagen. Den kochenden Sirup zu den Eiern
+      geben und weiterrühren.
       </p>
       <p>
-      Add in the butter in small cubes while the egg mixture is still hot. Keep mixing until incorporated. The butter 
-      cream should be thick and creamy. If it is to runny, add more butter. The whole process may take half an hour --
-      a stand mixer helps.
+      Butter in kleinen Würfeln einarbeiten, solange die Eiermasse noch heiß ist. Weiterrühren bis alles eingearbeitet ist.
+      Die Buttercreme sollte dick und cremig sein. Falls sie zu flüssig ist, mehr Butter hinzufügen. Der gesamte Vorgang
+      kann eine halbe Stunde dauern - eine Küchenmaschine ist hilfreich.
       </p>
       <p>
-      Mix espresso powder with a minimal amount of water, then mix into the butter cream.
+      Espressopulver mit einer minimalen Menge Wasser anrühren und dann unter die Buttercreme mischen.
       </p>
 
   - ingredients:
-      - ingredient: Chocolate
+      - ingredient: Schokolade
         amount: 150
         unit: g
-      - ingredient: Milk
+      - ingredient: Milch
         amount: 60
         unit: ml
-      - ingredient: Cream
+      - ingredient: Sahne
         amount: 30
         unit: ml
       - ingredient: Butter
@@ -111,34 +112,31 @@ cooking:
         unit: g
     yields: Ganache
     instructions: >-
-      Chop chocolate and melt in a baine marie at low heat. Add milk, cream and butter - half first, mix to incorporate,
-      then the remainder.
+      Schokolade hacken und im Wasserbad bei niedriger Hitze schmelzen. Milch, Sahne und Butter hinzufügen -
+      zunächst die Hälfte einrühren, dann den Rest.
 
   - internal_ingredients:
-      - Joconde Sponge
-      - Butter Cream
+      - Joconde-Biskuit
+      - Buttercreme
       - Ganache
-    yields: Cake
     instructions: >-
-      Assemble cake with alternating layers of sponge, ganache, sponge again and butter cream.
+      Torte mit abwechselnden Schichten aus Biskuit, Ganache, erneut Biskuit und Buttercreme zusammensetzen.
 
   - ingredients:
-      - ingredient: Sugar
+      - ingredient: Zucker
         amount: 100
         unit: g
-      - ingredient: Cocoa Powder
+      - ingredient: Kakaopulver
         amount: 50
         unit: g
-      - ingredient: Water
+      - ingredient: Wasser
         amount: 50
         unit: ml
-      - ingredient: Cream
+      - ingredient: Sahne
         amount: 60
         unit: ml
-      - ingredient: Agar Agar
+      - ingredient: Agar-Agar
         amount: 2
-        unit: tsp
-    yields: Mirror Glaze
+        unit: TL
     instructions: >-
-      Mix and bring to a boil. Keep at a boil for 1-2 minutes. Strain through a sieve and let cool to 34°C. Strain again and pour over cake.
-
+      Alles vermischen und aufkochen. 1-2 Minuten köcheln lassen. Durch ein Sieb streichen und auf 34°C abkühlen lassen. Erneut sieben und über die Torte gießen.

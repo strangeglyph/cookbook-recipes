@@ -29,15 +29,11 @@ cooking:
       - ingredient: Flour
         amount: 2
         unit: tbsp
-    yields: Dough1
     instructions: Mix everything in a bowl.
 
   - ingredients:
       - ingredient: Egg Whites
         amount: 2
-    hidden_ingredients:
-      - Dough1
-    yields: Dough2
     instructions: Beat egg whites until stiff, then fold them into the mixture.
 
   - ingredients:
@@ -47,8 +43,6 @@ cooking:
       - ingredient: Kirsch (Cherry Brandy)
         amount: 2
         unit: tsp
-    hidden_ingredients:
-      - Dough2
     yields: Dough
     instructions: Melt chocolate and kirsch, then fold them into the dough.
 

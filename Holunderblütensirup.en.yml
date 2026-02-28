@@ -45,7 +45,6 @@ passive_cooking:
       - Lemon Slices
       - Lime Slices
       - Cleaned Elder Flowers
-    yields: Elder Flower Syrup
     instructions: >-
       Add everything into a large bowl and cover with something heavy (e.g a plate) so everything is submerged.
       Let infuse for five days in the fridge, stir daily.

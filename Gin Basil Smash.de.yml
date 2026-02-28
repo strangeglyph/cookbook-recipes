@@ -10,7 +10,6 @@ cooking:
       - ingredient: Basilikum
         amount: 10
         unit: Blätter
-    yields: Gin-Basilikum-Mischung
     instructions: Basilikum mit Gin zerstoßen.
 
   - ingredients:
@@ -20,5 +19,4 @@ cooking:
       - ingredient: Zitronensaft
         amount: 1.8
         unit: cl
-    internal_ingredients: Gin-Basilikum-Mischung
-    instructions: Alles in einem Glas mit Eiswürfeln mischen.
+    instructions: In einem Glas mit Eiswürfeln zum Gin geben.

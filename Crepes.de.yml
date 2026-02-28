@@ -40,7 +40,8 @@ cooking:
       - ingredient: Salz
         amount: 2
         unit: TL
-    internal_ingredients: Geschmolzene Butter
+    internal_ingredients: 
+      - Geschmolzene Butter
     instructions: >-
       <p>Alles vermischen. 30 Minuten ruhen lassen. Inzwischen den gewünschten Belag vorbereiten.</p>
     

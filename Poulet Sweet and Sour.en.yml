@@ -14,13 +14,10 @@ prep:
       - ingredient: Sherry
         amount: 2
         unit: tbsp
-    yields: Marinated Chicken
     instructions: Cut chicken into 1-2 cm large chunks. Mix with soy sauce and sherry and leave to marinate.
 
 cooking:
-  - internal_ingredients:
-      - Marinated Chicken
-    yields: Fried Chicken
+  - yields: Fried Chicken
     instructions: Fry chicken in a pan on medium to high heat, then set aside.
 
   - ingredients:
@@ -54,10 +51,9 @@ cooking:
         amount: 1
         unit: tsp
     internal_ingredients:
-      - Marinated Chicken
+      - Fried Chicken
     hidden_ingredients:
       - Caramel
-    yields: Sauce
     instructions: Add everything to the caramel. Mix well and briefly bring to a boil. Reduce heat and season to taste.
 
   - ingredients:
@@ -67,15 +63,10 @@ cooking:
       - ingredient: Sherry
         amount: 1
         unit: tbsp
-    hidden_ingredients:
-      - Sauce
-    yields: Sauce pt 2
     instructions: Mix starch and sherry to a slurry and stir into the sauce. Let simmer for two minutes.
 
   - ingredients:
       - ingredient: Pineapple (Canned)
         amount: 4
         unit: Slices
-    hidden_ingredients:
-      - Sauce pt 2
     instructions: Cut pineapple slices into eighth or twelvth. Add and heat through.

@@ -28,7 +28,6 @@ prep:
       - ingredient: Fleur de Sel
         amount: 0.5
         unit: tsp
-    yields: Dukkah
     instructions: >-
       Roast all ingredients except the salt in a pan. Let cool, then grind together with the salt to a fine powder.
 
@@ -59,7 +58,6 @@ cooking:
       - Bell Peppers
       - Carrots
       - Onions
-    yields: Vegetable Puree
     instructions: >-
       Mix vegetables with olive oil on a baking tray and bake at 200°C top/down heat for 35 minutes. Then blend into a fine paste.
 
@@ -68,8 +66,6 @@ cooking:
         amount: 500
         unit: ml
       - ingredient: White Wine
-    internal_ingredients:
-      - Vegetable Puree
     instructions: >-
       <div>
       Heat vegetable stock in a pot. Add vegetable puree, then flush out the remaining puree from its container with white wine.

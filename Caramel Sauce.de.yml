@@ -18,7 +18,6 @@ cooking:
       - ingredient: Sahne
         amount: 200
         unit: ml
-    yields: Syrup
     instructions: >-
       Zucker, Wasser und Salz zum Kochen bringen. Köcheln, bis die gewünschte Farbe erreicht wird. Sahne dazugießen,
       weiterköcheln bis die Sauce eingedickt ist.

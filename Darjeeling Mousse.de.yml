@@ -14,7 +14,6 @@ cooking:
       - ingredient: Zucker
         amount: 60
         unit: g
-    yields: Tee
     instructions: >-
       Milch zum Kochen bringen. Vom Herd nehmen, Darjeeling hinzufügen und drei Minuten ziehen lassen. Teeblätter
       entfernen, Zucker hinzufügen und auflösen.
@@ -25,8 +24,6 @@ cooking:
       - ingredient: Zucker
         amount: 60
         unit: g
-    internal_ingredients: Tee
-    yields: Egg Mix
     instructions: >-
       In einer Metalschüssel das Eigelb und den Zucker schauming schlagen. In einem Wasserbad den Tee unter ständigem
       Rühren zum Ei gießen und weiterrühren, bis die Masse cremig bindet.
@@ -35,8 +32,6 @@ cooking:
       - ingredient: Gelatine
         amount: 3
         unit: Blatt
-    hidden_ingredients: Egg Mix
-    yields: Egg Mix 2
     instructions: >-
       Gelatine in kaltem Wasser für 5 Minuten einweichen. Ausdrücken, dann in der Crème auflösen. Crème in einem
       Wasserbad mit kaltem Wasser abkühlen lassen.
@@ -45,8 +40,6 @@ cooking:
       - ingredient: Sahne
         amount: 300
         unit: ml
-    hidden_ingredients: Egg Mix 2
-    yields: Mousse
     instructions: >-
       Sahne steif schlagen, dann unter das abgekühlte Mousse heben. Mindest 6 Stunden, aber besser über Nacht, kaltstellen.
 
@@ -54,6 +47,5 @@ cooking:
       - ingredient: Orangen
         amount: 2
     instructions: >-
-      Orangen
-      Fillet oranges, then press out juice from the leftovers and add to the orange fillets. Serve mousse
-      with the oranges.
+      Orangen filletieren, dann den Saft aus den Orangenresten pressen und zu den Orangenfillets geben. Mousse mit den
+      Orangen servieren.

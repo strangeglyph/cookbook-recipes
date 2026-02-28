@@ -9,7 +9,7 @@ mis_en_place:
       - ingredient: Kartoffeln
         amount: 1
         unit: kg
-    yields: Kartoffelwürfel
+    yields: Kartoffeln
     instructions: >-
       Kartoffeln schälen und je nach Größe entweder vierteln oder in Achtel schneiden. In Wasser stehen lassen, damit
       sie nicht schwarz werden.
@@ -18,21 +18,21 @@ mis_en_place:
       - ingredient: Karotten
         amount: 1
         unit: kg
-    yields: Karottenscheiben
+    yields: Karotten
     instructions: >-
       Karotten schälen, in 0.5cm-1cm breite Scheiben schneiden.
 
   - ingredients:
       - ingredient: Zwiebeln
         amount: 4
-    yields: Zwiebelviertel
+    yields: Zwiebeln
     instructions: >-
       Zwiebeln schälen und vierteln.
 
   - ingredients:
       - ingredient: Piri Piri
         amount: 4
-    yields: Chilistreifen
+    yields: Chili
     instructions: >-
       Piri Piri längs halbieren und entkernen, dann in dünne Streifen schneiden.
 
@@ -40,7 +40,7 @@ mis_en_place:
       - ingredient: Knoblauch
         amount: 8
         unit: Zehen
-    yields: Gepresster Knoblauch
+    yields: Knoblauch
     instructions: >-
       Knoblauch schälen und kleinpressen.
 
@@ -49,7 +49,7 @@ mis_en_place:
         amount: 600
         unit: g
       - ingredient: Paprikapulver
-    yields: Geputztes Poulet
+    yields: Poulet
     instructions: >-
       Poulet putzen, mit Salz, Pfeffer und Paprikapulver würzen.
 
@@ -65,13 +65,12 @@ cooking:
         amount: 1
         unit: Glas
     internal_ingredients:
-      - Kartoffelwürfel
-      - Karottenscheiben
-      - Zwiebelwürfel
-      - Chilistreifen
-      - Gepresster Knoblauch
-      - Geputztes Poulet
-    yields: Bauernpfanne
+      - Kartoffeln
+      - Karotten
+      - Zwiebeln
+      - Chili
+      - Knoblauch
+      - Poulet
     instructions: >-
       Bis auf das Poulet alles in einem Bräter mischen und mit Salz würfeln. Das Poulet oben auf legen. Abdecken.
 
@@ -79,7 +78,5 @@ passive_cooking:
   - ingredients:
       - ingredient: Baguette
         amount: 1
-    internal_ingredients:
-      - Bauernpfanne
     instructions: >-
       Die Bauernpfanne bei 200°C Ober-Unterhitze 1:30h garen. Mit Baguette servieren.

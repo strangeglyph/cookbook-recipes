@@ -9,35 +9,35 @@ prep:
       - ingredient: Pine Nuts
         amount: 60
         unit: g
-    yields: Roasted Pine Nuts
+    yields: Pine Nuts
     instructions: Roast pine nuts.
 
 mis_en_place:
   - ingredients:
       - ingredient: Mango
         amount: 1
-    yields: Diced Mango
+    yields: Mango
     instructions: Peel and dice mango.
 
   - ingredients:
       - ingredient: Mozzarella
         amount: 250
         unit: g
-    yields: Diced Mozzarella
+    yields: Mozzarella
     instructions: Dice mozzarella.
 
   - ingredients:
       - ingredient: Avocado
         amount: 1
       - ingredient: Lemon Juice
-    yields: Diced Avocado
+    yields: Avocado
     instructions: Dice avocado and sprinkle with a bit of lemon juice.
 
   - ingredients:
       - ingredient: Rocket
         amount: 250
         unit: g
-    yields: Rocket Leaves
+    yields: Rocket
     instructions: Clean rocket and cut into smaller pieces.
 
   - ingredients:
@@ -59,10 +59,10 @@ mis_en_place:
 
 cooking:
   - internal_ingredients:
-      - Diced Mango
-      - Diced Avocado
-      - Diced Mozzarella
-      - Rocket Leaves
+      - Mango
+      - Avocado
+      - Mozzarella
+      - Rocket
       - Dressing
       - Pine Nuts
     ingredients:

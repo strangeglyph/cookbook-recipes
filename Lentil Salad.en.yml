@@ -38,15 +38,12 @@ cooking:
       - ingredient: Ground Cumin
         amount: 1
         unit: tsp
-    yields: Sweated Lentils
     instructions: Heat olive oil in a pan. Sweat lentils, curry and cumin.
 
   - ingredients:
       - ingredient: Vegetable Broth
         amount: 350
         unit: ml
-    internal_ingredients:
-      - Sweated lentils
     yields: Cooked Lentils
     instructions: Add broth to the lentils. Simmer for 8-9 minutes, then set aside to cool.
 
@@ -81,6 +78,6 @@ cooking:
       - Red Beet Cubes
       - Chopped Parsley
       - Spring Onion Rings
-      - Cooked Lentions
+      - Cooked Lentils
       - Dressing
     instructions: Combine all ingredients and let rest for at least half an hour.

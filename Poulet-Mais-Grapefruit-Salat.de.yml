@@ -9,13 +9,13 @@ cooking:
       - ingredient: Poulet
         amount: 900
         unit: g
-    yields: Poulet-Würfel
+    yields: Poulet
     instructions: Poulet mit Salz und Pfeffer gar braten, auskühlen lassen und in Würfel schneiden.
 
   - ingredients:
       - ingredient: Grapefruit
         amount: 2
-    yields: Grapefruit-Stücke
+    yields: Grapefruit
     instructions: Grapefruit filetieren und in kleine Stücke schneiden.
 
   - ingredients:
@@ -43,9 +43,8 @@ cooking:
       - ingredient: Salz
       - ingredient: Pfeffer
     internal_ingredients:
-      - Poulet-Würfel
-      - Grapefruit-Stücke
+      - Poulet
+      - Grapefruit
       - Mais
-    yields: Dessing
     instructions: Zutaten für das Dessing mischen, dann unter die restlichen Zutaten heben.
 

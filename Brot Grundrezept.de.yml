@@ -46,7 +46,6 @@ cooking:
       - ingredient: sonstige Zutaten
     internal_ingredients:
       - Vorteig
-    yields: Teig
     instructions: >-
       Alles vermengen, bis ein mehr oder minder fester Teig entsteht. Über die nächsten Stunden (bis der Teig doppelt bis
       dreimal so groß ist) in regelmäßigen Abständen
@@ -54,9 +53,7 @@ cooking:
       die gegenüberliegende Seite des Teigs falten. Schüssel 90° drehen und alles wiederholen, bis man eine volle Rotation
       hinter sich hat.
 
-  - internal_ingredients:
-      - Teig
-    instructions: >-
+  - instructions: >-
       Teig in 4 gleichgroße Teile teilen. Jeweils auf der Arbeitsfläche (nicht eingemehlt!) erst in ein Quadrat oder eine
       grobe Kugelform falten, dann mit der Faltkante nach unten durch hin- und herschieben in eine runde Form bringen.
       Im Backofen bei 220°C Umluft im Bräter backen: Erst 30 Minuten mit Deckel, dann 15 Minuten ohne.

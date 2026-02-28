@@ -1,10 +1,9 @@
 --- 
-name: Gefüllte Foccacia with Feta
+name: Spinat-Feta-Calzone
 serves: 5
 tags: vegetarisch, hauptspeise
-descr: >-
-    Foccacia (oder Calzone?) gefüllt mit Spinat, Feta und Champignons
-
+    
+    
 prep: 
   - ingredients:
       - ingredient: Gefrorener Spinat
@@ -103,17 +102,14 @@ cooking:
         unit: Bund
       - ingredient: Grobes Salz
       - ingredient: Olivenöl
-    yields: Rohe Focaccia
     instructions: >-
       Den Teig auf etwa die doppelte Größe eines Backblechs ausrollen. Spinat auf der unteren Hälfte verteilen,
       darüber die Champignons, darüber den Feta, darüber das Basilikum. Die obere Hälfte des Teiges nach unten falten
-      und alle Seiten gut verschließen. In die Oberseite mit einer Gabel ein paar Löcher machen. Foccacia mit Öl
+      und alle Seiten gut verschließen. In die Oberseite mit einer Gabel ein paar Löcher machen. Calzone mit Öl
       bestreichen und mit grobem Salz bestreuen. Auf ein mit Backpapier ausgekleidetes Backblech legen und noch mal
       für 30 Minuten gehen lassen.
 
 
 passive_cooking:
-  - internal_ingredients:
-      - Rohe Focaccia
-    instructions: >-
-      Ofen auf 220°C Umluft vorheizen. Foccacia für 12-15 Minuten backen.
+  - instructions: >-
+      Ofen auf 220°C Umluft vorheizen. Calzone für 12-15 Minuten backen.

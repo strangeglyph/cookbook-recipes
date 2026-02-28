@@ -38,15 +38,12 @@ cooking:
       - ingredient: gem. Kreuzkümmel
         amount: 1
         unit: TL
-    yields: Angeschwitzte Linsen
     instructions: Olivenöl in einer Pfanne erhitzen. Linsen, Curry und Kreuzkümmel darin etwas anschwitzen.
 
   - ingredients:
       - ingredient: Gemüsebrühe
         amount: 350
         unit: ml
-    internal_ingredients:
-      - Angeschwitzte Linsen
     yields: Gekochte Linsen
     instructions: Brühe zu den Linsen geben. 8-9 Minuten köcheln lassen, dann abkühlen lassen.
 
@@ -80,7 +77,7 @@ cooking:
   - internal_ingredients:
       - Rote-Beete-Würfel
       - Gehackte Petersilie
-      - Frühlingszwiebeln
+      - Frühlingszwiebelringe
       - Gekochte Linsen
       - Dressing
     instructions: Alles verrühren. Mindestens eine halbe Stunde durchziehen lassen.

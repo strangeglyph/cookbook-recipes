@@ -19,6 +19,5 @@ cooking:
       - ingredient: Cream
         amount: 200
         unit: ml
-    yields: Syrup
     instructions: >-
       Bring sugar, water and salt to a boil. Simmer until caramel colored. Add cream, continue simmering until thickened.

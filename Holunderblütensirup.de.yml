@@ -42,10 +42,9 @@ cooking:
 passive_cooking:
   - internal_ingredients:
       - Zuckersirup
-      - Zitronenschalen
-      - Limettenschalen
+      - Zitronenscheiben
+      - Limettenscheiben
       - Gewaschene Holunderblüten
-    yields: Holunderblütensirup
     instructions: >-
       Alles in eine Schüssel geben. Mit etwas Schwerem (z.B. einem Teller) abdecken, so dass alles unter der
       Sirupoberfläche ist. Für fünf Tage im Kühlschrank ziehen lassen. Täglich umrühren.

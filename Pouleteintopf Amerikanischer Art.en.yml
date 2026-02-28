@@ -17,23 +17,20 @@ prep:
 
 mis_en_place:
   - ingredients:
-      - ingredient: Mushrooms
-        amount: 500
-        unit: g
-    yields: Diced Mushrooms
-    instructions: Clean and dice mushrooms.
-
-  - ingredients:
       - ingredient: Corn
         amount: 2
         unit: cans
-    yields: Drained Corn
+    yields: Corn
     instructions: Drain corn.
 
+  - ingredients:
+      - ingredient: Mushrooms
+        amount: 500
+        unit: g
+    instructions: Clean and dice mushrooms.
+
 cooking:
-  - internal_ingredients:
-      - Diced Mushrooms
-    ingredients:
+  - ingredients:
       - ingredient: Butter
       - ingredient: White Wine
       - ingredient: Worcestershiresauce
@@ -75,7 +72,7 @@ cooking:
 
 passive_cooking:
   - internal_ingredients:
-      - Drained Corn
+      - Corn
       - Fried Chicken
       - Fried Mushrooms
       - Sauce

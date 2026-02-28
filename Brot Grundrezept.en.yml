@@ -29,7 +29,7 @@ prep:
       - ingredient: Yeast (fresh)
         amount: 5
         unit: g
-    yields: Pre-dough
+    yields: Predough
     instructions: Mix everything together and let rise overnight. Should have a spongy texture the next morning.
 
 cooking:
@@ -45,8 +45,7 @@ cooking:
         unit: g
       - ingredient: optional ingredients
     internal_ingredients:
-      - Pre-dough
-    yields: Dough
+      - Predough
     instructions: >-
       Mix everything together until you have a stiff dough. Over the next couple of hours (until the dough has
       doubled or tripled) fold the dough in regular
@@ -54,9 +53,7 @@ cooking:
       almost starts tearing, then fold over to the other side. Rotate bowl 90° and repeat all this until you have made a full
       rotation around the bowl.
 
-  - internal_ingredients:
-      - Dough
-    instructions: >-
+  - instructions: >-
       Divide dough into 4 equally large parts. Fold each on the (unfloured!) worktop into a square or rough sphere, flip
       and with small pulling motions shape into a boule. Bake in a dutch oven at 220°C (convection): First 30 minutes with the lid on,
       then another 15 minutes without the lid.

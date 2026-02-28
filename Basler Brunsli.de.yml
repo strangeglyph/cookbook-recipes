@@ -29,15 +29,11 @@ cooking:
       - ingredient: Mehl
         amount: 2
         unit: EL
-    yields: Teig1
     instructions: Alles in einer Schüssel mischen.
 
   - ingredients:
       - ingredient: Eiweiss
         amount: 2
-    internal_ingredients:
-      - Teig1
-    yields: Teig2
     instructions: Eiweiss steifschlagen, drauntermischen.
 
   - ingredients:
@@ -47,8 +43,6 @@ cooking:
       - ingredient: Kirsch
         amount: 2
         unit: TL
-    internal_ingredients:
-        - Teig2
     yields: Teig
     instructions: Schokolade und Kirsch schmelzen, dann unter den Teig ziehen.
 

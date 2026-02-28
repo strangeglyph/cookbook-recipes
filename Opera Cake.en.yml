@@ -3,7 +3,7 @@ name: Opera Cake
 tags: cake, dessert
 serves: 1
 note: >-
-  <p>Contains partly pasteurized eggs in the buttercream. Use fresh eggs and keep refrigerated.</p>
+  <p>Contains partially pasteurized eggs in the buttercream. Use fresh eggs and keep refrigerated.</p>
   <p>Makes four biscuit layers - use three quarters for a three layer version.</p>
 
 cooking:
@@ -29,13 +29,13 @@ cooking:
     yields:
       - Egg Yolks
       - Egg Whites
-    instructions: Split eggs. Whip all egg whites. Reserve {{.167}} egg yolk
+    instructions: Split eggs. Whip all egg whites. Reserve 1/6th egg yolk
 
   - ingredients:
       - ingredient: Butter
         amount: 30
         unit: g
-    yields: Molten Butter
+    yields: Melted Butter
     instructions: Melt butter.
 
   - ingredients:
@@ -55,7 +55,8 @@ cooking:
         unit: g
     internal_ingredients:
       - Egg Whites
-      - Molten Butter
+      - Melted Butter
+      - Coffee Syrup
     yields: Joconde Sponge
     instructions: >-
       <p>Preheat Oven to 220°C (upper/lower heat).</p>
@@ -80,7 +81,7 @@ cooking:
         amount: 5
         unit: packets
     internal_ingredients:
-      - Egg yolk
+      - Egg yolks
     yields: Butter Cream
     instructions: >-
       <p>
@@ -89,7 +90,7 @@ cooking:
       </p>
       <p>
       Add in the butter in small cubes while the egg mixture is still hot. Keep mixing until incorporated. The butter 
-      cream should be thick and creamy. If it is to runny, add more butter. The whole process may take half an hour --
+      cream should be thick and creamy. If it is too runny, add more butter. The whole process may take half an hour --
       a stand mixer helps.
       </p>
       <p>
@@ -111,14 +112,13 @@ cooking:
         unit: g
     yields: Ganache
     instructions: >-
-      Chop chocolate and melt in a baine marie at low heat. Add milk, cream and butter - half first, mix to incorporate,
+      Chop chocolate and melt in a bain-marie at low heat. Add milk, cream and butter - half first, mix to incorporate,
       then the remainder.
 
   - internal_ingredients:
       - Joconde Sponge
       - Butter Cream
       - Ganache
-    yields: Cake
     instructions: >-
       Assemble cake with alternating layers of sponge, ganache, sponge again and butter cream.
 
@@ -138,7 +138,6 @@ cooking:
       - ingredient: Agar Agar
         amount: 2
         unit: tsp
-    yields: Mirror Glaze
     instructions: >-
       Mix and bring to a boil. Keep at a boil for 1-2 minutes. Strain through a sieve and let cool to 34°C. Strain again and pour over cake.
 

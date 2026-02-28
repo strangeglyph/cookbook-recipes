@@ -40,7 +40,8 @@ cooking:
       - ingredient: Salt
         amount: 2
         unit: tsp
-    internal_ingredients: Molten Butter
+    internal_ingredients: 
+      - Molten Butter
     instructions: >-
       <p>Mix everything together. Let rest for about 30 minutes. In the meantime, prepare your desired toppings.</p>
     

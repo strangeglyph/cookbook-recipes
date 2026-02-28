@@ -9,7 +9,6 @@ mis_en_place:
       - ingredient: Rhabarber
         amount: 500
         unit: g
-    yields: Rhabarberstücke
     instructions: >-
       Rhabarber putzen, Blätter und unteres Ende der Stange abschneiden. Grobe Fasern mit einem Messer abziehen
       und die Stangen in grobe Stücke schneiden.
@@ -25,9 +24,7 @@ cooking:
       - ingredient: Amaretto
         amount: 3
         unit: EL
-    internal_ingredients:
-      - Rhabarberstücke
-    yields: Rhababermousse
+    yields: Rhabarbermousse
     instructions: >-
       Rhabarberstücke mit Butter und Zucker in eine Pfanne geben und zugedeckt bei niedriger Hitze weich köcheln.
       Abkühlen lassen, Amaretto zugeben und mit Wasser auf 700 ml auffüllen.

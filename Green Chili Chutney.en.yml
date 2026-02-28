@@ -37,11 +37,10 @@ cooking:
   - ingredients:
       - ingredient: Neutral Oil
     internal_ingredients:
-      - Sliced Chilies
+      - Chopped Chilies
       - Chopped Garlic
       - Diced Onions
       - Mashed Mangoes
-    yields: Blended Chilis
     instructions: >-
       In a blender, blend chopped chilies and garlic with salt and a bit of oil until it becomes a homogeneous paste.
       Mix with onions and mashed mangoes. Thin with oil if necessary, the result should be a thin paste, almost a sauce.
