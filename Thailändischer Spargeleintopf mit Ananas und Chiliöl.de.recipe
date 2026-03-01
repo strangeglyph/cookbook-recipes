@@ -1,0 +1,58 @@
+name Thailändischer Spargeleintopf mit Ananas und Chiliöl
+serves 4
+tags hauptspeise, suppe, thai, garnelen
+
+- 750 g grüner Spargel
+Am unteren Drittel schälen, holzige Enden abschneiden und der Länge nach schräg halbieren.
+-> Spargel
+
+- 350 g Ananas
+@nodep
+Ananas in Spalten schneiden.
+-> Ananas
+
+- 5 Zehen Knoblauch
+- 1 EL Erdnussöl
+@nodep
+Knoblauch pellen, in dünne Scheiben schneiden und in 1 EL Erdnussöl goldbraun rösten.
+-> Knoblauch
+
+- 2 Limetten
+@nodep
+Von {1} Limette die Schale fein abreiben, aus den Limetten {5} EL Saft auspressen.
+-> Limettenschale und -saft
+
+- 30 g "frische Ingwerwurzel"
+@nodep
+Ingwer schälen und fein reiben oder pürieren.
+-> Ingwer
+
+- 800 g Kokosmilch
+- 200 ml Gemüsebrühe
+- 1 TL Zucker
+- Salz
+- Cayennepfeffer
+@nodep
+5 Minuten bei milder Hitze köcheln. Mit Salz, Cayennepfeffer und Zucker würzen.
+-> Eintopf 1
+
+= Spargel
+@ Eintopf 1
+Spargel zugeben und 4-5 Minuten garen.
+-> Eintopf 2
+
+- 16 "Garnelen (geputzt, geschält)"
+= Ananas
+= Ingwer
+= Knoblauch
+@ Eintopf 2
+Garnelen, Ananas, Ingwer, und Knoblauch zugeben. 3 Minuten weiter köcheln.
+-> Eintopf 3
+
+- 2 EL Erdnussöl
+- 3 EL dunkles Sesamöl
+- 1 EL Tabasco
+- 5 "große Basilikumblätter"
+= Limettenschale und -saft
+@ Eintopf 3
+Mit Erdnussöl, Sesamöl, Tabasco, Basilikum und Limette abschmecken.
