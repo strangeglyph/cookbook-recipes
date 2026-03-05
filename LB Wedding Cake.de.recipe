@@ -1,0 +1,146 @@
+name L/B Hochzeitstorte
+desc Die Torte, die bei Lyros und Borbs Hochzeit serviert wurde. Zweistöckiger Biskuit mit
+  Matcha und Szechuan-Pfeffer, gefüllt mit weißer Schokoladenbuttercreme und mit einem
+  weißen Schokoladen-Frischkäsefrosting.
+note <p>Die Menge (3) ist für eine zweistöckige Torte mit Springformen von 26 cm und 20 cm.
+  Für eine einstöckige Version eine Portionsgröße von 2 für die 26-cm-Version oder 1 für
+  die 20-cm-Version verwenden.</p>
+  <p>Zwei Tage einplanen: Biskuit backen und Buttercreme am Morgen von Tag 1 vorbereiten.
+  Am Abend den Biskuit füllen und über Nacht kühlen. Am Morgen von Tag 2 mit
+  Frischkäsefrosting einstreichen und nochmals kurz kühlen, damit es fest wird.</p>
+  <p>Nach Belieben dekorieren. Wir haben getrocknete Schmetterlingserbsenblüten verwendet.</p>
+serves 3
+tags kuchen
+
+# Erste Biskuit-Stufe (Matcha)
+
+- 9 Eier
+Eier trennen.
+-> Eiweiß Tier 1
+-> Eigelb Tier 1
+
+- 180 g Zucker
+@ Eiweiß Tier 1
+Eiweiß anschlagen, Zucker zugeben und zu steifem Schnee schlagen.
+-> Eierschnee Tier 1
+
+- 180 g Zucker
+- 45 ml Milch
+- 75 g Butter, weich
+- Salz
+@ Eigelb Tier 1
+Zucker, Milch, Butter, Salz und Eigelb mischen und schaumig schlagen.
+-> Eigelbcreme Tier 1
+
+- 255 g Mehl
+- 60 g Matcha
+- 2 TL Backpulver
+@ Eierschnee Tier 1
+@ Eigelbcreme Tier 1
+<p>Trockene Zutaten in die Eigelbcreme sieben und gut einarbeiten. ⅓ des Eierschnees
+unterrühren, um den Teig zu lockern. Restlichen Eierschnee unterheben, maximal 20 Sekunden
+mit dem Handmixer.</p>
+<p>Den Eierschnee gerade so weit einarbeiten, bis er gleichmäßig eingearbeitet ist.
+Unterheben ist nicht nötig.</p>
+<p>60 Minuten bei 150°C (140°C Umluft) backen. Ein Tortenrandstreifen kann helfen,
+ein Aufwölben zu verhindern.</p>
+
+- 60 ml Karamellsirup
+- 150 ml Grüntee
+Kuchen auskühlen lassen, dann waagerecht halbieren und mit Karamellsirup und Grüntee
+tränken.
+-> Tier 1 Biskuit
+
+
+# Tier 2 Biskuit (Szechuanpfeffer)
+
+- 6 Eier
+Eier trennen.
+-> Eiweiß Tier 2
+-> Eigelb Tier 2
+
+- 120 g Zucker
+@ Eiweiß Tier 2
+Eiweiß anschlagen, Zucker zugeben und zu steifem Schnee schlagen.
+-> Eierschnee Tier 2
+
+- 120 g Zucker
+- 30 ml Milch
+- 55 g Butter, weich
+- Salz
+@ Eigelb Tier 2
+Zucker, Milch, Butter, Salz und Eigelb mischen und schaumig schlagen.
+-> Eigelbcreme Tier 2
+
+- 170 g Mehl
+- 40 g Kakao
+- 2 TL Backpulver
+@ Eierschnee Tier 2
+@ Eigelbcreme Tier 2
+<p>Trockene Zutaten in die Eigelbcreme sieben und gut einarbeiten. {.333} des Eierschnees
+unterrühren, um den Teig zu lockern. Restlichen Eierschnee unterheben, maximal 20 Sekunden
+mit dem Handmixer.</p>
+<p>Den Eierschnee gerade so weit einarbeiten, bis er gleichmäßig eingearbeitet ist.
+Unterheben ist nicht nötig.</p>
+<p>60 Minuten bei 150°C (140°C Umluft) backen. Ein Tortenrandstreifen kann helfen,
+ein Aufwölben zu verhindern.</p>
+
+- 1 EL Szechuanpfeffer-Öl
+- 50 ml Karamellsirup
+- 60 ml Wasser
+Kuchen auskühlen lassen, dann waagerecht halbieren. Flüssigkeiten gut emulgieren und den
+Biskuit damit tränken.
+-> Tier 2 Biskuit
+
+
+# Buttercreme
+
+- 1000 g Butter
+Butter in kleine Stücke schneiden.
+-> Butter für Buttercreme
+
+- 800 g weiße Schokolade
+Kuvertüre schmelzen.
+-> Kuvertüre für Buttercreme
+
+- 10 Eier
+- 600 g Zucker
+- 240 ml Wasser
+@ Butter für Buttercreme
+@ Kuvertüre für Buttercreme
+<p>{5} der Eier trennen, Eiweiß verwerfen. Eier im Wasserbad aufschlagen. Wasser und Zucker
+aufkochen und in die Eier einrieseln lassen. Weiterrühren, bis die Eimasse 65°C erreicht
+hat. Butter und Kuvertüre einarbeiten, dann kalt stellen bis die Creme fest wird.</p>
+<p><emph>Rettungshinweis:</emph> Wenn die Buttercreme nicht richtig fest wird, mehr weiße
+Kuvertüre zugeben.</p>
+-> Buttercreme
+
+= Tier 1 Biskuit
+= Tier 2 Biskuit
+= Buttercreme
+Buttercreme aufschlagen. Beide Biskuits mit Buttercreme füllen (im Verhältnis 2:1). Erneut
+kühlen bis die Creme fest ist, am besten über Nacht.
+-> gefüllte Biskuits
+
+
+# Frosting
+
+- 500 g weiße Schokolade
+Kuvertüre schmelzen.
+-> Kuvertüre für Frosting
+
+- 600 g Frischkäse
+- 200 g Butter
+- Zitronensaft
+- Vanilleextrakt
+@ Kuvertüre für Frosting
+@ gefüllte Biskuits
+<p>Frischkäse und Butter auf Raumtemperatur bringen und glatt rühren. Kuvertüre,
+Zitronensaft und Vanilleextrakt unterheben. Leicht abkühlen lassen, damit es sich besser
+verstreichen lässt, aber nicht vollständig fest werden lassen. Falls zu kalt, in
+30-Sekunden-Schritten im Kühlschrank temperieren.</p>
+<p>Erste Tortenebene einstreichen. Zweite Ebene daraufsetzen und ebenfalls einstreichen.
+Dekorieren und nochmals kühlen.</p>
+<p>Hinweis: Bei der zweistöckigen Version ist die Torte zu diesem Zeitpunkt sehr schwer zu
+transportieren, ohne sie zu beschädigen. Es empfiehlt sich, das Frosting aufzutragen,
+während die Biskuits bereits im Transportbehälter sind.</p>

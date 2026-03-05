@@ -1,0 +1,139 @@
+name L/B Wedding Cake
+desc The cake served at Lyro and Borb's wedding. Two tiered matcha and szechuan
+  pepper flavored sponge filled with white chocolate butter cream and with
+  a white chocolate cream cheese frosting.
+note <p>Serving amount (3) is for a two-tiered cake, with springforms sized
+  26cm and 20cm respectively. For a single tier version, use a serving size
+  of 2 for the 26cm version and a serving size of 1 for the 20cm version.</p>
+  <p>Plan for two days: Bake sponge and prepare buttercream on the morning
+  of day 1. In the evening, fill the sponge and refrigerate overnight.
+  In the morning of day 2, frost with cream cheese frosting and refrigerate
+  again briefly to solidify.</p>
+  <p>Decorate to taste. We used dried peaflower.</p>
+serves 3
+tags cake
+
+# Tier 1 Sponge (Matcha)
+
+- 9 eggs
+Split eggs.
+-> egg whites for tier 1
+-> egg yolks for tier 1
+
+- 180 g sugar
+@ egg whites for tier 1
+Beat egg whites until somewhat stiffened, add the sugar and whip to stiff peaks.
+-> egg foam for tier 1
+
+- 180 g sugar
+- 45 ml milk
+- 75 g butter, softened
+- salt
+@ egg yolks for tier 1
+Mix sugar, milk, butter, salt and egg yolks and beat until foamy.
+-> egg cream for tier 1
+
+- 255 g flour
+- 60 g matcha
+- 2 tsp baking powder
+@ egg foam for tier 1
+@ egg cream for tier 1
+<p>Sift dry ingredients into egg yolks and incorporate well. Mix in {.333} of the egg white
+to loosen batter. Then mix in remaining egg whites, about 20 seconds max with a handmixer.</p>
+<p>Mix egg whites just enough to incorporate evenly. Folding is unnecessary though.</p>
+<p>Bake for 60 minutes at 150°C (140°C fan). A cake belt can help to prevent doming.</p>
+
+- 60 ml caramel syrup
+- 150 ml green tea
+Let cake cool, then cut in half horizontally and soak with caramel syrup and green tea.
+-> tier 1 sponge
+
+
+# Tier 2 Sponge (Szechuan Peppercorn)
+
+- 6 eggs
+Split eggs.
+-> egg whites for tier 2
+-> egg yolks for tier 2
+
+- 120 g sugar
+@ egg whites for tier 2
+Beat egg whites until somewhat stiffened, add the sugar and whip to stiff peaks.
+-> egg foam for tier 2
+
+- 120 g sugar
+- 30 ml milk
+- 55 g butter, softened
+- salt
+@ egg yolks for tier 2
+Mix sugar, milk, butter, salt and egg yolks and beat until foamy.
+-> egg cream for tier 2
+
+- 170 g flour
+- 40 g cocoa
+- 2 tsp baking powder
+@ egg foam for tier 2
+@ egg cream for tier 2
+<p>Sift dry ingredients into egg yolks and incorporate well. Mix in ⅓ of the egg white
+to loosen batter. Then mix in remaining egg whites, about 20 seconds max with a handmixer.</p>
+<p>Mix egg whites just enough to incorporate evenly. Folding is unnecessary though.</p>
+<p>Bake for 60 minutes at 150°C (140°C fan). A cake belt can help to prevent doming.</p>
+
+- 1 tbsp szechuan peppercorn oil
+- 50 ml caramel syrup
+- 60 ml water
+Let cake cool, then cut in half horizontally. Mix liquids until well emulsified and soak
+sponge with them.
+-> tier 2 sponge
+
+
+# Buttercream
+
+- 1000 g butter
+Cut butter into small pieces.
+-> butter for buttercream
+
+- 800 g white chocolate
+Melt chocolate.
+-> white chocolate for buttercream
+
+- 10 eggs
+- 600 g sugar
+- 240 ml water
+@ butter for buttercream
+@ white chocolate for buttercream
+<p>Split {5} of the eggs and discard whites. In a bain marie, start whipping eggs. Bring
+water and sugar to a high boil and drizzle into eggs. Continue whipping until eggs have
+reached 65°C. Mix in butter and chocolate until incorporated, then refrigerate until set.</p>
+<p><emph>Rescue note:</emph> If the buttercream does not set properly, add more white
+chocolate.</p>
+-> buttercream
+
+= tier 1 sponge
+= tier 2 sponge
+= buttercream
+Whip up buttercream. Fill both sponges with buttercream (at a 2:1 split). Refrigerate
+again until set, preferably overnight.
+-> filled sponges
+
+
+# Frosting
+
+- 500 g white chocolate
+Melt chocolate.
+-> white chocolate for frosting
+
+- 600 g smooth cream cheese
+- 200 g butter
+- "dash of lemon juice"
+- "dash of vanilla extract"
+@ white chocolate for frosting
+@ filled sponges
+<p>Let cream cheese and butter come up to room temperature. Blend smooth. Fold in
+chocolate, lemon juice and vanilla extract. Let cool slightly to make it easier to spread,
+but do not let it set completely. If too cold, refrigerate in 30 second increments.</p>
+<p>Frost first sponge tier. Set other tier on top and frost in place. Decorate and
+refrigerate again.</p>
+<p>Note that at this point, for the two tier version, the cake is very hard to transfer
+without breaking up. I advise applying the frosting with the sponges already in the
+container for transport.</p>
