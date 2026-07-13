@@ -4,6 +4,7 @@ serves: 1.5
 servings_unit: liters
 servings_increment: 0.5
 tags: syrup, drink, sweet
+note: Freeze for long-term storage. Syrup stays scoopable.
 
 prep:
   - ingredients:

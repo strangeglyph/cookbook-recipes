@@ -4,6 +4,7 @@ serves: 1.5
 servings_unit: Liter
 servings_increment: 0.5
 tags: sirup, drink, süß
+note: Für längere Lagerung einfrieren. Sirup lässt sich gefroren gut löffeln.
 
 prep:
   - ingredients:
